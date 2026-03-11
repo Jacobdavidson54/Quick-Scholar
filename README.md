@@ -9,6 +9,8 @@ Build a simple tool that:
 
 ## Status
 Week 1: Project setup and planning.
+Week 2: Semantic Scholar,CrossRef API,arXiv API Integration
+Week 3 — Multi-Source Search & Normalization (In Progress)
 
 ## Author
 JM Mahlangu
