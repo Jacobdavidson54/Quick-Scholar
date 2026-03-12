@@ -46,3 +46,65 @@ def fetch_semantic_papers(query):
 
     except requests.RequestException:
         return {"error": "Connection failed"}, 500
+
+
+
+def fetch_crossref_metadata(query):
+
+    crossref_url = "https://api.crossref.org/works"
+
+    headers = {
+        "User-Agent": "QuickScholar/1.0 (mailto:nergtonicsa@gmail.com)"
+    }
+
+    params = {
+        "query": query,
+        "rows": 5
+    }
+
+    try:
+        response = requests.get(
+            crossref_url,
+            headers=headers,
+            params=params,
+            timeout=10
+        )
+
+        response.raise_for_status()
+
+        raw_data = response.json()
+
+        items = raw_data.get("message", {}).get("items", [])
+
+        if not items:
+            return {"error": "No results found"}, 404
+
+        cleaned_results = []
+
+        for item in items:
+
+            cleaned_results.append({
+                "title": item.get("title", [""])[0],
+                "authors": item.get("author"),
+                "year": item.get("issued", {}).get("date-parts", [[None]])[0][0],
+                "doi": item.get("DOI"),
+                "url": item.get("URL"),
+                "publisher": item.get("publisher"),
+                "source": "crossref"
+            })
+
+        # Save results
+        existing_data = load_file()
+        existing_data.extend(cleaned_results)
+        save_data(existing_data)
+
+        return cleaned_results, 200
+
+    except requests.RequestException:
+        return {"error": "Connection failed"}, 500
+    
+
+
+
+                
+    

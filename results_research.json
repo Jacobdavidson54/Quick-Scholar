@@ -1,1 +1,74 @@
-[]
+[
+    {
+        "title": "Machine learning with sklearn",
+        "authors": [
+            {
+                "given": "Thomas P.",
+                "family": "Trappenberg",
+                "sequence": "first",
+                "affiliation": []
+            }
+        ],
+        "year": 2019,
+        "doi": "10.1093/oso/9780198828044.003.0003",
+        "url": "https://doi.org/10.1093/oso/9780198828044.003.0003",
+        "publisher": "Oxford University Press",
+        "source": "crossref"
+    },
+    {
+        "title": "Optimization and Machine Learning",
+        "authors": null,
+        "year": 2022,
+        "doi": "10.1002/9781119902881",
+        "url": "https://doi.org/10.1002/9781119902881",
+        "publisher": "Wiley",
+        "source": "crossref"
+    },
+    {
+        "title": "Machine learning",
+        "authors": null,
+        "year": 2012,
+        "doi": "10.1017/cbo9780511804779.017",
+        "url": "https://doi.org/10.1017/cbo9780511804779.017",
+        "publisher": "Cambridge University Press",
+        "source": "crossref"
+    },
+    {
+        "title": "Why Use Automated Machine Learning?",
+        "authors": [
+            {
+                "given": "Kai R.",
+                "family": "Larsen",
+                "sequence": "first",
+                "affiliation": []
+            },
+            {
+                "given": "Daniel S.",
+                "family": "Becker",
+                "sequence": "additional",
+                "affiliation": []
+            }
+        ],
+        "year": 2021,
+        "doi": "10.1093/oso/9780190941659.003.0001",
+        "url": "https://doi.org/10.1093/oso/9780190941659.003.0001",
+        "publisher": "Oxford University Press",
+        "source": "crossref"
+    },
+    {
+        "title": "Research Papers in Machine Learning",
+        "authors": [
+            {
+                "given": "Pat",
+                "family": "Langley",
+                "sequence": "first",
+                "affiliation": []
+            }
+        ],
+        "year": 1987,
+        "doi": "10.1023/a:1022603230145",
+        "url": "https://doi.org/10.1023/a:1022603230145",
+        "publisher": "Springer Science and Business Media LLC",
+        "source": "crossref"
+    }
+]
