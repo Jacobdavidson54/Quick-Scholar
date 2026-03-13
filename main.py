@@ -1,7 +1,7 @@
 # main.py
 
 from flask import Flask, request, jsonify
-from src.fetch import fetch_crossref_metadata, fetch_semantic_papers
+from src.fetch import fetch_crossref_metadata, fetch_semantic_papers, fetch_openalex_results
 from src.utils import initialize_file
 
 app = Flask(__name__)
@@ -12,10 +12,6 @@ initialize_file()
 
 # --- Internal logic (main function) ---
 def search_papers(query):
-    """
-    Main backend function for searching papers
-    from multiple sources.
-    """
 
     all_results = []
 
@@ -27,8 +23,12 @@ def search_papers(query):
     if status2 == 200:
         all_results.extend(crossref_results)
 
+    openalex_results, status3 = fetch_openalex_results(query)
+    if status3 == 200:
+        all_results.extend(openalex_results)
+
     if not all_results:
-        return {"error": "No papers found"}, 404
+        return [], 404
 
     return all_results, 200
 

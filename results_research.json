@@ -70,5 +70,114 @@
         "url": "https://doi.org/10.1023/a:1022603230145",
         "publisher": "Springer Science and Business Media LLC",
         "source": "crossref"
+    },
+    {
+        "title": "Machine learning with sklearn",
+        "authors": [
+            {
+                "given": "Thomas P.",
+                "family": "Trappenberg",
+                "sequence": "first",
+                "affiliation": []
+            }
+        ],
+        "year": 2019,
+        "doi": "10.1093/oso/9780198828044.003.0003",
+        "url": "https://doi.org/10.1093/oso/9780198828044.003.0003",
+        "publisher": "Oxford University Press",
+        "source": "crossref"
+    },
+    {
+        "title": "Optimization and Machine Learning",
+        "authors": null,
+        "year": 2022,
+        "doi": "10.1002/9781119902881",
+        "url": "https://doi.org/10.1002/9781119902881",
+        "publisher": "Wiley",
+        "source": "crossref"
+    },
+    {
+        "title": "Why Use Automated Machine Learning?",
+        "authors": [
+            {
+                "given": "Kai R.",
+                "family": "Larsen",
+                "sequence": "first",
+                "affiliation": []
+            },
+            {
+                "given": "Daniel S.",
+                "family": "Becker",
+                "sequence": "additional",
+                "affiliation": []
+            }
+        ],
+        "year": 2021,
+        "doi": "10.1093/oso/9780190941659.003.0001",
+        "url": "https://doi.org/10.1093/oso/9780190941659.003.0001",
+        "publisher": "Oxford University Press",
+        "source": "crossref"
+    },
+    {
+        "title": "Research Papers in Machine Learning",
+        "authors": [
+            {
+                "given": "Pat",
+                "family": "Langley",
+                "sequence": "first",
+                "affiliation": []
+            }
+        ],
+        "year": 1987,
+        "doi": "10.1023/a:1022603230145",
+        "url": "https://doi.org/10.1023/a:1022603230145",
+        "publisher": "Springer Science and Business Media LLC",
+        "source": "crossref"
+    },
+    {
+        "title": "Machine Learning and Qualitative Reasoning",
+        "authors": [
+            {
+                "given": "Ivan",
+                "family": "Bratko",
+                "sequence": "first",
+                "affiliation": []
+            }
+        ],
+        "year": 1994,
+        "doi": "10.1023/a:1022661713654",
+        "url": "https://doi.org/10.1023/a:1022661713654",
+        "publisher": "Springer Science and Business Media LLC",
+        "source": "crossref"
+    },
+    {
+        "title": "Scikit-learn: Machine Learning in Python",
+        "abstract": "Abstract available (needs reconstruction)",
+        "full_text": "https://arxiv.org/pdf/1201.0490",
+        "source": "OpenAlex"
+    },
+    {
+        "title": "Genetic algorithms in search, optimization, and machine learning",
+        "abstract": "Abstract available (needs reconstruction)",
+        "full_text": null,
+        "source": "OpenAlex"
+    },
+    {
+        "title": "C4.5: Programs for Machine Learning",
+        "abstract": "Abstract available (needs reconstruction)",
+        "full_text": null,
+        "source": "OpenAlex"
+    },
+    {
+        "title": "Data Mining: Practical Machine Learning Tools and Techniques",
+        "abstract": "Abstract available (needs reconstruction)",
+        "full_text": null,
+        "source": "OpenAlex"
+    },
+    {
+        "title": "UCI Machine Learning Repository",
+        "abstract": null,
+        "full_text": null,
+        "source": "OpenAlex"
     }
 ]

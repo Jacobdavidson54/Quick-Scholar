@@ -104,7 +104,59 @@ def fetch_crossref_metadata(query):
         return {"error": "Connection failed"}, 500
     
 
+def fetch_openalex_results(search):
+    import requests
+    from src.utils import load_file, save_data
 
+    openA_url = "https://api.openalex.org/works"
+    API_KEY = "IzOXOSjjmAMQGZronE67XU"  
 
-                
+    params = {
+        "search": search,
+        "per_page": 5,
+        "api_key": API_KEY
+    }
+
+    try:
+        response = requests.get(openA_url, params=params, timeout=10)
+        response.raise_for_status()  # automatically raises exception if HTTP error
+
+        raw_info = response.json()
+        information = raw_info.get("results", [])
+
+        if not information:
+            return None, 404  # consistent 2-value return
+
+        cleaned_info = []
+
+        for info in information:
+            title = info.get("title")
+
+            # Abstract reconstruction note
+            abstract = None
+            if info.get("abstract_inverted_index"):
+                abstract = "Abstract available (needs reconstruction)"
+
+            # PDF / full_text URL
+            pdf = None
+            location = info.get("primary_location")
+            if location:
+                pdf = location.get("pdf_url")
+
+            cleaned_info.append({
+                "title": title,
+                "abstract": abstract,
+                "full_text": pdf,
+                "source": "OpenAlex"
+            })
+
+        # Save processed data
+        current_data = load_file()
+        current_data.extend(cleaned_info)
+        save_data(current_data)
+
+        return cleaned_info, 200  # success
+
+    except requests.RequestException:
+        return None, 500  # connection failed
     
