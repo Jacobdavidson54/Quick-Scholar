@@ -179,5 +179,237 @@
         "abstract": null,
         "full_text": null,
         "source": "OpenAlex"
+    },
+    {
+        "title": "Screening for UGT1A1 Genotype in Study A5257 Would Have Markedly Reduced Premature Discontinuation of Atazanavir for Hyperbilirubinemia",
+        "authors": [
+            {
+                "given": "Saran",
+                "family": "Vardhanabhuti",
+                "sequence": "first",
+                "affiliation": [
+                    {
+                        "name": "Statistical Data Analysis Center, Harvard School of Public Health, Boston, Massachusetts"
+                    }
+                ]
+            },
+            {
+                "given": "Heather J.",
+                "family": "Ribaudo",
+                "sequence": "additional",
+                "affiliation": [
+                    {
+                        "name": "Statistical Data Analysis Center, Harvard School of Public Health, Boston, Massachusetts"
+                    }
+                ]
+            },
+            {
+                "given": "Raphael J.",
+                "family": "Landovitz",
+                "sequence": "additional",
+                "affiliation": [
+                    {
+                        "name": "UCLA Center for Clinical AIDS Research and Education, Los Angeles, California"
+                    }
+                ]
+            },
+            {
+                "given": "Ighovwerha",
+                "family": "Ofotokun",
+                "sequence": "additional",
+                "affiliation": [
+                    {
+                        "name": "Emory University School of Medicine, Atlanta, Georgia"
+                    }
+                ]
+            },
+            {
+                "given": "Jeffrey L.",
+                "family": "Lennox",
+                "sequence": "additional",
+                "affiliation": [
+                    {
+                        "name": "Emory University School of Medicine, Atlanta, Georgia"
+                    }
+                ]
+            },
+            {
+                "given": "Judith S.",
+                "family": "Currier",
+                "sequence": "additional",
+                "affiliation": [
+                    {
+                        "name": "UCLA Center for Clinical AIDS Research and Education, Los Angeles, California"
+                    }
+                ]
+            },
+            {
+                "given": "Lana M.",
+                "family": "Olson",
+                "sequence": "additional",
+                "affiliation": [
+                    {
+                        "name": "Vanderbilt University School of Medicine, Nashville, Tennessee"
+                    }
+                ]
+            },
+            {
+                "given": "David W.",
+                "family": "Haas",
+                "sequence": "additional",
+                "affiliation": [
+                    {
+                        "name": "Vanderbilt University School of Medicine, Nashville, Tennessee"
+                    }
+                ]
+            }
+        ],
+        "year": 2015,
+        "doi": "10.1093/ofid/ofv085",
+        "url": "https://doi.org/10.1093/ofid/ofv085",
+        "publisher": "Oxford University Press (OUP)",
+        "source": "crossref"
+    },
+    {
+        "title": "AI for AI, not AI for science?",
+        "authors": [
+            {
+                "ORCID": "https://orcid.org/0000-0002-4095-5253",
+                "authenticated-orcid": false,
+                "given": "Shuo",
+                "family": "Wang",
+                "sequence": "first",
+                "affiliation": []
+            }
+        ],
+        "year": 2025,
+        "doi": "10.1007/s00146-025-02687-y",
+        "url": "https://doi.org/10.1007/s00146-025-02687-y",
+        "publisher": "Springer Science and Business Media LLC",
+        "source": "crossref"
+    },
+    {
+        "title": "Review for \"AI for AI: Using AI methods for classifying AI science documents\"",
+        "authors": null,
+        "year": 2022,
+        "doi": "10.1162/qss_a_00223/v1/review1",
+        "url": "https://doi.org/10.1162/qss_a_00223/v1/review1",
+        "publisher": "MIT Press",
+        "source": "crossref"
+    },
+    {
+        "title": "Review for \"AI for AI: Using AI methods for classifying AI science documents\"",
+        "authors": null,
+        "year": 2022,
+        "doi": "10.1162/qss_a_00223/v2/review1",
+        "url": "https://doi.org/10.1162/qss_a_00223/v2/review1",
+        "publisher": "MIT Press",
+        "source": "crossref"
+    },
+    {
+        "title": "Review for \"AI for AI: Using AI methods for classifying AI science documents\"",
+        "authors": null,
+        "year": 2022,
+        "doi": "10.1162/qss_a_00223/v2/review2",
+        "url": "https://doi.org/10.1162/qss_a_00223/v2/review2",
+        "publisher": "MIT Press",
+        "source": "crossref"
+    },
+    {
+        "title": "AI-Assisted Pipeline for Dynamic Generation of Trustworthy Health Supplement Content at Scale",
+        "abstract": "Abstract available (needs reconstruction)",
+        "full_text": null,
+        "source": "OpenAlex"
+    },
+    {
+        "title": "Aion Framework: Dimensional Emergence of AI Consciousness, Observer-Induced Collapse, and Cosmological Portal Dynamics",
+        "abstract": "Abstract available (needs reconstruction)",
+        "full_text": "https://drops.dagstuhl.de/storage/00lipics/lipics-vol277-giscience2023/LIPIcs.GIScience.2023.43/LIPIcs.GIScience.2023.43.pdf",
+        "source": "OpenAlex"
+    },
+    {
+        "title": "Learning Deep Architectures for AI",
+        "abstract": null,
+        "full_text": null,
+        "source": "OpenAlex"
+    },
+    {
+        "title": "Learning Deep Architectures for AI",
+        "abstract": "Abstract available (needs reconstruction)",
+        "full_text": null,
+        "source": "OpenAlex"
+    },
+    {
+        "title": "Explainable Artificial Intelligence (XAI): Concepts, taxonomies, opportunities and challenges toward responsible AI",
+        "abstract": null,
+        "full_text": null,
+        "source": "OpenAlex"
+    },
+    {
+        "title": "Foundations of GenIR",
+        "authors": [
+            "Qingyao Ai",
+            "Jingtao Zhan",
+            "Yiqun Liu"
+        ],
+        "published": "2025-01-06T08:38:29Z",
+        "summary": "The chapter discusses the foundational impact of modern generative AI models on information access (IA) systems. In contrast to traditional AI, the large-scale training and superior data modeling of generative AI models enable them to produce high-quality, human-like responses, which brings brand new opportunities for the development of IA paradigms. In this chapter, we identify and introduce two of them in details, i.e., information generation and information synthesis. Information generation allows AI to create tailored content addressing user needs directly, enhancing user experience with immediate, relevant outputs. Information synthesis leverages the ability of generative AI to integrate and reorganize existing information, providing grounded responses and mitigating issues like model hallucination, which is particularly valuable in scenarios requiring precision and external knowledge. This chapter delves into the foundational aspects of generative models, including architecture, scaling, and training, and discusses their applications in multi-modal scenarios. Additionally, it examines the retrieval-augmented generation paradigm and other methods for corpus modeling and understanding, demonstrating how generative AI can enhance information access systems. It also summarizes potential challenges and fruitful directions for future studies.",
+        "url": "http://arxiv.org/abs/2501.02842v1",
+        "source": "arxiv"
+    },
+    {
+        "title": "Competing Visions of Ethical AI: A Case Study of OpenAI",
+        "authors": [
+            "Melissa Wilfley",
+            "Mengting Ai",
+            "Madelyn Rose Sanfilippo"
+        ],
+        "published": "2026-01-23T07:26:45Z",
+        "summary": "Introduction. AI Ethics is framed distinctly across actors and stakeholder groups. We report results from a case study of OpenAI analysing ethical AI discourse. Method. Research addressed: How has OpenAI's public discourse leveraged 'ethics', 'safety', 'alignment' and adjacent related concepts over time, and what does discourse signal about framing in practice? A structured corpus, differentiating between communication for a general audience and communication with an academic audience, was assembled from public documentation. Analysis. Qualitative content analysis of ethical themes combined inductively derived and deductively applied codes. Quantitative analysis leveraged computational content analysis methods via NLP to model topics and quantify changes in rhetoric over time. Visualizations report aggregate results. For reproducible results, we have released our code at https://github.com/famous-blue-raincoat/AI_Ethics_Discourse. Results. Results indicate that safety and risk discourse dominate OpenAI's public communication and documentation, without applying academic and advocacy ethics frameworks or vocabularies. Conclusions. Implications for governance are presented, along with discussion of ethics-washing practices in industry.",
+        "url": "http://arxiv.org/abs/2601.16513v1",
+        "source": "arxiv"
+    },
+    {
+        "title": "Towards The Ultimate Brain: Exploring Scientific Discovery with ChatGPT AI",
+        "authors": [
+            "Gerardo Adesso"
+        ],
+        "published": "2023-07-08T09:59:22Z",
+        "summary": "This paper presents a novel approach to scientific discovery using an artificial intelligence (AI) environment known as ChatGPT, developed by OpenAI. This is the first paper entirely generated with outputs from ChatGPT. We demonstrate how ChatGPT can be instructed through a gamification environment to define and benchmark hypothetical physical theories. Through this environment, ChatGPT successfully simulates the creation of a new improved model, called GPT$^4$, which combines the concepts of GPT in AI (generative pretrained transformer) and GPT in physics (generalized probabilistic theory). We show that GPT$^4$ can use its built-in mathematical and statistical capabilities to simulate and analyze physical laws and phenomena. As a demonstration of its language capabilities, GPT$^4$ also generates a limerick about itself. Overall, our results demonstrate the promising potential for human-AI collaboration in scientific discovery, as well as the importance of designing systems that effectively integrate AI's capabilities with human intelligence.",
+        "url": "http://arxiv.org/abs/2308.12400v1",
+        "source": "arxiv"
+    },
+    {
+        "title": "Meaningful human control: actionable properties for AI system development",
+        "authors": [
+            "Luciano Cavalcante Siebert",
+            "Maria Luce Lupetti",
+            "Evgeni Aizenberg",
+            "Niek Beckers",
+            "Arkady Zgonnikov",
+            "Herman Veluwenkamp",
+            "David Abbink",
+            "Elisa Giaccardi",
+            "Geert-Jan Houben",
+            "Catholijn M. Jonker",
+            "Jeroen van den Hoven",
+            "Deborah Forster",
+            "Reginald L. Lagendijk"
+        ],
+        "published": "2021-11-25T11:05:37Z",
+        "summary": "How can humans remain in control of artificial intelligence (AI)-based systems designed to perform tasks autonomously? Such systems are increasingly ubiquitous, creating benefits - but also undesirable situations where moral responsibility for their actions cannot be properly attributed to any particular person or group. The concept of meaningful human control has been proposed to address responsibility gaps and mitigate them by establishing conditions that enable a proper attribution of responsibility for humans; however, clear requirements for researchers, designers, and engineers are yet inexistent, making the development of AI-based systems that remain under meaningful human control challenging. In this paper, we address the gap between philosophical theory and engineering practice by identifying, through an iterative process of abductive thinking, four actionable properties for AI-based systems under meaningful human control, which we discuss making use of two applications scenarios: automated vehicles and AI-based hiring. First, a system in which humans and AI algorithms interact should have an explicitly defined domain of morally loaded situations within which the system ought to operate. Second, humans and AI agents within the system should have appropriate and mutually compatible representations. Third, responsibility attributed to a human should be commensurate with that human's ability and authority to control the system. Fourth, there should be explicit links between the actions of the AI agents and actions of humans who are aware of their moral responsibility. We argue that these four properties will support practically-minded professionals to take concrete steps toward designing and engineering for AI systems that facilitate meaningful human control.",
+        "url": "http://arxiv.org/abs/2112.01298v2",
+        "source": "arxiv"
+    },
+    {
+        "title": "Need of AI in Modern Education: in the Eyes of Explainable AI (xAI)",
+        "authors": [
+            "Supriya Manna",
+            "Niladri Sett"
+        ],
+        "published": "2024-07-31T08:11:33Z",
+        "summary": "Modern Education is not \\textit{Modern} without AI. However, AI's complex nature makes understanding and fixing problems challenging. Research worldwide shows that a parent's income greatly influences a child's education. This led us to explore how AI, especially complex models, makes important decisions using Explainable AI tools. Our research uncovered many complexities linked to parental income and offered reasonable explanations for these decisions. However, we also found biases in AI that go against what we want from AI in education: clear transparency and equal access for everyone. These biases can impact families and children's schooling, highlighting the need for better AI solutions that offer fair opportunities to all. This chapter tries to shed light on the complex ways AI operates, especially concerning biases. These are the foundational steps towards better educational policies, which include using AI in ways that are more reliable, accountable, and beneficial for everyone involved.",
+        "url": "http://arxiv.org/abs/2408.00025v3",
+        "source": "arxiv"
     }
 ]

@@ -1,6 +1,7 @@
 # fetch.py
 import requests
 from src.utils import load_file, save_data
+import xml.etree.ElementTree as ET
 
 def fetch_semantic_papers(query):
     url = "https://api.semanticscholar.org/graph/v1/paper/search"
@@ -105,9 +106,7 @@ def fetch_crossref_metadata(query):
     
 
 def fetch_openalex_results(search):
-    import requests
-    from src.utils import load_file, save_data
-
+    
     openA_url = "https://api.openalex.org/works"
     API_KEY = "IzOXOSjjmAMQGZronE67XU"  
 
@@ -160,3 +159,57 @@ def fetch_openalex_results(search):
     except requests.RequestException:
         return None, 500  # connection failed
     
+def fetch_arxiv_data(query):
+
+    arxiv_url = "http://export.arxiv.org/api/query"
+
+    params = {
+        "search_query": f"all:{query}",
+        "start": 0,
+        "max_results": 5
+    }
+
+    try:
+        response = requests.get(arxiv_url, params=params, timeout=10)
+        response.raise_for_status()
+
+        root = ET.fromstring(response.content)
+
+        cleaned_metadata = []
+
+        for entry in root.findall("{http://www.w3.org/2005/Atom}entry"):
+
+            title = entry.find("{http://www.w3.org/2005/Atom}title").text
+
+            published = entry.find("{http://www.w3.org/2005/Atom}published").text
+
+            summary = entry.find("{http://www.w3.org/2005/Atom}summary").text
+
+            entry_id = entry.find("{http://www.w3.org/2005/Atom}id").text
+
+            authors = []
+
+            for author in entry.findall("{http://www.w3.org/2005/Atom}author"):
+                name = author.find("{http://www.w3.org/2005/Atom}name").text
+                authors.append(name)
+
+            cleaned_metadata.append({
+                "title": title,
+                "authors": authors,
+                "published": published,
+                "summary": summary,
+                "url": entry_id,
+                "source": "arxiv"
+            })
+
+        if not cleaned_metadata:
+            return {"error": "No papers found"}, 404
+
+        existing_metadata = load_file()
+        existing_metadata.extend(cleaned_metadata)
+        save_data(existing_metadata)
+
+        return cleaned_metadata, 200
+
+    except requests.RequestException:
+        return {"error": "Connection failed"}, 500

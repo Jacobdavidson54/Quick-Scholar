@@ -1,7 +1,7 @@
 # main.py
 
 from flask import Flask, request, jsonify
-from src.fetch import fetch_crossref_metadata, fetch_semantic_papers, fetch_openalex_results
+from src.fetch import fetch_crossref_metadata, fetch_semantic_papers, fetch_openalex_results, fetch_arxiv_data
 from src.utils import initialize_file
 
 app = Flask(__name__)
@@ -26,6 +26,10 @@ def search_papers(query):
     openalex_results, status3 = fetch_openalex_results(query)
     if status3 == 200:
         all_results.extend(openalex_results)
+
+    arxiv_results, status4 = fetch_arxiv_data(query)
+    if status4 == 200:
+        all_results.extend(arxiv_results)
 
     if not all_results:
         return [], 404
