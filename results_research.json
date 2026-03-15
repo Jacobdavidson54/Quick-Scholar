@@ -411,5 +411,2091 @@
         "summary": "Modern Education is not \\textit{Modern} without AI. However, AI's complex nature makes understanding and fixing problems challenging. Research worldwide shows that a parent's income greatly influences a child's education. This led us to explore how AI, especially complex models, makes important decisions using Explainable AI tools. Our research uncovered many complexities linked to parental income and offered reasonable explanations for these decisions. However, we also found biases in AI that go against what we want from AI in education: clear transparency and equal access for everyone. These biases can impact families and children's schooling, highlighting the need for better AI solutions that offer fair opportunities to all. This chapter tries to shed light on the complex ways AI operates, especially concerning biases. These are the foundational steps towards better educational policies, which include using AI in ways that are more reliable, accountable, and beneficial for everyone involved.",
         "url": "http://arxiv.org/abs/2408.00025v3",
         "source": "arxiv"
+    },
+    {
+        "title": "Table 4: Results of MRI dataset consisting of normal and abnormal (MDD) child binary class along four deep leanring models and machine leanring classifiers.",
+        "authors": null,
+        "year": null,
+        "doi": "10.7717/peerj-cs.3562/table-4",
+        "url": "https://doi.org/10.7717/peerj-cs.3562/table-4",
+        "publisher": "PeerJ",
+        "source": "crossref"
+    },
+    {
+        "title": "Machine learning and AI aided tool to differentiate COVID 19 and non-COVID 19 lung CXR",
+        "authors": [
+            {
+                "given": "Andrio",
+                "family": "Adwibowo",
+                "sequence": "first",
+                "affiliation": []
+            }
+        ],
+        "year": 2020,
+        "doi": "10.1101/2020.08.18.20175521",
+        "url": "https://doi.org/10.1101/2020.08.18.20175521",
+        "publisher": "openRxiv",
+        "source": "crossref"
+    },
+    {
+        "title": "AI Techniques for Resource Management During COVID-19",
+        "authors": [
+            {
+                "ORCID": "https://orcid.org/0000-0002-1388-5413",
+                "authenticated-orcid": false,
+                "given": "Bandana",
+                "family": "Mahapatra",
+                "sequence": "first",
+                "affiliation": []
+            }
+        ],
+        "year": 2021,
+        "doi": "10.1007/978-3-030-60188-1_11",
+        "url": "https://doi.org/10.1007/978-3-030-60188-1_11",
+        "publisher": "Springer International Publishing",
+        "source": "crossref"
+    },
+    {
+        "title": "AI, COVID-19 and the long haul",
+        "authors": null,
+        "year": 2021,
+        "doi": "10.1038/s42256-021-00328-9",
+        "url": "https://doi.org/10.1038/s42256-021-00328-9",
+        "publisher": "Springer Science and Business Media LLC",
+        "source": "crossref"
+    },
+    {
+        "title": "Impact of Blockchain Technology in Healthcare Sector during Covid-19 Pandemic",
+        "authors": [
+            {
+                "given": "Zeba",
+                "family": "Mahmood",
+                "sequence": "first",
+                "affiliation": []
+            }
+        ],
+        "year": 2021,
+        "doi": "10.5121/csit.2021.111306",
+        "url": "https://doi.org/10.5121/csit.2021.111306",
+        "publisher": "Academy and Industry Research Collaboration Center (AIRCC)",
+        "source": "crossref"
+    },
+    {
+        "title": "Summarizing AI and Machine Learning",
+        "authors": [
+            {
+                "given": "Shameem",
+                "family": "Farouk",
+                "sequence": "first",
+                "affiliation": []
+            },
+            {
+                "given": "Aeron",
+                "family": "Zentner",
+                "sequence": "additional",
+                "affiliation": []
+            }
+        ],
+        "year": 2025,
+        "doi": "10.4135/9781071982747",
+        "url": "https://doi.org/10.4135/9781071982747",
+        "publisher": "SAGE Publications, Inc.",
+        "source": "crossref"
+    },
+    {
+        "title": "AI/ML+Physics Part 3: Designing an Architecture [Physics Informed Machine Learning]",
+        "authors": [
+            {
+                "given": "Steve L.",
+                "family": "Brunton",
+                "sequence": "first",
+                "affiliation": []
+            }
+        ],
+        "year": 2024,
+        "doi": "10.52843/cassyni.x9m4b1",
+        "url": "https://doi.org/10.52843/cassyni.x9m4b1",
+        "publisher": "Cassyni",
+        "source": "crossref"
+    },
+    {
+        "title": "Summarizing AI and Machine Learning",
+        "authors": [
+            {
+                "given": "Shameem",
+                "family": "Farouk",
+                "sequence": "first",
+                "affiliation": []
+            },
+            {
+                "given": "Aeron",
+                "family": "Zentner",
+                "sequence": "additional",
+                "affiliation": []
+            }
+        ],
+        "year": 2025,
+        "doi": "10.4135/9781071982587",
+        "url": "https://doi.org/10.4135/9781071982587",
+        "publisher": "SAGE Publications, Inc.",
+        "source": "crossref"
+    },
+    {
+        "title": "Ethics in AI in Machine Learning",
+        "authors": [
+            {
+                "given": "Shilpa",
+                "family": "Kapse",
+                "sequence": "first",
+                "affiliation": []
+            }
+        ],
+        "year": 2022,
+        "doi": "10.1201/9781003277330-2",
+        "url": "https://doi.org/10.1201/9781003277330-2",
+        "publisher": "Apple Academic Press",
+        "source": "crossref"
+    },
+    {
+        "title": "AI and Machine Learning Capstone Project",
+        "authors": [
+            {
+                "given": "Shameem",
+                "family": "Farouk",
+                "sequence": "first",
+                "affiliation": []
+            },
+            {
+                "given": "Aeron",
+                "family": "Zentner",
+                "sequence": "additional",
+                "affiliation": []
+            }
+        ],
+        "year": 2025,
+        "doi": "10.4135/9781071982754",
+        "url": "https://doi.org/10.4135/9781071982754",
+        "publisher": "SAGE Publications, Inc.",
+        "source": "crossref"
+    },
+    {
+        "title": "Key challenges for delivering clinical impact with artificial intelligence",
+        "abstract": null,
+        "full_text": "https://bmcmedicine.biomedcentral.com/track/pdf/10.1186/s12916-019-1426-2",
+        "source": "OpenAlex"
+    },
+    {
+        "title": "Artificial intelligence in education: Addressing ethical challenges in K-12 settings",
+        "abstract": null,
+        "full_text": "https://link.springer.com/content/pdf/10.1007/s43681-021-00096-7.pdf",
+        "source": "OpenAlex"
+    },
+    {
+        "title": "AI-Driven Security: How Machine Learning Will Shape the Future of Cybersecurity and Web 3",
+        "abstract": "Abstract available (needs reconstruction)",
+        "full_text": "https://article.sciencepg.com/pdf/10.11648.j.ajnna.20230901.11",
+        "source": "OpenAlex"
+    },
+    {
+        "title": "Artificial intelligence and the future of global health",
+        "abstract": "Abstract available (needs reconstruction)",
+        "full_text": "http://www.thelancet.com/article/S0140673620302269/pdf",
+        "source": "OpenAlex"
+    },
+    {
+        "title": "Artificial Intelligence in Dentistry: Chances and Challenges",
+        "abstract": "Abstract available (needs reconstruction)",
+        "full_text": "https://journals.sagepub.com/doi/pdf/10.1177/0022034520915714",
+        "source": "OpenAlex"
+    },
+    {
+        "title": "Emoticons as Speech Act Amplifiers: An Analysis of Pragmatics in Online Communication",
+        "abstract": "Abstract available (needs reconstruction)",
+        "full_text": null,
+        "source": "OpenAlex"
+    },
+    {
+        "title": "Ahab, Lord of the Pequod, Cabin Conversation - On The Forbes Axiom V-24",
+        "abstract": "Abstract available (needs reconstruction)",
+        "full_text": null,
+        "source": "OpenAlex"
+    },
+    {
+        "title": "Ahab, Lord of the Pequod, Cabin Conversation - On The Forbes Axiom V-24",
+        "abstract": "Abstract available (needs reconstruction)",
+        "full_text": null,
+        "source": "OpenAlex"
+    },
+    {
+        "title": "Z Ku\u015fa\u011f\u0131 ve Alfa Ku\u015fa\u011f\u0131 Emojilerle Konu\u015fuyor: Dijital D\u00fcnyan\u0131n Yeni Dili",
+        "abstract": "Abstract available (needs reconstruction)",
+        "full_text": null,
+        "source": "OpenAlex"
+    },
+    {
+        "title": "Emoji Semantic Change And Generational Variation In Digital Communication",
+        "abstract": "Abstract available (needs reconstruction)",
+        "full_text": null,
+        "source": "OpenAlex"
+    },
+    {
+        "title": "Space, people and technology: Reclaiming the narrative on cities",
+        "abstract": "Abstract available (needs reconstruction)",
+        "full_text": "https://books.aosis.co.za/index.php/ob/catalog/view/323/605/9008-1",
+        "source": "OpenAlex"
+    },
+    {
+        "title": "The life and work of Khabi Mngoma",
+        "abstract": "Abstract available (needs reconstruction)",
+        "full_text": "http://hdl.handle.net/11427/34039",
+        "source": "OpenAlex"
+    },
+    {
+        "title": "Screening for UGT1A1 Genotype in Study A5257 Would Have Markedly Reduced Premature Discontinuation of Atazanavir for Hyperbilirubinemia",
+        "authors": [
+            {
+                "given": "Saran",
+                "family": "Vardhanabhuti",
+                "sequence": "first",
+                "affiliation": [
+                    {
+                        "name": "Statistical Data Analysis Center, Harvard School of Public Health, Boston, Massachusetts"
+                    }
+                ]
+            },
+            {
+                "given": "Heather J.",
+                "family": "Ribaudo",
+                "sequence": "additional",
+                "affiliation": [
+                    {
+                        "name": "Statistical Data Analysis Center, Harvard School of Public Health, Boston, Massachusetts"
+                    }
+                ]
+            },
+            {
+                "given": "Raphael J.",
+                "family": "Landovitz",
+                "sequence": "additional",
+                "affiliation": [
+                    {
+                        "name": "UCLA Center for Clinical AIDS Research and Education, Los Angeles, California"
+                    }
+                ]
+            },
+            {
+                "given": "Ighovwerha",
+                "family": "Ofotokun",
+                "sequence": "additional",
+                "affiliation": [
+                    {
+                        "name": "Emory University School of Medicine, Atlanta, Georgia"
+                    }
+                ]
+            },
+            {
+                "given": "Jeffrey L.",
+                "family": "Lennox",
+                "sequence": "additional",
+                "affiliation": [
+                    {
+                        "name": "Emory University School of Medicine, Atlanta, Georgia"
+                    }
+                ]
+            },
+            {
+                "given": "Judith S.",
+                "family": "Currier",
+                "sequence": "additional",
+                "affiliation": [
+                    {
+                        "name": "UCLA Center for Clinical AIDS Research and Education, Los Angeles, California"
+                    }
+                ]
+            },
+            {
+                "given": "Lana M.",
+                "family": "Olson",
+                "sequence": "additional",
+                "affiliation": [
+                    {
+                        "name": "Vanderbilt University School of Medicine, Nashville, Tennessee"
+                    }
+                ]
+            },
+            {
+                "given": "David W.",
+                "family": "Haas",
+                "sequence": "additional",
+                "affiliation": [
+                    {
+                        "name": "Vanderbilt University School of Medicine, Nashville, Tennessee"
+                    }
+                ]
+            }
+        ],
+        "year": 2015,
+        "doi": "10.1093/ofid/ofv085",
+        "url": "https://doi.org/10.1093/ofid/ofv085",
+        "publisher": "Oxford University Press (OUP)",
+        "source": "crossref"
+    },
+    {
+        "title": "AI for AI, not AI for science?",
+        "authors": [
+            {
+                "ORCID": "https://orcid.org/0000-0002-4095-5253",
+                "authenticated-orcid": false,
+                "given": "Shuo",
+                "family": "Wang",
+                "sequence": "first",
+                "affiliation": []
+            }
+        ],
+        "year": 2025,
+        "doi": "10.1007/s00146-025-02687-y",
+        "url": "https://doi.org/10.1007/s00146-025-02687-y",
+        "publisher": "Springer Science and Business Media LLC",
+        "source": "crossref"
+    },
+    {
+        "title": "Review for \"AI for AI: Using AI methods for classifying AI science documents\"",
+        "authors": null,
+        "year": 2022,
+        "doi": "10.1162/qss_a_00223/v1/review1",
+        "url": "https://doi.org/10.1162/qss_a_00223/v1/review1",
+        "publisher": "MIT Press",
+        "source": "crossref"
+    },
+    {
+        "title": "Review for \"AI for AI: Using AI methods for classifying AI science documents\"",
+        "authors": null,
+        "year": 2022,
+        "doi": "10.1162/qss_a_00223/v2/review1",
+        "url": "https://doi.org/10.1162/qss_a_00223/v2/review1",
+        "publisher": "MIT Press",
+        "source": "crossref"
+    },
+    {
+        "title": "Narrow AI vs. General AI vs. Super AI",
+        "authors": [
+            {
+                "given": "Ahmed",
+                "family": "Banafa",
+                "sequence": "first",
+                "affiliation": []
+            }
+        ],
+        "year": 2024,
+        "doi": "10.1201/9781032669182-10",
+        "url": "https://doi.org/10.1201/9781032669182-10",
+        "publisher": "River Publishers",
+        "source": "crossref"
+    },
+    {
+        "title": "AI-Assisted Pipeline for Dynamic Generation of Trustworthy Health Supplement Content at Scale",
+        "abstract": "Abstract available (needs reconstruction)",
+        "full_text": null,
+        "source": "OpenAlex"
+    },
+    {
+        "title": "Aion Framework: Dimensional Emergence of AI Consciousness, Observer-Induced Collapse, and Cosmological Portal Dynamics",
+        "abstract": "Abstract available (needs reconstruction)",
+        "full_text": "https://drops.dagstuhl.de/storage/00lipics/lipics-vol277-giscience2023/LIPIcs.GIScience.2023.43/LIPIcs.GIScience.2023.43.pdf",
+        "source": "OpenAlex"
+    },
+    {
+        "title": "Learning Deep Architectures for AI",
+        "abstract": null,
+        "full_text": null,
+        "source": "OpenAlex"
+    },
+    {
+        "title": "Learning Deep Architectures for AI",
+        "abstract": "Abstract available (needs reconstruction)",
+        "full_text": null,
+        "source": "OpenAlex"
+    },
+    {
+        "title": "Explainable Artificial Intelligence (XAI): Concepts, taxonomies, opportunities and challenges toward responsible AI",
+        "abstract": null,
+        "full_text": null,
+        "source": "OpenAlex"
+    },
+    {
+        "title": "Screening for UGT1A1 Genotype in Study A5257 Would Have Markedly Reduced Premature Discontinuation of Atazanavir for Hyperbilirubinemia",
+        "authors": [
+            {
+                "given": "Saran",
+                "family": "Vardhanabhuti",
+                "sequence": "first",
+                "affiliation": [
+                    {
+                        "name": "Statistical Data Analysis Center, Harvard School of Public Health, Boston, Massachusetts"
+                    }
+                ]
+            },
+            {
+                "given": "Heather J.",
+                "family": "Ribaudo",
+                "sequence": "additional",
+                "affiliation": [
+                    {
+                        "name": "Statistical Data Analysis Center, Harvard School of Public Health, Boston, Massachusetts"
+                    }
+                ]
+            },
+            {
+                "given": "Raphael J.",
+                "family": "Landovitz",
+                "sequence": "additional",
+                "affiliation": [
+                    {
+                        "name": "UCLA Center for Clinical AIDS Research and Education, Los Angeles, California"
+                    }
+                ]
+            },
+            {
+                "given": "Ighovwerha",
+                "family": "Ofotokun",
+                "sequence": "additional",
+                "affiliation": [
+                    {
+                        "name": "Emory University School of Medicine, Atlanta, Georgia"
+                    }
+                ]
+            },
+            {
+                "given": "Jeffrey L.",
+                "family": "Lennox",
+                "sequence": "additional",
+                "affiliation": [
+                    {
+                        "name": "Emory University School of Medicine, Atlanta, Georgia"
+                    }
+                ]
+            },
+            {
+                "given": "Judith S.",
+                "family": "Currier",
+                "sequence": "additional",
+                "affiliation": [
+                    {
+                        "name": "UCLA Center for Clinical AIDS Research and Education, Los Angeles, California"
+                    }
+                ]
+            },
+            {
+                "given": "Lana M.",
+                "family": "Olson",
+                "sequence": "additional",
+                "affiliation": [
+                    {
+                        "name": "Vanderbilt University School of Medicine, Nashville, Tennessee"
+                    }
+                ]
+            },
+            {
+                "given": "David W.",
+                "family": "Haas",
+                "sequence": "additional",
+                "affiliation": [
+                    {
+                        "name": "Vanderbilt University School of Medicine, Nashville, Tennessee"
+                    }
+                ]
+            }
+        ],
+        "year": 2015,
+        "doi": "10.1093/ofid/ofv085",
+        "url": "https://doi.org/10.1093/ofid/ofv085",
+        "publisher": "Oxford University Press (OUP)",
+        "source": "crossref"
+    },
+    {
+        "title": "AI for AI, not AI for science?",
+        "authors": [
+            {
+                "ORCID": "https://orcid.org/0000-0002-4095-5253",
+                "authenticated-orcid": false,
+                "given": "Shuo",
+                "family": "Wang",
+                "sequence": "first",
+                "affiliation": []
+            }
+        ],
+        "year": 2025,
+        "doi": "10.1007/s00146-025-02687-y",
+        "url": "https://doi.org/10.1007/s00146-025-02687-y",
+        "publisher": "Springer Science and Business Media LLC",
+        "source": "crossref"
+    },
+    {
+        "title": "Review for \"AI for AI: Using AI methods for classifying AI science documents\"",
+        "authors": null,
+        "year": 2022,
+        "doi": "10.1162/qss_a_00223/v2/review2",
+        "url": "https://doi.org/10.1162/qss_a_00223/v2/review2",
+        "publisher": "MIT Press",
+        "source": "crossref"
+    },
+    {
+        "title": "Review for \"AI for AI: Using AI methods for classifying AI science documents\"",
+        "authors": null,
+        "year": 2022,
+        "doi": "10.1162/qss_a_00223/v3/review1",
+        "url": "https://doi.org/10.1162/qss_a_00223/v3/review1",
+        "publisher": "MIT Press",
+        "source": "crossref"
+    },
+    {
+        "title": "Review for \"AI for AI: Using AI methods for classifying AI science documents\"",
+        "authors": null,
+        "year": 2022,
+        "doi": "10.1162/qss_a_00223/v2/review1",
+        "url": "https://doi.org/10.1162/qss_a_00223/v2/review1",
+        "publisher": "MIT Press",
+        "source": "crossref"
+    },
+    {
+        "title": "AI-Assisted Pipeline for Dynamic Generation of Trustworthy Health Supplement Content at Scale",
+        "abstract": "Abstract available (needs reconstruction)",
+        "full_text": null,
+        "source": "OpenAlex"
+    },
+    {
+        "title": "Aion Framework: Dimensional Emergence of AI Consciousness, Observer-Induced Collapse, and Cosmological Portal Dynamics",
+        "abstract": "Abstract available (needs reconstruction)",
+        "full_text": "https://drops.dagstuhl.de/storage/00lipics/lipics-vol277-giscience2023/LIPIcs.GIScience.2023.43/LIPIcs.GIScience.2023.43.pdf",
+        "source": "OpenAlex"
+    },
+    {
+        "title": "Learning Deep Architectures for AI",
+        "abstract": null,
+        "full_text": null,
+        "source": "OpenAlex"
+    },
+    {
+        "title": "Learning Deep Architectures for AI",
+        "abstract": "Abstract available (needs reconstruction)",
+        "full_text": null,
+        "source": "OpenAlex"
+    },
+    {
+        "title": "Explainable Artificial Intelligence (XAI): Concepts, taxonomies, opportunities and challenges toward responsible AI",
+        "abstract": null,
+        "full_text": null,
+        "source": "OpenAlex"
+    },
+    {
+        "title": "Foundations of GenIR",
+        "authors": [
+            "Qingyao Ai",
+            "Jingtao Zhan",
+            "Yiqun Liu"
+        ],
+        "published": "2025-01-06T08:38:29Z",
+        "summary": "The chapter discusses the foundational impact of modern generative AI models on information access (IA) systems. In contrast to traditional AI, the large-scale training and superior data modeling of generative AI models enable them to produce high-quality, human-like responses, which brings brand new opportunities for the development of IA paradigms. In this chapter, we identify and introduce two of them in details, i.e., information generation and information synthesis. Information generation allows AI to create tailored content addressing user needs directly, enhancing user experience with immediate, relevant outputs. Information synthesis leverages the ability of generative AI to integrate and reorganize existing information, providing grounded responses and mitigating issues like model hallucination, which is particularly valuable in scenarios requiring precision and external knowledge. This chapter delves into the foundational aspects of generative models, including architecture, scaling, and training, and discusses their applications in multi-modal scenarios. Additionally, it examines the retrieval-augmented generation paradigm and other methods for corpus modeling and understanding, demonstrating how generative AI can enhance information access systems. It also summarizes potential challenges and fruitful directions for future studies.",
+        "url": "http://arxiv.org/abs/2501.02842v1",
+        "source": "arxiv"
+    },
+    {
+        "title": "Competing Visions of Ethical AI: A Case Study of OpenAI",
+        "authors": [
+            "Melissa Wilfley",
+            "Mengting Ai",
+            "Madelyn Rose Sanfilippo"
+        ],
+        "published": "2026-01-23T07:26:45Z",
+        "summary": "Introduction. AI Ethics is framed distinctly across actors and stakeholder groups. We report results from a case study of OpenAI analysing ethical AI discourse. Method. Research addressed: How has OpenAI's public discourse leveraged 'ethics', 'safety', 'alignment' and adjacent related concepts over time, and what does discourse signal about framing in practice? A structured corpus, differentiating between communication for a general audience and communication with an academic audience, was assembled from public documentation. Analysis. Qualitative content analysis of ethical themes combined inductively derived and deductively applied codes. Quantitative analysis leveraged computational content analysis methods via NLP to model topics and quantify changes in rhetoric over time. Visualizations report aggregate results. For reproducible results, we have released our code at https://github.com/famous-blue-raincoat/AI_Ethics_Discourse. Results. Results indicate that safety and risk discourse dominate OpenAI's public communication and documentation, without applying academic and advocacy ethics frameworks or vocabularies. Conclusions. Implications for governance are presented, along with discussion of ethics-washing practices in industry.",
+        "url": "http://arxiv.org/abs/2601.16513v1",
+        "source": "arxiv"
+    },
+    {
+        "title": "Towards The Ultimate Brain: Exploring Scientific Discovery with ChatGPT AI",
+        "authors": [
+            "Gerardo Adesso"
+        ],
+        "published": "2023-07-08T09:59:22Z",
+        "summary": "This paper presents a novel approach to scientific discovery using an artificial intelligence (AI) environment known as ChatGPT, developed by OpenAI. This is the first paper entirely generated with outputs from ChatGPT. We demonstrate how ChatGPT can be instructed through a gamification environment to define and benchmark hypothetical physical theories. Through this environment, ChatGPT successfully simulates the creation of a new improved model, called GPT$^4$, which combines the concepts of GPT in AI (generative pretrained transformer) and GPT in physics (generalized probabilistic theory). We show that GPT$^4$ can use its built-in mathematical and statistical capabilities to simulate and analyze physical laws and phenomena. As a demonstration of its language capabilities, GPT$^4$ also generates a limerick about itself. Overall, our results demonstrate the promising potential for human-AI collaboration in scientific discovery, as well as the importance of designing systems that effectively integrate AI's capabilities with human intelligence.",
+        "url": "http://arxiv.org/abs/2308.12400v1",
+        "source": "arxiv"
+    },
+    {
+        "title": "Meaningful human control: actionable properties for AI system development",
+        "authors": [
+            "Luciano Cavalcante Siebert",
+            "Maria Luce Lupetti",
+            "Evgeni Aizenberg",
+            "Niek Beckers",
+            "Arkady Zgonnikov",
+            "Herman Veluwenkamp",
+            "David Abbink",
+            "Elisa Giaccardi",
+            "Geert-Jan Houben",
+            "Catholijn M. Jonker",
+            "Jeroen van den Hoven",
+            "Deborah Forster",
+            "Reginald L. Lagendijk"
+        ],
+        "published": "2021-11-25T11:05:37Z",
+        "summary": "How can humans remain in control of artificial intelligence (AI)-based systems designed to perform tasks autonomously? Such systems are increasingly ubiquitous, creating benefits - but also undesirable situations where moral responsibility for their actions cannot be properly attributed to any particular person or group. The concept of meaningful human control has been proposed to address responsibility gaps and mitigate them by establishing conditions that enable a proper attribution of responsibility for humans; however, clear requirements for researchers, designers, and engineers are yet inexistent, making the development of AI-based systems that remain under meaningful human control challenging. In this paper, we address the gap between philosophical theory and engineering practice by identifying, through an iterative process of abductive thinking, four actionable properties for AI-based systems under meaningful human control, which we discuss making use of two applications scenarios: automated vehicles and AI-based hiring. First, a system in which humans and AI algorithms interact should have an explicitly defined domain of morally loaded situations within which the system ought to operate. Second, humans and AI agents within the system should have appropriate and mutually compatible representations. Third, responsibility attributed to a human should be commensurate with that human's ability and authority to control the system. Fourth, there should be explicit links between the actions of the AI agents and actions of humans who are aware of their moral responsibility. We argue that these four properties will support practically-minded professionals to take concrete steps toward designing and engineering for AI systems that facilitate meaningful human control.",
+        "url": "http://arxiv.org/abs/2112.01298v2",
+        "source": "arxiv"
+    },
+    {
+        "title": "Need of AI in Modern Education: in the Eyes of Explainable AI (xAI)",
+        "authors": [
+            "Supriya Manna",
+            "Niladri Sett"
+        ],
+        "published": "2024-07-31T08:11:33Z",
+        "summary": "Modern Education is not \\textit{Modern} without AI. However, AI's complex nature makes understanding and fixing problems challenging. Research worldwide shows that a parent's income greatly influences a child's education. This led us to explore how AI, especially complex models, makes important decisions using Explainable AI tools. Our research uncovered many complexities linked to parental income and offered reasonable explanations for these decisions. However, we also found biases in AI that go against what we want from AI in education: clear transparency and equal access for everyone. These biases can impact families and children's schooling, highlighting the need for better AI solutions that offer fair opportunities to all. This chapter tries to shed light on the complex ways AI operates, especially concerning biases. These are the foundational steps towards better educational policies, which include using AI in ways that are more reliable, accountable, and beneficial for everyone involved.",
+        "url": "http://arxiv.org/abs/2408.00025v3",
+        "source": "arxiv"
+    },
+    {
+        "title": "Space, people and technology: Reclaiming the narrative on cities",
+        "abstract": "Abstract available (needs reconstruction)",
+        "full_text": "https://books.aosis.co.za/index.php/ob/catalog/view/323/605/9008-1",
+        "source": "OpenAlex"
+    },
+    {
+        "title": "The life and work of Khabi Mngoma",
+        "abstract": "Abstract available (needs reconstruction)",
+        "full_text": "http://hdl.handle.net/11427/34039",
+        "source": "OpenAlex"
+    },
+    {
+        "title": "6. Cars, Cars, and More Cars",
+        "authors": null,
+        "year": 2017,
+        "doi": "10.7591/9780801461002-010",
+        "url": "https://doi.org/10.7591/9780801461002-010",
+        "publisher": "Cornell University Press",
+        "source": "crossref"
+    },
+    {
+        "title": "Vector-mediated viral exchange between crops and weedy plants",
+        "authors": [
+            {
+                "given": "Xiao-bin",
+                "family": "Shi",
+                "sequence": "first",
+                "affiliation": []
+            },
+            {
+                "given": "Zhuo",
+                "family": "Zhang",
+                "sequence": "additional",
+                "affiliation": []
+            },
+            {
+                "given": "Fan",
+                "family": "Li",
+                "sequence": "additional",
+                "affiliation": []
+            },
+            {
+                "ORCID": "https://orcid.org/0000-0002-8737-5619",
+                "authenticated-orcid": false,
+                "given": "Evan L.",
+                "family": "Preisser",
+                "sequence": "additional",
+                "affiliation": []
+            },
+            {
+                "given": "Li-ping",
+                "family": "Huang",
+                "sequence": "additional",
+                "affiliation": []
+            },
+            {
+                "given": "De-yong",
+                "family": "Zhang",
+                "sequence": "additional",
+                "affiliation": []
+            },
+            {
+                "given": "Zhan-hong",
+                "family": "Zhang",
+                "sequence": "additional",
+                "affiliation": []
+            },
+            {
+                "given": "Song-bai",
+                "family": "Zhang",
+                "sequence": "additional",
+                "affiliation": []
+            },
+            {
+                "given": "Xu-guo",
+                "family": "Zhou",
+                "sequence": "additional",
+                "affiliation": []
+            },
+            {
+                "given": "An-sheng",
+                "family": "Zhang",
+                "sequence": "additional",
+                "affiliation": []
+            },
+            {
+                "given": "Hui",
+                "family": "Liu",
+                "sequence": "additional",
+                "affiliation": []
+            },
+            {
+                "given": "Yuan-hua",
+                "family": "Wu",
+                "sequence": "additional",
+                "affiliation": []
+            },
+            {
+                "given": "Xiao-fei",
+                "family": "Cheng",
+                "sequence": "additional",
+                "affiliation": []
+            },
+            {
+                "given": "Zi-fu",
+                "family": "He",
+                "sequence": "additional",
+                "affiliation": []
+            },
+            {
+                "given": "Yong",
+                "family": "Liu",
+                "sequence": "additional",
+                "affiliation": []
+            }
+        ],
+        "year": 2023,
+        "doi": "10.1007/s10340-023-01644-2",
+        "url": "https://doi.org/10.1007/s10340-023-01644-2",
+        "publisher": "Springer Science and Business Media LLC",
+        "source": "crossref"
+    },
+    {
+        "title": "Super Cars 2011",
+        "authors": null,
+        "year": 2012,
+        "doi": "10.5040/9781350904125",
+        "url": "https://doi.org/10.5040/9781350904125",
+        "publisher": "Bloomsbury Publishing (UK)",
+        "source": "crossref"
+    },
+    {
+        "title": "Bio-characteristics, tissue expression of miR-375 in hypothalamic-pituitary-ovarian axis and its regulation in reproduction-related diseases",
+        "authors": [
+            {
+                "given": "Saiyi",
+                "family": "Sun",
+                "sequence": "first",
+                "affiliation": []
+            },
+            {
+                "given": "Binglei",
+                "family": "Zhang",
+                "sequence": "additional",
+                "affiliation": []
+            },
+            {
+                "given": "Wanhang",
+                "family": "Jia",
+                "sequence": "additional",
+                "affiliation": []
+            },
+            {
+                "given": "Jiaxin",
+                "family": "Yang",
+                "sequence": "additional",
+                "affiliation": []
+            },
+            {
+                "given": "Saiqiao",
+                "family": "Wang",
+                "sequence": "additional",
+                "affiliation": []
+            },
+            {
+                "given": "Lu",
+                "family": "Zhao",
+                "sequence": "additional",
+                "affiliation": []
+            },
+            {
+                "given": "Yan",
+                "family": "Ma",
+                "sequence": "additional",
+                "affiliation": []
+            },
+            {
+                "given": "Qiujue",
+                "family": "Wu",
+                "sequence": "additional",
+                "affiliation": []
+            },
+            {
+                "given": "Yuqin",
+                "family": "Wang",
+                "sequence": "additional",
+                "affiliation": []
+            }
+        ],
+        "year": 2024,
+        "doi": "10.1038/s41598-024-79062-2",
+        "url": "https://doi.org/10.1038/s41598-024-79062-2",
+        "publisher": "Springer Science and Business Media LLC",
+        "source": "crossref"
+    },
+    {
+        "title": "The Physio-Biochemical Changes Induced by Gibberellic Acid Seed Priming in Rice Seeds against Submergence Stress: Consequences for Starch Degradation, Energy Metabolism and Hormonal Metabolism",
+        "authors": [
+            {
+                "given": "Weiqin",
+                "family": "Wang",
+                "sequence": "first",
+                "affiliation": []
+            },
+            {
+                "given": "Qin",
+                "family": "Jiang",
+                "sequence": "additional",
+                "affiliation": []
+            },
+            {
+                "given": "Biao",
+                "family": "Tan",
+                "sequence": "additional",
+                "affiliation": []
+            },
+            {
+                "given": "Huiming",
+                "family": "Yang",
+                "sequence": "additional",
+                "affiliation": []
+            },
+            {
+                "given": "Fangbo",
+                "family": "Cao",
+                "sequence": "additional",
+                "affiliation": []
+            },
+            {
+                "given": "Jiana",
+                "family": "Chen",
+                "sequence": "additional",
+                "affiliation": []
+            },
+            {
+                "given": "Min",
+                "family": "Huang",
+                "sequence": "additional",
+                "affiliation": []
+            },
+            {
+                "given": "Huabin",
+                "family": "Zheng",
+                "sequence": "additional",
+                "affiliation": []
+            }
+        ],
+        "year": 2025,
+        "doi": "10.1186/s12284-025-00870-9",
+        "url": "https://doi.org/10.1186/s12284-025-00870-9",
+        "publisher": "Springer Science and Business Media LLC",
+        "source": "crossref"
+    },
+    {
+        "title": "Axicabtagene Ciloleucel CAR T-Cell Therapy in Refractory Large B-Cell Lymphoma",
+        "abstract": "Abstract available (needs reconstruction)",
+        "full_text": "https://www.nejm.org/doi/pdf/10.1056/NEJMoa1707447?articleTools=true",
+        "source": "OpenAlex"
+    },
+    {
+        "title": "CAR T cell immunotherapy for human cancer",
+        "abstract": "Abstract available (needs reconstruction)",
+        "full_text": null,
+        "source": "OpenAlex"
+    },
+    {
+        "title": "End to End Learning for Self-Driving Cars",
+        "abstract": "Abstract available (needs reconstruction)",
+        "full_text": "https://arxiv.org/pdf/1604.07316",
+        "source": "OpenAlex"
+    },
+    {
+        "title": "CAR-T cell therapy: current limitations and potential strategies",
+        "abstract": null,
+        "full_text": "https://www.nature.com/articles/s41408-021-00459-7.pdf",
+        "source": "OpenAlex"
+    },
+    {
+        "title": "Long-Term Follow-up of CD19 CAR Therapy in Acute Lymphoblastic Leukemia",
+        "abstract": "Abstract available (needs reconstruction)",
+        "full_text": "https://www.nejm.org/doi/pdf/10.1056/NEJMoa1709919?articleTools=true",
+        "source": "OpenAlex"
+    },
+    {
+        "title": "Apples and Cars: a Comparison of Security",
+        "authors": [
+            "Zhendong Ma"
+        ],
+        "published": "2022-01-07T18:52:42Z",
+        "summary": "Cybersecurity has gained importance for cars that increasingly rely on software and networks. \"Smartphone on wheels\" is often used as an analogy to highlight the need for security. As a high-value target of cyberattacks, modern smartphones implement layers of protection. Automotive embedded systems share many similarities with smartphones. We compare the security architecture of an iPhone and a car to identify gaps and discuss the potentials for the cars of the future.",
+        "url": "http://arxiv.org/abs/2201.02601v1",
+        "source": "arxiv"
+    },
+    {
+        "title": "Road Context-aware Intrusion Detection System for Autonomous Cars",
+        "authors": [
+            "Jingxuan Jiang",
+            "Chundong Wang",
+            "Sudipta Chattopadhyay",
+            "Wei Zhang"
+        ],
+        "published": "2019-08-02T07:48:31Z",
+        "summary": "Security is of primary importance to vehicles. The viability of performing remote intrusions onto the in-vehicle network has been manifested. In regard to unmanned autonomous cars, limited work has been done to detect intrusions for them while existing intrusion detection systems (IDSs) embrace limitations against strong adversaries. In this paper, we consider the very nature of autonomous car and leverage the road context to build a novel IDS, named Road context-aware IDS (RAIDS). When a computer-controlled car is driving through continuous roads, road contexts and genuine frames transmitted on the car's in-vehicle network should resemble a regular and intelligible pattern. RAIDS hence employs a lightweight machine learning model to extract road contexts from sensory information (e.g., camera images and distance sensor values) that are used to generate control signals for maneuvering the car. With such ongoing road context, RAIDS validates corresponding frames observed on the in-vehicle network. Anomalous frames that substantially deviate from road context will be discerned as intrusions. We have implemented a prototype of RAIDS with neural networks, and conducted experiments on a Raspberry Pi with extensive datasets and meaningful intrusion cases. Evaluations show that RAIDS significantly outperforms state-of-the-art IDS without using road context by up to 99.9% accuracy and short response time.",
+        "url": "http://arxiv.org/abs/1908.00732v1",
+        "source": "arxiv"
+    },
+    {
+        "title": "Privacy and modern cars through a dual lens",
+        "authors": [
+            "Giampaolo Bella",
+            "Pietro Biondi",
+            "Marco De Vincenzi",
+            "Giuseppe Tudisco"
+        ],
+        "published": "2021-11-20T18:41:58Z",
+        "summary": "Modern cars technologies are evolving quickly. They collect a variety of personal data and treat it on behalf of the car manufacturer to improve the drivers' experience. The precise terms of such a treatment are stated within the privacy policies accepted by the user when buying a car or through the infotainment system when it is first started. This paper uses a double lens to assess people's privacy while they drive a car. The first approach is objective and studies the readability of privacy policies that comes with cars. We analyse the privacy policies of twelve car brands and apply well-known readability indices to evaluate the extent to which privacy policies are comprehensible by all drivers. The second approach targets drivers' opinions to extrapolate their privacy concerns and trust perceptions. We design a questionnaire to collect the opinions of 88 participants and draw essential statistics about them. Our combined findings indicate that privacy is insufficiently understood at present as an issue deriving from driving a car, hence future technologies should be tailored to make people more aware of the issue and to enable them to express their preferences.",
+        "url": "http://arxiv.org/abs/2111.12027v2",
+        "source": "arxiv"
+    },
+    {
+        "title": "DoS Protection through Credit Based Metering -- Simulation-Based Evaluation for Time-Sensitive Networking in Cars",
+        "authors": [
+            "Philipp Meyer",
+            "Timo H\u00e4ckel",
+            "Franz Korf",
+            "Thomas C. Schmidt"
+        ],
+        "published": "2019-08-26T12:36:48Z",
+        "summary": "Ethernet is the most promising solution to reduce complexity and enhance the bandwidth in the next generation in-car networks. Dedicated Ethernet protocols enable the real-time aspects in such networks. One promising candidate is the IEEE 802.1Q Time-Sensitive Networking protocol suite. Common Ethernet technologies, however, increases the vulnerability of the car infrastructure as they widen the attack surface for many components. In this paper proposes an IEEE 802.1Qci based algorithm that on the one hand, protects against DoS attacks by metering incoming Ethernet frames. On the other hand, it adapts to the behavior of the Credit Based Shaping algorithm, which was standardized for Audio/Video Bridging, the predecessor of Time-Sensitive Networking. A simulation of this proposed Credit Based Metering algorithm evaluates the concept.",
+        "url": "http://arxiv.org/abs/1908.09646v2",
+        "source": "arxiv"
+    },
+    {
+        "title": "DreamCar: Leveraging Car-specific Prior for in-the-wild 3D Car Reconstruction",
+        "authors": [
+            "Xiaobiao Du",
+            "Haiyang Sun",
+            "Ming Lu",
+            "Tianqing Zhu",
+            "Xin Yu"
+        ],
+        "published": "2024-07-24T04:13:43Z",
+        "summary": "Self-driving industries usually employ professional artists to build exquisite 3D cars. However, it is expensive to craft large-scale digital assets. Since there are already numerous datasets available that contain a vast number of images of cars, we focus on reconstructing high-quality 3D car models from these datasets. However, these datasets only contain one side of cars in the forward-moving scene. We try to use the existing generative models to provide more supervision information, but they struggle to generalize well in cars since they are trained on synthetic datasets not car-specific. In addition, The reconstructed 3D car texture misaligns due to a large error in camera pose estimation when dealing with in-the-wild images. These restrictions make it challenging for previous methods to reconstruct complete 3D cars. To address these problems, we propose a novel method, named DreamCar, which can reconstruct high-quality 3D cars given a few images even a single image. To generalize the generative model, we collect a car dataset, named Car360, with over 5,600 vehicles. With this dataset, we make the generative model more robust to cars. We use this generative prior specific to the car to guide its reconstruction via Score Distillation Sampling. To further complement the supervision information, we utilize the geometric and appearance symmetry of cars. Finally, we propose a pose optimization method that rectifies poses to tackle texture misalignment. Extensive experiments demonstrate that our method significantly outperforms existing methods in reconstructing high-quality 3D cars. \\href{https://xiaobiaodu.github.io/dreamcar-project/}{Our code is available.}",
+        "url": "http://arxiv.org/abs/2407.16988v2",
+        "source": "arxiv"
+    },
+    {
+        "title": "Boussinesq Modeling of Waves, Currents and Sediment Transport",
+        "authors": [
+            {
+                "given": "Wen",
+                "family": "Long",
+                "sequence": "first",
+                "affiliation": []
+            },
+            {
+                "given": "James T.",
+                "family": "Kirby",
+                "sequence": "first",
+                "affiliation": []
+            }
+        ],
+        "year": 2006,
+        "doi": "10.21236/ada455230",
+        "url": "https://doi.org/10.21236/ada455230",
+        "publisher": "Defense Technical Information Center",
+        "source": "crossref"
+    },
+    {
+        "title": "Propagation and Breaking of Wave Groups.",
+        "authors": [
+            {
+                "given": "Jayaram",
+                "family": "Veeramony",
+                "sequence": "first",
+                "affiliation": []
+            },
+            {
+                "given": "Ib A.",
+                "family": "Svendsen",
+                "sequence": "first",
+                "affiliation": []
+            }
+        ],
+        "year": 1995,
+        "doi": "10.21236/ada295225",
+        "url": "https://doi.org/10.21236/ada295225",
+        "publisher": "Defense Technical Information Center",
+        "source": "crossref"
+    },
+    {
+        "title": "A New Boussinesq-Type Model for Surface Water Wave Propagation",
+        "authors": [
+            {
+                "given": "Mauricio F.",
+                "family": "Gobbi",
+                "sequence": "first",
+                "affiliation": []
+            },
+            {
+                "given": "James T.",
+                "family": "Kirby",
+                "sequence": "first",
+                "affiliation": []
+            }
+        ],
+        "year": 1998,
+        "doi": "10.21236/ada344641",
+        "url": "https://doi.org/10.21236/ada344641",
+        "publisher": "Defense Technical Information Center",
+        "source": "crossref"
+    },
+    {
+        "title": "Notizen: Einkristalluntersuchungen von \u03b2-CaCr<sub>2</sub>O<sub>4</sub>.",
+        "authors": [
+            {
+                "given": "W.",
+                "family": "H\u00f6rkner",
+                "sequence": "first",
+                "affiliation": [
+                    {
+                        "name": "Institut f\u00fcr Anorganische Chemie der Universit\u00e4t Kiel"
+                    }
+                ]
+            },
+            {
+                "given": "Hk.",
+                "family": "M\u00fcller-Buschbaum",
+                "sequence": "additional",
+                "affiliation": [
+                    {
+                        "name": "Institut f\u00fcr Anorganische Chemie der Universit\u00e4t Kiel"
+                    }
+                ]
+            }
+        ],
+        "year": 1976,
+        "doi": "10.1515/znb-1976-1229",
+        "url": "https://doi.org/10.1515/znb-1976-1229",
+        "publisher": "Walter de Gruyter GmbH",
+        "source": "crossref"
+    },
+    {
+        "title": "Simulation of Water Waves by Boussinesq Models",
+        "authors": [
+            {
+                "given": "Ge",
+                "family": "Wei",
+                "sequence": "first",
+                "affiliation": []
+            },
+            {
+                "given": "James T.",
+                "family": "Kirby",
+                "sequence": "first",
+                "affiliation": []
+            }
+        ],
+        "year": 1998,
+        "doi": "10.21236/ada344496",
+        "url": "https://doi.org/10.21236/ada344496",
+        "publisher": "Defense Technical Information Center",
+        "source": "crossref"
+    },
+    {
+        "title": "A Randomized Controlled Trial of the Effectiveness of Computer-Assisted Cognitive Remediation (CACR) in Adolescents with Psychosis or at High Risk of Psychosis",
+        "abstract": "Abstract available (needs reconstruction)",
+        "full_text": null,
+        "source": "OpenAlex"
+    },
+    {
+        "title": "Further Insight into the Formation and Oxidation of CaCr<sub>2</sub>O<sub>4</sub> during Solid Fuel Combustion",
+        "abstract": "Abstract available (needs reconstruction)",
+        "full_text": null,
+        "source": "OpenAlex"
+    },
+    {
+        "title": "Die Kristallstruktur von \u03b1\u2010CaCr<sub>2</sub>O<sub>4</sub>",
+        "abstract": "Abstract available (needs reconstruction)",
+        "full_text": null,
+        "source": "OpenAlex"
+    },
+    {
+        "title": "Notizen: Einkristalluntersuchungen von \u03b2-CaCr<sub>2</sub>O<sub>4</sub>.",
+        "abstract": "Abstract available (needs reconstruction)",
+        "full_text": "https://www.degruyter.com/document/doi/10.1515/znb-1976-1229/pdf",
+        "source": "OpenAlex"
+    },
+    {
+        "title": "The System CaO\u2013\u201cCaCr <sub>2</sub> O <sub>4</sub> \u201d\u2013CaAl <sub>2</sub> O <sub>4</sub> in Air and under Mildly Reducing Conditions",
+        "abstract": "Abstract available (needs reconstruction)",
+        "full_text": null,
+        "source": "OpenAlex"
+    },
+    {
+        "title": "From one- to two-magnon excitations in the S=3/2 magnet $\u03b2$-CaCr$_2$O$_4$",
+        "authors": [
+            "M. Songvilay",
+            "S. Petit",
+            "F. Damay",
+            "G. Roux",
+            "N. Qureshi",
+            "H. C. Walker",
+            "J. A. Rodriguez-Rivera",
+            "B. Gao",
+            "S. -W. Cheong",
+            "C. Stock"
+        ],
+        "published": "2020-12-11T13:21:12Z",
+        "summary": "We apply neutron spectroscopy to measure the magnetic dynamics in the S=3/2 magnet $\u03b2$-CaCr$_2$O$_4$ (T$_N$=21 K). The low-energy fluctuations, in the ordered state, resemble large-S linear spin-waves from the incommensurate ground state. However, at higher energy transfers, these semi-classical and harmonic dynamics are replaced by an energy and momentum broadened continuum of excitations. Applying kinematic constraints required for energy and momentum conservation, sum rules of neutron scattering, and comparison against exact diagonalization calculations, we show that the dynamics at high-energy transfers resemble low-S one-dimensional quantum fluctuations. $\u03b2$-CaCr$_2$O$_4$ represents an example of a magnet at the border between classical N\u00e9el and quantum phases, displaying dual characteristics.",
+        "url": "http://arxiv.org/abs/2012.06314v2",
+        "source": "arxiv"
+    },
+    {
+        "title": "Electronic structure and magnetic properties of $\\mathrm{CaCr}\\mathrm{O}_3$: The interplay between spin- and orbital-orderings",
+        "authors": [
+            "Wei Wu"
+        ],
+        "published": "2015-01-01T21:46:55Z",
+        "summary": "The electronic structure and magnetic properties of CaCr$\\mathrm{O}_3$ have been calculated by two methods, including hybrid-exchange density-function theory and density-functional theory + $U$. The computed densities of states from both of these methods are in a qualitative agreement with the previous x-ray spectroscopy. On the other hand, the opening of the band gap separates them apart. hybrid-exchange density-functional theory always gives a finite band gap, down to $\\sim 1.2$ eV from HSE06 functional, whereas by tuning the Hubbard-$U$ parameter down to $0.5$ eV, a conducting state with AFM-C (defined in the text) spin configuration can be achieved. From hybrid density-functional theory, the computed nearest-neighbouring exchange interaction along the $c$-axis and in the $ab$-plane are $\\sim 4$ meV and $\\sim 6$ meV (anti-ferromagnetic), respectively, which are qualitatively in agreement with the previous magnetic measurements. These anti-ferromagnetic exchange interaction, together with the in-plane anti-ferro-orbital ordering will induce a spin-orbital frustration, which could play a role for the abnormal electronic properties in CaCrO$_3$. In hybrid-exchange density-functional theory, an abrupt reduction ($\\sim 0.2$ eV) of the majority-spin band gap of the ferromagnetic state between 60 K and 100 K has been found as lowering temperature, which shows a strong link to the previous optical conductivity measurements in [A. C. Komarek, et. al., Phys. Rev. B \\textbf{84}, 125114 (2011)]. In sharp contrast, the density-functional theory + $U$ methods predicted AFM-C state as the lowest AFM state for the crystal structure measured below 90 K, above which AFM-A is however the lowest. The closely related concepts including electron-hole liquid and surface-plasmon-mediating spin-spin interactions have been discussed as well.",
+        "url": "http://arxiv.org/abs/1501.00319v4",
+        "source": "arxiv"
+    },
+    {
+        "title": "Contrastive Attraction and Contrastive Repulsion for Representation Learning",
+        "authors": [
+            "Huangjie Zheng",
+            "Xu Chen",
+            "Jiangchao Yao",
+            "Hongxia Yang",
+            "Chunyuan Li",
+            "Ya Zhang",
+            "Hao Zhang",
+            "Ivor Tsang",
+            "Jingren Zhou",
+            "Mingyuan Zhou"
+        ],
+        "published": "2021-05-08T17:25:08Z",
+        "summary": "Contrastive learning (CL) methods effectively learn data representations in a self-supervision manner, where the encoder contrasts each positive sample over multiple negative samples via a one-vs-many softmax cross-entropy loss. By leveraging large amounts of unlabeled image data, recent CL methods have achieved promising results when pretrained on large-scale datasets, such as ImageNet. However, most of them consider the augmented views from the same instance are positive pairs, while views from other instances are negative ones. Such binary partition insufficiently considers the relation between samples and tends to yield worse performance when generalized on images in the wild. In this paper, to further improve the performance of CL and enhance its robustness on various datasets, {we propose a doubly CL strategy that separately compares positive and negative samples within their own groups, and then proceeds with a contrast between positive and negative groups}. We realize this strategy with contrastive attraction and contrastive repulsion (CACR), which makes the query not only exert a greater force to attract more distant positive samples but also do so to repel closer negative samples. Theoretical analysis reveals that CACR generalizes CL's behavior by positive attraction and negative repulsion, and it further considers the intra-contrastive relation within the positive and negative pairs to narrow the gap between the sampled and true distribution, which is important when datasets are less curated. With our extensive experiments, CACR not only demonstrates good performance on CL benchmarks, but also shows better robustness when generalized on imbalanced image datasets. Code and pre-trained checkpoints are available at https://github.com/JegZheng/CACR-SSL.",
+        "url": "http://arxiv.org/abs/2105.03746v4",
+        "source": "arxiv"
+    },
+    {
+        "title": "Unusual coexistence of negative/positive charge-transfer in mixed-valence Na$_x$Ca$_{1-x}$Cr$_2$O$_4$",
+        "authors": [
+            "M. Taguchi",
+            "H. Yamaoka",
+            "Y. Yamamoto",
+            "H. Sakurai",
+            "N. Tsujii",
+            "M. Sawada",
+            "H. Daimon",
+            "K. Shimada",
+            "J. Mizuki"
+        ],
+        "published": "2017-05-24T11:52:08Z",
+        "summary": "We have investigated the electronic structure of Na$_x$Ca$_{1-x}$Cr$_2$O$_4$ using x-ray absorption spectroscopy together with Anderson impurity model calculations with full multiplets. We show Na$_x$Ca$_{1-x}$Cr$_2$O$_4$ taking a novel mixed-valence electronic state in which the positive charge-transfer (CT) and the negative self-doped states coexist. While CaCr$_2$O$_4$ (one end member) exhibits a typical CT nature with strong covalent character, Na substitution causes a self-doped state with an oxygen hole. In NaCr$_2$O$_4$ (the other end member), positive CT and negative self-doped states coexist with equal weight. This unusual electronic state is in sharp contrast to the conventional mixed-valence description, in which the ground state can be described by the mixture of Cr$^{3+}$ ($3d^3$) and Cr$^{4+}$ ($3d^2$).",
+        "url": "http://arxiv.org/abs/1705.08712v1",
+        "source": "arxiv"
+    },
+    {
+        "title": "Cross-modal Attention Congruence Regularization for Vision-Language Relation Alignment",
+        "authors": [
+            "Rohan Pandey",
+            "Rulin Shao",
+            "Paul Pu Liang",
+            "Ruslan Salakhutdinov",
+            "Louis-Philippe Morency"
+        ],
+        "published": "2022-12-20T18:53:14Z",
+        "summary": "Despite recent progress towards scaling up multimodal vision-language models, these models are still known to struggle on compositional generalization benchmarks such as Winoground. We find that a critical component lacking from current vision-language models is relation-level alignment: the ability to match directional semantic relations in text (e.g., \"mug in grass\") with spatial relationships in the image (e.g., the position of the mug relative to the grass). To tackle this problem, we show that relation alignment can be enforced by encouraging the directed language attention from 'mug' to 'grass' (capturing the semantic relation 'in') to match the directed visual attention from the mug to the grass. Tokens and their corresponding objects are softly identified using the cross-modal attention. We prove that this notion of soft relation alignment is equivalent to enforcing congruence between vision and language attention matrices under a 'change of basis' provided by the cross-modal attention matrix. Intuitively, our approach projects visual attention into the language attention space to calculate its divergence from the actual language attention, and vice versa. We apply our Cross-modal Attention Congruence Regularization (CACR) loss to UNITER and improve on the state-of-the-art approach to Winoground.",
+        "url": "http://arxiv.org/abs/2212.10549v2",
+        "source": "arxiv"
+    },
+    {
+        "title": "Leisure sex: more sex! Better sex! Sex is fucking brilliant! Sex, sex, sex, SEX",
+        "authors": null,
+        "year": 2013,
+        "doi": "10.4324/9780203140505-40",
+        "url": "https://doi.org/10.4324/9780203140505-40",
+        "publisher": "Routledge",
+        "source": "crossref"
+    },
+    {
+        "title": "SEX! SEX! SEX! SEX! SEX! SEX! SEX! I forget what this chapter is about. But you won\u2019t. Not ever",
+        "authors": null,
+        "year": 2013,
+        "doi": "10.4324/9780203109038-12",
+        "url": "https://doi.org/10.4324/9780203109038-12",
+        "publisher": "Routledge",
+        "source": "crossref"
+    },
+    {
+        "title": "Sex",
+        "authors": null,
+        "year": 2014,
+        "doi": "10.4324/9781315828251-5",
+        "url": "https://doi.org/10.4324/9781315828251-5",
+        "publisher": "Routledge",
+        "source": "crossref"
+    },
+    {
+        "title": "!!++SeX~VIDEO_XXX*^!) video free sex xxx sex videos",
+        "authors": [
+            {
+                "given": "nehmii",
+                "family": "nehmii",
+                "sequence": "first",
+                "affiliation": []
+            }
+        ],
+        "year": 2026,
+        "doi": "10.55277/researchhub.9lrpuyzg",
+        "url": "https://doi.org/10.55277/researchhub.9lrpuyzg",
+        "publisher": "ResearchHub Technologies, Inc.",
+        "source": "crossref"
+    },
+    {
+        "title": "Nature of Sex",
+        "authors": null,
+        "year": 2014,
+        "doi": "10.4324/9781315828251-9",
+        "url": "https://doi.org/10.4324/9781315828251-9",
+        "publisher": "Routledge",
+        "source": "crossref"
+    },
+    {
+        "title": "The descent of man and selection in relation to sex",
+        "abstract": "Abstract available (needs reconstruction)",
+        "full_text": "https://www.jstage.jst.go.jp/article/ase1887/22/258/22_258_495/_pdf",
+        "source": "OpenAlex"
+    },
+    {
+        "title": "Sex differences in immune responses",
+        "abstract": null,
+        "full_text": null,
+        "source": "OpenAlex"
+    },
+    {
+        "title": "The Second Sex",
+        "abstract": "Abstract available (needs reconstruction)",
+        "full_text": null,
+        "source": "OpenAlex"
+    },
+    {
+        "title": "Bodies that Matter: on the Discursive Limits of 'Sex'",
+        "abstract": null,
+        "full_text": null,
+        "source": "OpenAlex"
+    },
+    {
+        "title": "The psychology of sex differences",
+        "abstract": null,
+        "full_text": null,
+        "source": "OpenAlex"
+    },
+    {
+        "title": "Kinsey Reporter: Citizen Science for Sex Research",
+        "authors": [
+            "Clayton A Davis",
+            "Julia Heiman",
+            "Erick Janssen",
+            "Stephanie Sanders",
+            "Justin Garcia",
+            "Filippo Menczer"
+        ],
+        "published": "2016-02-16T01:07:32Z",
+        "summary": "Kinsey Reporter is a global mobile app to share, explore, and visualize anonymous data about sex. Reports are submitted via smartphone, then visualized on a website or downloaded for offline analysis. In this paper we present the major features of the Kinsey Reporter citizen science platform designed to preserve the anonymity of its contributors, and preliminary data analyses that suggest questions for future research.",
+        "url": "http://arxiv.org/abs/1602.04878v1",
+        "source": "arxiv"
+    },
+    {
+        "title": "The contribution of star scientists to overall sex differences in research productivity",
+        "authors": [
+            "Giovanni Abramo",
+            "Ciriaco Andrea D'Angelo",
+            "Alessandro Caprasecca"
+        ],
+        "published": "2018-11-21T11:46:51Z",
+        "summary": "The state of the art on the issue of sex differences in research efficiency agrees in recognizing higher performances for males, however there are divergences in explaining the possible causes. One of the causes advanced is that there are sex differences in the availability of aptitude at the \"high end\". By comparing sex differences in concentration and performance of Italian academic star scientists to the case in the population complement, this work aims to verify if star, or \"high-end\", scientists play a preponderant role in determining higher performance among males. The study reveals the existence of a greater relative concentration of males among star scientists, as well as a performance gap between male and female star scientists that is greater than for the rest of the population. In the latter subpopulation the performance gap between the two sexs is seen as truly marginal.",
+        "url": "http://arxiv.org/abs/1811.08696v1",
+        "source": "arxiv"
+    },
+    {
+        "title": "The Dynamics of Sex Ratio Evolution: From the Gene Perspective to Multilevel Selection",
+        "authors": [
+            "Krzysztof Argasinski"
+        ],
+        "published": "2013-04-19T19:50:56Z",
+        "summary": "The new dynamical game theoretic model of sex ratio evolution emphasizes the role of males as passive carriers of sex ratio genes. This shows inconsistency between population genetic models of sex ratio evolution and classical strategic models. In this work a novel technique of change of coordinates will be applied to the new model. This will reveal new aspects of the modelled phenomenon which cannot be shown or proven in the original formulation. The underlying goal is to describe the dynamics of selection of particular genes in the entire population, instead of in the same sex subpopulation, as in the previous paper and earlier population genetics approaches. This allows for analytical derivation of the unbiased strategic model from the model with rigorous non-simplified genetics. In effect, an alternative system of replicator equations is derived. It contains two subsystems: the first describes changes in gene frequencies (this is an alternative unbiased formalization of the Fisher-Dusing argument), whereas the second describes changes in the sex ratios in subpopulations of carriers of genes for each strategy. An intriguing analytical result of this work is that fitness of a gene depends on the current sex ratio in the subpopulation of its carriers, not on the encoded individual strategy. Thus, the argument of the gene fitness function is not constant but is determined by the trajectory of the sex ratio among carriers of that gene. This aspect of the modelled phenomenon cannot be revealed by the static analysis. Dynamics of the sex ratio among gene carriers is driven by a dynamic \"tug of war\" between female carriers expressing the encoded strategic trait value and random partners of male carriers expressing the average population strategy (a primary sex ratio). This mechanism can be called \"double level selection\". Therefore, gene interest perspective leads to multi-level selection.",
+        "url": "http://arxiv.org/abs/1304.5519v2",
+        "source": "arxiv"
+    },
+    {
+        "title": "Modelling Sex Ratio and Numbers for Translocation in Meta-Population Management",
+        "authors": [
+            "Peter R. Law"
+        ],
+        "published": "2007-02-18T17:31:59Z",
+        "summary": "  The management of endangered species as metapopulations is becoming increasingly common. Diverse aspects of metapopulation dynamics and management have received attention in recent years. In particular, translocation of individuals between subpopulations of a metapopulation is practiced, or envisaged, for a variety of reasons and requires careful consideration. Linklater (2003) proposed that the number of individuals of each sex translocated into a target population for the purposes of maintaining genetic diversity could be chosen on the basis of parental investment theory. In this paper, following basic ideas in the parental investment literature, I propose a simple model to capture Linklater's proposal and provide a thorough mathematical analysis of the model. Granted the necessary species-specific biological information which would determine the model parameters in any instance of application, the analysis indicates that a practical algorithm can be constructed to generate the model's predictions for the optimal translocation.",
+        "url": "http://arxiv.org/abs/q-bio/0702038v2",
+        "source": "arxiv"
+    },
+    {
+        "title": "A Dual Role for Sex?",
+        "authors": [
+            "Pavel Gorodetsky",
+            "Emmanuel Tannenbaum"
+        ],
+        "published": "2008-08-29T23:58:49Z",
+        "summary": "  The two classic theories for the existence of sexual replication are that sex purges deleterious mutations from a population, and that sex allows a population to adapt more rapidly to changing environments. These two theories have often been presented as opposing explanations for the existence of sex. Here, we develop and analyze evolutionary models based on the asexual and sexual replication pathways in Saccharomyces cerevisiae (Baker's yeast), and show that sexual replication can both purge deleterious mutations in a static environment, as well as lead to faster adaptation in a dynamic environment. This implies that sex can serve a dual role, which is in sharp contrast to previous theories.",
+        "url": "http://arxiv.org/abs/0809.0029v1",
+        "source": "arxiv"
+    },
+    {
+        "title": "Sex differences in immune responses",
+        "authors": [
+            {
+                "authorId": "2235059326",
+                "name": "S. Klein"
+            },
+            {
+                "authorId": "4069461",
+                "name": "K. Flanagan"
+            }
+        ],
+        "year": 2016,
+        "url": "https://www.semanticscholar.org/paper/a693ec1c22fb740f2bc4ad820dbf035cf3ed28db",
+        "source": "semantic_scholar"
+    },
+    {
+        "title": "Association of Sex With Neurobehavioral Markers of Executive Function in 2-Year-Olds at High and Low Likelihood of Autism",
+        "authors": [
+            {
+                "authorId": "50452414",
+                "name": "T. St John"
+            },
+            {
+                "authorId": "5298314",
+                "name": "A. Estes"
+            },
+            {
+                "authorId": "1854774",
+                "name": "H. Hazlett"
+            },
+            {
+                "authorId": "2237760671",
+                "name": "N. Marrus"
+            },
+            {
+                "authorId": "2242485031",
+                "name": "Catherine A. Burrows"
+            },
+            {
+                "authorId": "2242484864",
+                "name": "Kevin Donovan"
+            },
+            {
+                "authorId": "2242500428",
+                "name": "Santiago Torres Gomez"
+            },
+            {
+                "authorId": "2274251985",
+                "name": "R. Grzadzinski"
+            },
+            {
+                "authorId": "1401763614",
+                "name": "J. Parish-Morris"
+            },
+            {
+                "authorId": "2157281633",
+                "name": "R. Smith"
+            },
+            {
+                "authorId": "1490813437",
+                "name": "M. Styner"
+            },
+            {
+                "authorId": "12041612",
+                "name": "Dea Garic"
+            },
+            {
+                "authorId": "1887027",
+                "name": "J. Pandey"
+            },
+            {
+                "authorId": "2244118942",
+                "name": "Chimei M. Lee"
+            },
+            {
+                "authorId": "2099348011",
+                "name": "R. Schultz"
+            },
+            {
+                "authorId": "3282007",
+                "name": "K. Botteron"
+            },
+            {
+                "authorId": "2371796",
+                "name": "L. Zwaigenbaum"
+            },
+            {
+                "authorId": "2718912",
+                "name": "J. Piven"
+            },
+            {
+                "authorId": "1752544801",
+                "name": "Stephen R Dager"
+            }
+        ],
+        "year": 2023,
+        "url": "https://www.semanticscholar.org/paper/aca7cb2bb531e60a590e40a256674b67f0a88cde",
+        "source": "semantic_scholar"
+    },
+    {
+        "title": "Sex differences in social behavior : a social-role interpretation",
+        "authors": [
+            {
+                "authorId": "5689005",
+                "name": "A. Eagly"
+            }
+        ],
+        "year": 1987,
+        "url": "https://www.semanticscholar.org/paper/72f187a27f4fd5d23bbbda18e5a9810db1d94ab1",
+        "source": "semantic_scholar"
+    },
+    {
+        "title": "Bodies That Matter On The Discursive Limits Of Sex",
+        "authors": [
+            {
+                "authorId": "112869595",
+                "name": "J. Butler"
+            }
+        ],
+        "year": 1993,
+        "url": "https://www.semanticscholar.org/paper/978fa7f2839e4ca1ebbd24996c2ecb28e9e73d3f",
+        "source": "semantic_scholar"
+    },
+    {
+        "title": "Gender schema theory: A cognitive account of sex typing.",
+        "authors": [
+            {
+                "authorId": "6149792",
+                "name": "S. Bem"
+            }
+        ],
+        "year": 1981,
+        "url": "https://www.semanticscholar.org/paper/d96d049243e90d9bc5480aaaa4ca5b375db082cf",
+        "source": "semantic_scholar"
+    },
+    {
+        "title": "Leisure sex: more sex! Better sex! Sex is fucking brilliant! Sex, sex, sex, SEX",
+        "authors": null,
+        "year": 2013,
+        "doi": "10.4324/9780203140505-40",
+        "url": "https://doi.org/10.4324/9780203140505-40",
+        "publisher": "Routledge",
+        "source": "crossref"
+    },
+    {
+        "title": "SEX! SEX! SEX! SEX! SEX! SEX! SEX! I forget what this chapter is about. But you won\u2019t. Not ever",
+        "authors": null,
+        "year": 2013,
+        "doi": "10.4324/9780203109038-12",
+        "url": "https://doi.org/10.4324/9780203109038-12",
+        "publisher": "Routledge",
+        "source": "crossref"
+    },
+    {
+        "title": "Sex",
+        "authors": null,
+        "year": 2014,
+        "doi": "10.4324/9781315828251-5",
+        "url": "https://doi.org/10.4324/9781315828251-5",
+        "publisher": "Routledge",
+        "source": "crossref"
+    },
+    {
+        "title": "!!++SeX~VIDEO_XXX*^!) video free sex xxx sex videos",
+        "authors": [
+            {
+                "given": "nehmii",
+                "family": "nehmii",
+                "sequence": "first",
+                "affiliation": []
+            }
+        ],
+        "year": 2026,
+        "doi": "10.55277/researchhub.9lrpuyzg",
+        "url": "https://doi.org/10.55277/researchhub.9lrpuyzg",
+        "publisher": "ResearchHub Technologies, Inc.",
+        "source": "crossref"
+    },
+    {
+        "title": "Nature of Sex",
+        "authors": null,
+        "year": 2014,
+        "doi": "10.4324/9781315828251-9",
+        "url": "https://doi.org/10.4324/9781315828251-9",
+        "publisher": "Routledge",
+        "source": "crossref"
+    },
+    {
+        "title": "Sex differences in immune responses",
+        "abstract": null,
+        "full_text": null,
+        "source": "OpenAlex"
+    },
+    {
+        "title": "The descent of man and selection in relation to sex",
+        "abstract": "Abstract available (needs reconstruction)",
+        "full_text": "https://www.jstage.jst.go.jp/article/ase1887/22/258/22_258_495/_pdf",
+        "source": "OpenAlex"
+    },
+    {
+        "title": "The Second Sex",
+        "abstract": "Abstract available (needs reconstruction)",
+        "full_text": null,
+        "source": "OpenAlex"
+    },
+    {
+        "title": "Demarginalizing the Intersection of Race and Sex: A Black Feminist Critique of Antidiscrimination Doctrine, Feminist Theory, and Antiracist Politics [1989]",
+        "abstract": "Abstract available (needs reconstruction)",
+        "full_text": null,
+        "source": "OpenAlex"
+    },
+    {
+        "title": "Demarginalizing the Intersection of Race and Sex: A Black Feminist Critique of Antidiscrimination Doctrine, Feminist Theory, and Antiracist Politics",
+        "abstract": "Abstract available (needs reconstruction)",
+        "full_text": "https://api.taylorfrancis.com/content/chapters/edit/download?identifierName=doi&identifierValue=10.4324/9780429499142-5&type=chapterpdf",
+        "source": "OpenAlex"
+    },
+    {
+        "title": "Kinsey Reporter: Citizen Science for Sex Research",
+        "authors": [
+            "Clayton A Davis",
+            "Julia Heiman",
+            "Erick Janssen",
+            "Stephanie Sanders",
+            "Justin Garcia",
+            "Filippo Menczer"
+        ],
+        "published": "2016-02-16T01:07:32Z",
+        "summary": "Kinsey Reporter is a global mobile app to share, explore, and visualize anonymous data about sex. Reports are submitted via smartphone, then visualized on a website or downloaded for offline analysis. In this paper we present the major features of the Kinsey Reporter citizen science platform designed to preserve the anonymity of its contributors, and preliminary data analyses that suggest questions for future research.",
+        "url": "http://arxiv.org/abs/1602.04878v1",
+        "source": "arxiv"
+    },
+    {
+        "title": "The contribution of star scientists to overall sex differences in research productivity",
+        "authors": [
+            "Giovanni Abramo",
+            "Ciriaco Andrea D'Angelo",
+            "Alessandro Caprasecca"
+        ],
+        "published": "2018-11-21T11:46:51Z",
+        "summary": "The state of the art on the issue of sex differences in research efficiency agrees in recognizing higher performances for males, however there are divergences in explaining the possible causes. One of the causes advanced is that there are sex differences in the availability of aptitude at the \"high end\". By comparing sex differences in concentration and performance of Italian academic star scientists to the case in the population complement, this work aims to verify if star, or \"high-end\", scientists play a preponderant role in determining higher performance among males. The study reveals the existence of a greater relative concentration of males among star scientists, as well as a performance gap between male and female star scientists that is greater than for the rest of the population. In the latter subpopulation the performance gap between the two sexs is seen as truly marginal.",
+        "url": "http://arxiv.org/abs/1811.08696v1",
+        "source": "arxiv"
+    },
+    {
+        "title": "The Dynamics of Sex Ratio Evolution: From the Gene Perspective to Multilevel Selection",
+        "authors": [
+            "Krzysztof Argasinski"
+        ],
+        "published": "2013-04-19T19:50:56Z",
+        "summary": "The new dynamical game theoretic model of sex ratio evolution emphasizes the role of males as passive carriers of sex ratio genes. This shows inconsistency between population genetic models of sex ratio evolution and classical strategic models. In this work a novel technique of change of coordinates will be applied to the new model. This will reveal new aspects of the modelled phenomenon which cannot be shown or proven in the original formulation. The underlying goal is to describe the dynamics of selection of particular genes in the entire population, instead of in the same sex subpopulation, as in the previous paper and earlier population genetics approaches. This allows for analytical derivation of the unbiased strategic model from the model with rigorous non-simplified genetics. In effect, an alternative system of replicator equations is derived. It contains two subsystems: the first describes changes in gene frequencies (this is an alternative unbiased formalization of the Fisher-Dusing argument), whereas the second describes changes in the sex ratios in subpopulations of carriers of genes for each strategy. An intriguing analytical result of this work is that fitness of a gene depends on the current sex ratio in the subpopulation of its carriers, not on the encoded individual strategy. Thus, the argument of the gene fitness function is not constant but is determined by the trajectory of the sex ratio among carriers of that gene. This aspect of the modelled phenomenon cannot be revealed by the static analysis. Dynamics of the sex ratio among gene carriers is driven by a dynamic \"tug of war\" between female carriers expressing the encoded strategic trait value and random partners of male carriers expressing the average population strategy (a primary sex ratio). This mechanism can be called \"double level selection\". Therefore, gene interest perspective leads to multi-level selection.",
+        "url": "http://arxiv.org/abs/1304.5519v2",
+        "source": "arxiv"
+    },
+    {
+        "title": "Modelling Sex Ratio and Numbers for Translocation in Meta-Population Management",
+        "authors": [
+            "Peter R. Law"
+        ],
+        "published": "2007-02-18T17:31:59Z",
+        "summary": "  The management of endangered species as metapopulations is becoming increasingly common. Diverse aspects of metapopulation dynamics and management have received attention in recent years. In particular, translocation of individuals between subpopulations of a metapopulation is practiced, or envisaged, for a variety of reasons and requires careful consideration. Linklater (2003) proposed that the number of individuals of each sex translocated into a target population for the purposes of maintaining genetic diversity could be chosen on the basis of parental investment theory. In this paper, following basic ideas in the parental investment literature, I propose a simple model to capture Linklater's proposal and provide a thorough mathematical analysis of the model. Granted the necessary species-specific biological information which would determine the model parameters in any instance of application, the analysis indicates that a practical algorithm can be constructed to generate the model's predictions for the optimal translocation.",
+        "url": "http://arxiv.org/abs/q-bio/0702038v2",
+        "source": "arxiv"
+    },
+    {
+        "title": "Decoding Dmrt1: Insights into vertebrate sex determination and gonadal sex differentiation",
+        "authors": [
+            "Barbora Augstenov\u00e1",
+            "Wen-Juan Ma"
+        ],
+        "published": "2024-07-15T12:55:32Z",
+        "summary": "Dmrt1 is pivotal in testis formation and function by interacting with genes crucial for Sertoli cell differentiation. Dmrt1, or Sox9, forms a conserved antagonistic interaction with Foxl2 across mammals. Across 128 vertebrate species, Dmrt1 exhibits sexually dimorphic expression, implicating its role in master regulation of sex determination and gonadal sex differentiation. Dmrt1 emerges as a master/upstream sex-determining gene in one fish, frog, chicken and turtle. Recent studies suggest epigenetic regulation of Dmrt1 in its promoter methylation, and transposable element insertion introducing epigenetic modification to cis-regulatory elements of Dmrt1, alongside non-coding RNA involvement, in a wide spectrum of sex-determining mechanisms ranging from genetic factors, to interactions between genetic factors with the environment, to solely environmental factors. Additionally, alternative splicing of Dmrt1 was found in all major vertebrate groups except amphibians. Dmrt1 has evolved many lineage-specific isoforms (ranging from 2 to 10), and various isoforms showed sex, tissue or development-specific expression, which is in contrast to the highly conserved sex-specific splicing of its homolog Dsx across insects. Future research should focus on understanding the molecular basis of environmental sex determination from a broader taxon, and the molecular basis of epigenetic regulation. It is also essential to understand why and how multiple alternative splicing variants of Dmrt1 evolve in vertebrates, the specific roles each isoform plays in sex determination and gonadal sex differentiation, as well as the significant differences in the molecular mechanisms and functions of alternative splicing between Dmrt1 in vertebrates and Dsx in insects. Understanding the differences could provide deeper insights into the evolution of sex-determining mechanisms between vertebrates and insects.",
+        "url": "http://arxiv.org/abs/2407.12060v3",
+        "source": "arxiv"
+    },
+    {
+        "title": "CHARACTERISTICS OF Sargassum polycystum AS AN ALGINATE RAW MATERIALBASED ON SNI 2346:2015",
+        "authors": [
+            {
+                "authorId": "2397105319",
+                "name": "Christine Parsaulian"
+            },
+            {
+                "authorId": "2397110772",
+                "name": "Ninoek Indriyati"
+            },
+            {
+                "authorId": "2279946085",
+                "name": "Niken Dharmayanti"
+            },
+            {
+                "authorId": "2337265388",
+                "name": "M. A. Azis"
+            },
+            {
+                "authorId": "2337267199",
+                "name": "Husnul Khatimah Ramli"
+            }
+        ],
+        "year": 2025,
+        "url": "https://www.semanticscholar.org/paper/463e49cf859da7b02fd3a3cc346ca52e9dc2b434",
+        "source": "semantic_scholar"
+    },
+    {
+        "title": "#2346 Prognosis of the kidney transplant patient: the role of \"traditional\" risk",
+        "authors": [
+            {
+                "authorId": "2308994106",
+                "name": "Michele Provenzano"
+            },
+            {
+                "authorId": "2706685",
+                "name": "R. Minutolo"
+            },
+            {
+                "authorId": "2265477493",
+                "name": "L. De Nicola"
+            },
+            {
+                "authorId": "2153121491",
+                "name": "Lilio Hu"
+            },
+            {
+                "authorId": "2243124458",
+                "name": "G. Grandaliano"
+            },
+            {
+                "authorId": "36534014",
+                "name": "C. Garofalo"
+            },
+            {
+                "authorId": "2309000233",
+                "name": "Roberta Arena"
+            },
+            {
+                "authorId": "2279864202",
+                "name": "Rosita Greco"
+            },
+            {
+                "authorId": "2295219983",
+                "name": "Gianluigi Zaza"
+            }
+        ],
+        "year": 2025,
+        "url": "https://www.semanticscholar.org/paper/3cdf7908d0beb12f91b4ced55ce662610334a058",
+        "source": "semantic_scholar"
+    },
+    {
+        "title": "Abstract 2346: Association of serum creatinine- and cystatin c-based diagnostic indices for sarcopenia with major chronic diseases",
+        "authors": [
+            {
+                "authorId": "2216151363",
+                "name": "Fangfang Song"
+            },
+            {
+                "authorId": "2248478690",
+                "name": "Huijun Zhou"
+            },
+            {
+                "authorId": "2141034861",
+                "name": "Fubin Liu"
+            },
+            {
+                "authorId": "2164890305",
+                "name": "Yu Peng"
+            },
+            {
+                "authorId": "2258542592",
+                "name": "Peng Wang"
+            },
+            {
+                "authorId": "2216649214",
+                "name": "Jianxiao Gong"
+            },
+            {
+                "authorId": "2320185252",
+                "name": "Jiale Gu"
+            },
+            {
+                "authorId": "2319103037",
+                "name": "Ailing Qin"
+            }
+        ],
+        "year": 2025,
+        "url": "https://www.semanticscholar.org/paper/351efb177c58317f012b46c21f8fa774e254fad3",
+        "source": "semantic_scholar"
+    },
+    {
+        "title": "P-2346. Mpox-Specific Cellular and Humoral immunity in Mpox-Survivors Living With HIV",
+        "authors": [
+            {
+                "authorId": "2268754613",
+                "name": "Samuel D. Stampfer"
+            },
+            {
+                "authorId": "2075381473",
+                "name": "Shainy Sambyal"
+            },
+            {
+                "authorId": "48758128",
+                "name": "Sailaja Gangadhara"
+            },
+            {
+                "authorId": "2268740249",
+                "name": "Colleen F Kelley"
+            },
+            {
+                "authorId": "2325640681",
+                "name": "R. Amara"
+            },
+            {
+                "authorId": "2241648574",
+                "name": "A. Sheth"
+            }
+        ],
+        "year": 2025,
+        "url": "https://www.semanticscholar.org/paper/d7ceb0b62c704bc936e3b231a4fd892697f85d81",
+        "source": "semantic_scholar"
+    },
+    {
+        "title": "Penyelesaian Sengketa Pengembalian Dana Haji Perspektif Fatwa DSN-MUI Nomor: 29/DSN-MUI/VI/2002 (Studi Putusan Nomor: 2346/Pdt.G/2021/PA.Mdn)",
+        "authors": [
+            {
+                "authorId": "134752660",
+                "name": "Sri Rizki"
+            },
+            {
+                "authorId": "123533141",
+                "name": "C. Permata"
+            }
+        ],
+        "year": 2024,
+        "url": "https://www.semanticscholar.org/paper/d2f0615f954b349df11f0891daf0d97148ab5b92",
+        "source": "semantic_scholar"
+    },
+    {
+        "title": "Ricercare",
+        "authors": null,
+        "year": null,
+        "doi": "10.17230/ricercare",
+        "url": "https://doi.org/10.17230/ricercare",
+        "publisher": "Universidad EAFIT",
+        "source": "crossref"
+    },
+    {
+        "title": "Trophallaxis",
+        "authors": null,
+        "year": null,
+        "doi": "10.1007/0-306-48380-7_4405",
+        "url": "https://doi.org/10.1007/0-306-48380-7_4405",
+        "publisher": "Kluwer Academic Publishers",
+        "source": "crossref"
+    },
+    {
+        "title": "Trophic Egg",
+        "authors": null,
+        "year": null,
+        "doi": "10.1007/0-306-48380-7_4406",
+        "url": "https://doi.org/10.1007/0-306-48380-7_4406",
+        "publisher": "Kluwer Academic Publishers",
+        "source": "crossref"
+    },
+    {
+        "title": "Caliphate Medical Journal",
+        "authors": null,
+        "year": null,
+        "doi": "10.47837/cmj",
+        "url": "https://doi.org/10.47837/cmj",
+        "publisher": "Nigerian Medical Association Sokoto State Branch",
+        "source": "crossref"
+    },
+    {
+        "title": "Trophogenic Polymorphism",
+        "authors": null,
+        "year": null,
+        "doi": "10.1007/0-306-48380-7_4409",
+        "url": "https://doi.org/10.1007/0-306-48380-7_4409",
+        "publisher": "Kluwer Academic Publishers",
+        "source": "crossref"
+    },
+    {
+        "title": "Prehistoric Cannibalism at Mancos 5MTUMR-2346",
+        "abstract": "Abstract available (needs reconstruction)",
+        "full_text": null,
+        "source": "OpenAlex"
+    },
+    {
+        "title": "Prehistoric Cannibalism at Mancos 5MTUMR-2346",
+        "abstract": "Abstract available (needs reconstruction)",
+        "full_text": null,
+        "source": "OpenAlex"
+    },
+    {
+        "title": "Prehistoric cannibalism at Mancos 5MTUMR-2346",
+        "abstract": null,
+        "full_text": null,
+        "source": "OpenAlex"
+    },
+    {
+        "title": "Molecular hydrogen maps of extended planetary nebulae - The Dumbbell, the Ring, and NGC 2346",
+        "abstract": "Abstract available (needs reconstruction)",
+        "full_text": null,
+        "source": "OpenAlex"
+    },
+    {
+        "title": "The binary central star of NGC 2346 and the extinction puzzle",
+        "abstract": "Abstract available (needs reconstruction)",
+        "full_text": null,
+        "source": "OpenAlex"
+    },
+    {
+        "title": "A near-infrared study of the planetary nebula NGC 2346",
+        "authors": [
+            "B. Vicini",
+            "A. Natta",
+            "A. Marconi",
+            "L. Testi",
+            "D. Hollenbach",
+            "B. T. Draine"
+        ],
+        "published": "1998-11-04T19:32:33Z",
+        "summary": "  This paper presents new near-infrared observations of the planetary nebula NGC 2346. The data include a broad K-band image, an image in the H2 vibrationally excited 1-0S(1) line and K band slit spectra at three positions in the nebula. In the H2 1-0S(1) line, the nebula is characterized by a central, bright torus, surrounded by weaker emission with a typical butterfly shape, as seen in Halpha and CO lines. The K band spectra show 11 H2 lines with excitation energies from 6150 to 12552 K. The H2 data have been compared to the predictions of models which follow the evolution with time of the H2 emission in PNe of different core mass and shell properties (Natta & Hollenbach 1998). These models compute the emission originating in the photodissociation region (PDR) created at the inner edge of the neutral shell by the UV radiation of the central core, as well as the emission in the shock associated to the expansion of the shell inside the precursor red-giant wind. In NGC 2346, a PDR origin of the H2 emission in a low-density molecular shell (n<~10^4 cm^-3) is indicated. At these low densities, time-dependent H2 chemistry and X-ray heating of the neutral gas enhance the predicted PDR H2 line intensity by large factors.",
+        "url": "http://arxiv.org/abs/astro-ph/9811083v1",
+        "source": "arxiv"
+    },
+    {
+        "title": "High resolution imaging of NGC 2346 with GSAOI/GeMS: disentangling the planetary nebula molecular structure to understand its origin and evolution",
+        "authors": [
+            "Arturo Manchado",
+            "Letizia Stanghellini",
+            "Eva Villaver",
+            "Guillermo Garcia-Segura",
+            "Richard A. Shaw",
+            "D. A. Garcia-Hernandez"
+        ],
+        "published": "2015-06-11T15:38:12Z",
+        "summary": "We present high spatial resolution ($\\approx$ 60--90 milliarcseconds) images of the molecular hydrogen emission in the Planetary Nebula (PN) NGC 2346. The data were acquired during the System Verification of the Gemini Multi-Conjugate Adaptive Optics System + Gemini South Adaptive Optics Imager. At the distance of NGC 2346, 700 pc, the physical resolution corresponds to $\\approx$ 56 AU, which is slightly higher than that an [N II] image of NGC 2346 obtained with HST/WFPC2. With this unprecedented resolution we were able to study in detail the structure of the H$_2$ gas within the nebula for the first time. We found it to be composed of knots and filaments, which at lower resolution had appeared to be a uniform torus of material. We explain how the formation of the clumps and filaments in this PN is consistent with a mechanism in which a central hot bubble of nebular gas surrounding the central star has been depressurized, and the thermal pressure of the photoionized region drives the fragmentation of the swept-up shell.",
+        "url": "http://arxiv.org/abs/1506.03712v1",
+        "source": "arxiv"
+    },
+    {
+        "title": "X-ray Observations of the Bipolar PNe NGC 2346 and NGC 7026",
+        "authors": [
+            "Robert A. Gruendl",
+            "Martin A. Guerrero",
+            "You-Hua Chu",
+            "Rosa M. Williams"
+        ],
+        "published": "2006-07-22T05:49:14Z",
+        "summary": "  We have obtained X-ray observations of the bipolar planetary nebulae (PNe) NGC 2346 and NGC 7026 with XMM-Newton. These observations detected diffuse X-ray emission from NGC 7026 but not from NGC 2346. The X-ray emission from NGC 7026 appears to be confined within the bipolar lobes of the PN and has spectral properties suggesting a thermal plasma emitting at a temperature of 1.1 +0.5/-0.2 times 10^6 K. The X-ray spectrum of NGC 7026 is modeled using nebular and stellar abundances to assess whether a significant amount of nebular material has been mixed into the shocked-wind, but the results of this comparison are not conclusive owing to the small number of counts detected. Observations of bipolar PNe indicate that diffuse X-ray emission is much less likely detected in open-lobed nebulae than closed-lobed nebulae, possibly because open-lobed nebulae do not have strong fast winds or are unable to retain hot gas.",
+        "url": "http://arxiv.org/abs/astro-ph/0607519v1",
+        "source": "arxiv"
+    },
+    {
+        "title": "The 1996-1997 Fading of V651 Mon, the Binary Central Star of the Planetary Nebula NGC 2346",
+        "authors": [
+            "Taichi Kato",
+            "Daisaku Nogami",
+            "Hajime Baba"
+        ],
+        "published": "2001-12-13T06:31:38Z",
+        "summary": "  V651 Mon is the binary central star of the bipolar planetary nebula NGC 2346. The star showed the second-ever deep fading in 1996-1997, which was presumably caused by obscuration by a dust cloud in the planetary nebula, as was proposed to explain the 1981-1985 event. The entire duration of the 1996-1997 event was \\~400 d, remarkably shorter than the 1981-1985 event, suggesting that the obscuring body was smaller or had a larger tangential velocity. The most remarkable feature in this event was the presence of a sharply defined transient clearing (brightening). From the time-scale of the variation, we propose an upper limit of the projected scale of several times ~10^11 cm of the structure responsible for the brightening. This observation provides the first evidence for a sharply defined, small lucent structure within the obscuring body around the central star of NGC 2346",
+        "url": "http://arxiv.org/abs/astro-ph/0112304v1",
+        "source": "arxiv"
+    },
+    {
+        "title": "The Central Star of NGC 2346 as a Clue to Binary Evolution through the Common Envelope Phase",
+        "authors": [
+            "M. A. G\u00f3mez-Mu\u00f1oz",
+            "A. Manchado",
+            "L. Bianchi",
+            "M. Manteiga",
+            "R. V\u00e1zquez"
+        ],
+        "published": "2019-10-04T18:04:33Z",
+        "summary": "We present an analysis of the binary central star of the planetary nebula NGC 2346 based on archival data from the International Ultraviolet Explorer (IUE), and new low- and high-resolution optical spectra (3700 - 7300\u00c5). By including in the spectral analysis the contribution of both stellar and nebular continuum, we reconciled long-time discrepant UV and optical diagnostics and derive $E(B-V)=0.18\\pm0.01$. We re-classified the companion star as A5IV by analyzing the wings of the Balmer absorption lines in the high-resolution ($R=67\\,000$) optical spectra. Using the distance to the nebula of 1400 pc from Gaia DR2, we constructed a photoionization model based on abundances and line intensities derived from the low-resolution optical spectra, and obtained a temperature of $T_{\\rm eff}=130\\,000$K and a luminosity $L=170$L$_\\odot$ for the ionizing star, consistent with the UV continuum. This analysis allows us to better characterize the binary system's evolution. We conclude that the progenitor star of NGC 2346 has experienced a common envelope phase, in which the companion star has accreted mass and evolved off the main-sequence.",
+        "url": "http://arxiv.org/abs/1910.02090v3",
+        "source": "arxiv"
+    },
+    {
+        "title": "",
+        "authors": null,
+        "year": null,
+        "doi": "10.1107/s0021889807048571/aj5096sup1.cif",
+        "url": "https://doi.org/10.1107/s0021889807048571/aj5096sup1.cif",
+        "publisher": "International Union of Crystallography (IUCr)",
+        "source": "crossref"
+    },
+    {
+        "title": "Exploring stakeholder perceptions and priorities related to reducing tick-related public health risks in natural environments of the United Kingdom",
+        "authors": [
+            {
+                "ORCID": "https://orcid.org/0000-0003-2675-9464",
+                "authenticated-orcid": false,
+                "given": "Festus A.",
+                "family": "Asaaga",
+                "sequence": "first",
+                "affiliation": []
+            },
+            {
+                "given": "Emmanuel S.",
+                "family": "Tomude",
+                "sequence": "additional",
+                "affiliation": []
+            },
+            {
+                "given": "Hermann",
+                "family": "Kam",
+                "sequence": "additional",
+                "affiliation": []
+            },
+            {
+                "given": "Richard M. J.",
+                "family": "Hassall",
+                "sequence": "additional",
+                "affiliation": []
+            },
+            {
+                "given": "Kayleigh M.",
+                "family": "Hansford",
+                "sequence": "additional",
+                "affiliation": []
+            },
+            {
+                "given": "Saudamini",
+                "family": "Venkatesan",
+                "sequence": "additional",
+                "affiliation": []
+            },
+            {
+                "given": "Maya",
+                "family": "Holding",
+                "sequence": "additional",
+                "affiliation": []
+            },
+            {
+                "given": "Dominic P.",
+                "family": "Brass",
+                "sequence": "additional",
+                "affiliation": []
+            },
+            {
+                "given": "Caroline",
+                "family": "Millins",
+                "sequence": "additional",
+                "affiliation": []
+            },
+            {
+                "given": "Lucy",
+                "family": "Gilbert",
+                "sequence": "additional",
+                "affiliation": []
+            },
+            {
+                "given": "Jolyon M.",
+                "family": "Medlock",
+                "sequence": "additional",
+                "affiliation": []
+            },
+            {
+                "given": "Bethan V.",
+                "family": "Purse",
+                "sequence": "additional",
+                "affiliation": []
+            }
+        ],
+        "year": 2025,
+        "doi": "10.1186/s12889-025-24500-7",
+        "url": "https://doi.org/10.1186/s12889-025-24500-7",
+        "publisher": "Springer Science and Business Media LLC",
+        "source": "crossref"
+    },
+    {
+        "title": "On the Diophantine Equations 1/x+1/y+1/z=1/4 and 1/x+1/y+1/z+1/t=1/4",
+        "authors": [
+            {
+                "given": "Rajive",
+                "family": "Atri",
+                "sequence": "first",
+                "affiliation": []
+            }
+        ],
+        "year": 2022,
+        "doi": "10.21275/sr22109130000",
+        "url": "https://doi.org/10.21275/sr22109130000",
+        "publisher": "International Journal of Science and Research",
+        "source": "crossref"
+    },
+    {
+        "title": "X-ray diffraction clay mineralogy analysis of the J.W. Dalton #1; North Kalikpik #1; South Harrison Bay State #1; W.T. Foran #1; East Simpson #1; Ikpikpuk #1; Kugrua #1; Peard #1; Walakpa #1; Inigok #1; East Simpson #2; Tunalik #1; West Dease #1; Kuyanak #1; North Inigok #1; South Meade #1",
+        "authors": [
+            {
+                "name": "Unknown",
+                "sequence": "first",
+                "affiliation": []
+            }
+        ],
+        "year": 1984,
+        "doi": "10.14509/19182",
+        "url": "https://doi.org/10.14509/19182",
+        "publisher": "Alaska Division of Geological & Geophysical Surveys",
+        "source": "crossref"
+    },
+    {
+        "title": "Dye Plants Used by the Indigenous Peoples of the Amur River Basin on Fish Skin Artefacts",
+        "authors": [
+            {
+                "ORCID": "https://orcid.org/0000-0002-4496-3701",
+                "authenticated-orcid": false,
+                "given": "Elisa",
+                "family": "Palomino",
+                "sequence": "first",
+                "affiliation": [
+                    {
+                        "name": "Smithsonian NMNH, Arctic Studies Center, Washington, DC 20560, USA"
+                    },
+                    {
+                        "name": "Department of Asian and North African Studies, Universit\u00e0 Ca\u2032 Foscari, Dorsoduro 3246, 30123 Venice, Italy"
+                    }
+                ]
+            }
+        ],
+        "year": 2025,
+        "doi": "10.3390/heritage8060195",
+        "url": "https://doi.org/10.3390/heritage8060195",
+        "publisher": "MDPI AG",
+        "source": "crossref"
     }
 ]
