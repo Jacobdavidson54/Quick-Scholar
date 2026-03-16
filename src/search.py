@@ -1,4 +1,5 @@
 from src.fetch import fetch_semantic_papers, fetch_crossref_metadata
+from src.utils import normalize_results
 
 def search_papers(query):
 
@@ -14,5 +15,7 @@ def search_papers(query):
 
     if not all_results:
         return {"error": "No papers found"}, 404
+    
+    all_results = normalize_results(all_results)
 
     return all_results, 200

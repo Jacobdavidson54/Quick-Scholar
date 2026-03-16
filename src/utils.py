@@ -1,5 +1,7 @@
+import unicodedata
 import json
 import os
+import re
 
 FILE_NAME = "results_research.json"
 
@@ -18,3 +20,34 @@ def load_file():
 def save_data(data):
     with open(FILE_NAME, "w", encoding="utf-8") as file:
         json.dump(data, file, indent=4)
+
+
+# normalize a single string
+def normalize_string(text):
+
+    if not text:
+        return ""
+
+    text = text.lower()
+
+    text = unicodedata.normalize("NFKD", text)
+    text = text.encode("ascii", "ignore").decode("ascii")
+
+    text = re.sub(r"[^\w\s]", "", text)
+
+    text = text.strip()
+
+    return text
+
+
+# normalize list of papers
+def normalize_results(results):
+
+    for paper in results:
+
+        if "title" in paper:
+            paper["title"] = normalize_string(paper["title"])
+
+    return results
+
+
