@@ -1,41 +1,14 @@
 # main.py
 
 from flask import Flask, request, jsonify
-from src.fetch import fetch_crossref_metadata, fetch_semantic_papers, fetch_openalex_results, fetch_arxiv_data
 from src.utils import initialize_file
-
+from src.search import search_papers
 app = Flask(__name__)
 
 # Initialize JSON file at startup
 initialize_file()
 
-
-# --- Internal logic (main function) ---
-def search_papers(query):
-
-    all_results = []
-
-    semantic_results, status1 = fetch_semantic_papers(query)
-    if status1 == 200:
-        all_results.extend(semantic_results)
-
-    crossref_results, status2 = fetch_crossref_metadata(query)
-    if status2 == 200:
-        all_results.extend(crossref_results)
-
-    openalex_results, status3 = fetch_openalex_results(query)
-    if status3 == 200:
-        all_results.extend(openalex_results)
-
-    arxiv_results, status4 = fetch_arxiv_data(query)
-    if status4 == 200:
-        all_results.extend(arxiv_results)
-
-    if not all_results:
-        return [], 404
-
-    return all_results, 200
-
+# bug fix: Removed the old search logic from main.py and imported the search_papers function from search.py to handle all search logic. This keeps main.py clean and focused on routing, while search.py manages the core functionality of fetching and normalizing paper data.
 
 # --- Flask route ---
 @app.route("/search", methods=["GET"])

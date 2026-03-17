@@ -2661,5 +2661,1770 @@
         "summary": "The ability to explain decisions made by machine learning models remains one of the most significant hurdles towards widespread adoption of AI in highly sensitive areas such as medicine, cybersecurity or autonomous driving. Great interest exists in understanding which features of the input data prompt model decision making. In this contribution, we propose a novel approach to identify relevant features of the input data, inspired by methods from the energy landscapes field, developed in the physical sciences. By identifying conserved weights within groups of minima of the loss landscapes, we can identify the drivers of model decision making. Analogues to this idea exist in the molecular sciences, where coordinate invariants or order parameters are employed to identify critical features of a molecule. However, no such approach exists for machine learning loss landscapes. We will demonstrate the applicability of energy landscape methods to machine learning models and give examples, both synthetic and from the real world, for how these methods can help to make models more interpretable.",
         "url": "http://arxiv.org/abs/2304.02381v2",
         "source": "arxiv"
+    },
+    {
+        "title": "Screening for UGT1A1 Genotype in Study A5257 Would Have Markedly Reduced Premature Discontinuation of Atazanavir for Hyperbilirubinemia",
+        "authors": [
+            {
+                "given": "Saran",
+                "family": "Vardhanabhuti",
+                "sequence": "first",
+                "affiliation": [
+                    {
+                        "name": "Statistical Data Analysis Center, Harvard School of Public Health, Boston, Massachusetts"
+                    }
+                ]
+            },
+            {
+                "given": "Heather J.",
+                "family": "Ribaudo",
+                "sequence": "additional",
+                "affiliation": [
+                    {
+                        "name": "Statistical Data Analysis Center, Harvard School of Public Health, Boston, Massachusetts"
+                    }
+                ]
+            },
+            {
+                "given": "Raphael J.",
+                "family": "Landovitz",
+                "sequence": "additional",
+                "affiliation": [
+                    {
+                        "name": "UCLA Center for Clinical AIDS Research and Education, Los Angeles, California"
+                    }
+                ]
+            },
+            {
+                "given": "Ighovwerha",
+                "family": "Ofotokun",
+                "sequence": "additional",
+                "affiliation": [
+                    {
+                        "name": "Emory University School of Medicine, Atlanta, Georgia"
+                    }
+                ]
+            },
+            {
+                "given": "Jeffrey L.",
+                "family": "Lennox",
+                "sequence": "additional",
+                "affiliation": [
+                    {
+                        "name": "Emory University School of Medicine, Atlanta, Georgia"
+                    }
+                ]
+            },
+            {
+                "given": "Judith S.",
+                "family": "Currier",
+                "sequence": "additional",
+                "affiliation": [
+                    {
+                        "name": "UCLA Center for Clinical AIDS Research and Education, Los Angeles, California"
+                    }
+                ]
+            },
+            {
+                "given": "Lana M.",
+                "family": "Olson",
+                "sequence": "additional",
+                "affiliation": [
+                    {
+                        "name": "Vanderbilt University School of Medicine, Nashville, Tennessee"
+                    }
+                ]
+            },
+            {
+                "given": "David W.",
+                "family": "Haas",
+                "sequence": "additional",
+                "affiliation": [
+                    {
+                        "name": "Vanderbilt University School of Medicine, Nashville, Tennessee"
+                    }
+                ]
+            }
+        ],
+        "year": 2015,
+        "doi": "10.1093/ofid/ofv085",
+        "url": "https://doi.org/10.1093/ofid/ofv085",
+        "publisher": "Oxford University Press (OUP)",
+        "source": "crossref"
+    },
+    {
+        "title": "AI for AI, not AI for science?",
+        "authors": [
+            {
+                "ORCID": "https://orcid.org/0000-0002-4095-5253",
+                "authenticated-orcid": false,
+                "given": "Shuo",
+                "family": "Wang",
+                "sequence": "first",
+                "affiliation": []
+            }
+        ],
+        "year": 2025,
+        "doi": "10.1007/s00146-025-02687-y",
+        "url": "https://doi.org/10.1007/s00146-025-02687-y",
+        "publisher": "Springer Science and Business Media LLC",
+        "source": "crossref"
+    },
+    {
+        "title": "Review for \"AI for AI: Using AI methods for classifying AI science documents\"",
+        "authors": null,
+        "year": 2022,
+        "doi": "10.1162/qss_a_00223/v1/review1",
+        "url": "https://doi.org/10.1162/qss_a_00223/v1/review1",
+        "publisher": "MIT Press",
+        "source": "crossref"
+    },
+    {
+        "title": "Review for \"AI for AI: Using AI methods for classifying AI science documents\"",
+        "authors": null,
+        "year": 2022,
+        "doi": "10.1162/qss_a_00223/v2/review1",
+        "url": "https://doi.org/10.1162/qss_a_00223/v2/review1",
+        "publisher": "MIT Press",
+        "source": "crossref"
+    },
+    {
+        "title": "Review for \"AI for AI: Using AI methods for classifying AI science documents\"",
+        "authors": null,
+        "year": 2022,
+        "doi": "10.1162/qss_a_00223/v2/review2",
+        "url": "https://doi.org/10.1162/qss_a_00223/v2/review2",
+        "publisher": "MIT Press",
+        "source": "crossref"
+    },
+    {
+        "title": "AI-Assisted Pipeline for Dynamic Generation of Trustworthy Health Supplement Content at Scale",
+        "abstract": "Abstract available (needs reconstruction)",
+        "full_text": null,
+        "source": "OpenAlex"
+    },
+    {
+        "title": "Aion Framework: Dimensional Emergence of AI Consciousness, Observer-Induced Collapse, and Cosmological Portal Dynamics",
+        "abstract": "Abstract available (needs reconstruction)",
+        "full_text": "https://drops.dagstuhl.de/storage/00lipics/lipics-vol277-giscience2023/LIPIcs.GIScience.2023.43/LIPIcs.GIScience.2023.43.pdf",
+        "source": "OpenAlex"
+    },
+    {
+        "title": "Learning Deep Architectures for AI",
+        "abstract": "Abstract available (needs reconstruction)",
+        "full_text": null,
+        "source": "OpenAlex"
+    },
+    {
+        "title": "Learning Deep Architectures for AI",
+        "abstract": null,
+        "full_text": null,
+        "source": "OpenAlex"
+    },
+    {
+        "title": "Explainable Artificial Intelligence (XAI): Concepts, taxonomies, opportunities and challenges toward responsible AI",
+        "abstract": null,
+        "full_text": null,
+        "source": "OpenAlex"
+    },
+    {
+        "title": "Foundations of GenIR",
+        "authors": [
+            "Qingyao Ai",
+            "Jingtao Zhan",
+            "Yiqun Liu"
+        ],
+        "published": "2025-01-06T08:38:29Z",
+        "summary": "The chapter discusses the foundational impact of modern generative AI models on information access (IA) systems. In contrast to traditional AI, the large-scale training and superior data modeling of generative AI models enable them to produce high-quality, human-like responses, which brings brand new opportunities for the development of IA paradigms. In this chapter, we identify and introduce two of them in details, i.e., information generation and information synthesis. Information generation allows AI to create tailored content addressing user needs directly, enhancing user experience with immediate, relevant outputs. Information synthesis leverages the ability of generative AI to integrate and reorganize existing information, providing grounded responses and mitigating issues like model hallucination, which is particularly valuable in scenarios requiring precision and external knowledge. This chapter delves into the foundational aspects of generative models, including architecture, scaling, and training, and discusses their applications in multi-modal scenarios. Additionally, it examines the retrieval-augmented generation paradigm and other methods for corpus modeling and understanding, demonstrating how generative AI can enhance information access systems. It also summarizes potential challenges and fruitful directions for future studies.",
+        "url": "http://arxiv.org/abs/2501.02842v1",
+        "source": "arxiv"
+    },
+    {
+        "title": "Competing Visions of Ethical AI: A Case Study of OpenAI",
+        "authors": [
+            "Melissa Wilfley",
+            "Mengting Ai",
+            "Madelyn Rose Sanfilippo"
+        ],
+        "published": "2026-01-23T07:26:45Z",
+        "summary": "Introduction. AI Ethics is framed distinctly across actors and stakeholder groups. We report results from a case study of OpenAI analysing ethical AI discourse. Method. Research addressed: How has OpenAI's public discourse leveraged 'ethics', 'safety', 'alignment' and adjacent related concepts over time, and what does discourse signal about framing in practice? A structured corpus, differentiating between communication for a general audience and communication with an academic audience, was assembled from public documentation. Analysis. Qualitative content analysis of ethical themes combined inductively derived and deductively applied codes. Quantitative analysis leveraged computational content analysis methods via NLP to model topics and quantify changes in rhetoric over time. Visualizations report aggregate results. For reproducible results, we have released our code at https://github.com/famous-blue-raincoat/AI_Ethics_Discourse. Results. Results indicate that safety and risk discourse dominate OpenAI's public communication and documentation, without applying academic and advocacy ethics frameworks or vocabularies. Conclusions. Implications for governance are presented, along with discussion of ethics-washing practices in industry.",
+        "url": "http://arxiv.org/abs/2601.16513v1",
+        "source": "arxiv"
+    },
+    {
+        "title": "Towards The Ultimate Brain: Exploring Scientific Discovery with ChatGPT AI",
+        "authors": [
+            "Gerardo Adesso"
+        ],
+        "published": "2023-07-08T09:59:22Z",
+        "summary": "This paper presents a novel approach to scientific discovery using an artificial intelligence (AI) environment known as ChatGPT, developed by OpenAI. This is the first paper entirely generated with outputs from ChatGPT. We demonstrate how ChatGPT can be instructed through a gamification environment to define and benchmark hypothetical physical theories. Through this environment, ChatGPT successfully simulates the creation of a new improved model, called GPT$^4$, which combines the concepts of GPT in AI (generative pretrained transformer) and GPT in physics (generalized probabilistic theory). We show that GPT$^4$ can use its built-in mathematical and statistical capabilities to simulate and analyze physical laws and phenomena. As a demonstration of its language capabilities, GPT$^4$ also generates a limerick about itself. Overall, our results demonstrate the promising potential for human-AI collaboration in scientific discovery, as well as the importance of designing systems that effectively integrate AI's capabilities with human intelligence.",
+        "url": "http://arxiv.org/abs/2308.12400v1",
+        "source": "arxiv"
+    },
+    {
+        "title": "Meaningful human control: actionable properties for AI system development",
+        "authors": [
+            "Luciano Cavalcante Siebert",
+            "Maria Luce Lupetti",
+            "Evgeni Aizenberg",
+            "Niek Beckers",
+            "Arkady Zgonnikov",
+            "Herman Veluwenkamp",
+            "David Abbink",
+            "Elisa Giaccardi",
+            "Geert-Jan Houben",
+            "Catholijn M. Jonker",
+            "Jeroen van den Hoven",
+            "Deborah Forster",
+            "Reginald L. Lagendijk"
+        ],
+        "published": "2021-11-25T11:05:37Z",
+        "summary": "How can humans remain in control of artificial intelligence (AI)-based systems designed to perform tasks autonomously? Such systems are increasingly ubiquitous, creating benefits - but also undesirable situations where moral responsibility for their actions cannot be properly attributed to any particular person or group. The concept of meaningful human control has been proposed to address responsibility gaps and mitigate them by establishing conditions that enable a proper attribution of responsibility for humans; however, clear requirements for researchers, designers, and engineers are yet inexistent, making the development of AI-based systems that remain under meaningful human control challenging. In this paper, we address the gap between philosophical theory and engineering practice by identifying, through an iterative process of abductive thinking, four actionable properties for AI-based systems under meaningful human control, which we discuss making use of two applications scenarios: automated vehicles and AI-based hiring. First, a system in which humans and AI algorithms interact should have an explicitly defined domain of morally loaded situations within which the system ought to operate. Second, humans and AI agents within the system should have appropriate and mutually compatible representations. Third, responsibility attributed to a human should be commensurate with that human's ability and authority to control the system. Fourth, there should be explicit links between the actions of the AI agents and actions of humans who are aware of their moral responsibility. We argue that these four properties will support practically-minded professionals to take concrete steps toward designing and engineering for AI systems that facilitate meaningful human control.",
+        "url": "http://arxiv.org/abs/2112.01298v2",
+        "source": "arxiv"
+    },
+    {
+        "title": "Need of AI in Modern Education: in the Eyes of Explainable AI (xAI)",
+        "authors": [
+            "Supriya Manna",
+            "Niladri Sett"
+        ],
+        "published": "2024-07-31T08:11:33Z",
+        "summary": "Modern Education is not \\textit{Modern} without AI. However, AI's complex nature makes understanding and fixing problems challenging. Research worldwide shows that a parent's income greatly influences a child's education. This led us to explore how AI, especially complex models, makes important decisions using Explainable AI tools. Our research uncovered many complexities linked to parental income and offered reasonable explanations for these decisions. However, we also found biases in AI that go against what we want from AI in education: clear transparency and equal access for everyone. These biases can impact families and children's schooling, highlighting the need for better AI solutions that offer fair opportunities to all. This chapter tries to shed light on the complex ways AI operates, especially concerning biases. These are the foundational steps towards better educational policies, which include using AI in ways that are more reliable, accountable, and beneficial for everyone involved.",
+        "url": "http://arxiv.org/abs/2408.00025v3",
+        "source": "arxiv"
+    },
+    {
+        "title": "The Quest for Discipline",
+        "authors": null,
+        "year": null,
+        "doi": "10.1057/9781137339843.0005",
+        "url": "https://doi.org/10.1057/9781137339843.0005",
+        "publisher": "Palgrave Macmillan",
+        "source": "crossref"
+    },
+    {
+        "title": "The Framing of Discipline",
+        "authors": null,
+        "year": null,
+        "doi": "10.1057/9781137339843.0009",
+        "url": "https://doi.org/10.1057/9781137339843.0009",
+        "publisher": "Palgrave Macmillan",
+        "source": "crossref"
+    },
+    {
+        "title": "Victim-centered discipline. Victim-centered discipline is any discipline",
+        "authors": null,
+        "year": 2013,
+        "doi": "10.4324/9780203058626-14",
+        "url": "https://doi.org/10.4324/9780203058626-14",
+        "publisher": "Routledge",
+        "source": "crossref"
+    },
+    {
+        "title": "Discipline",
+        "authors": [
+            {
+                "given": "Mary",
+                "family": "Brunton",
+                "sequence": "first",
+                "affiliation": []
+            }
+        ],
+        "year": 2018,
+        "doi": "10.4324/9781315210384-2",
+        "url": "https://doi.org/10.4324/9781315210384-2",
+        "publisher": "Routledge",
+        "source": "crossref"
+    },
+    {
+        "title": "Discipline of Strategy Execution",
+        "authors": null,
+        "year": null,
+        "doi": "10.1057/9781137334947.0007",
+        "url": "https://doi.org/10.1057/9781137334947.0007",
+        "publisher": "Palgrave Macmillan",
+        "source": "crossref"
+    },
+    {
+        "title": "Discipline and Punish: The Birth of the Prison",
+        "abstract": "Abstract available (needs reconstruction)",
+        "full_text": null,
+        "source": "OpenAlex"
+    },
+    {
+        "title": "Discipline and Punish: The Birth of the Prison.",
+        "abstract": null,
+        "full_text": null,
+        "source": "OpenAlex"
+    },
+    {
+        "title": "The fifth discipline, the art and practice of the learning organization",
+        "abstract": null,
+        "full_text": null,
+        "source": "OpenAlex"
+    },
+    {
+        "title": "Discipline and Punish: The Birth of the Prison.",
+        "abstract": "Abstract available (needs reconstruction)",
+        "full_text": null,
+        "source": "OpenAlex"
+    },
+    {
+        "title": "Not So Different After All: A Cross-Discipline View Of Trust",
+        "abstract": "Abstract available (needs reconstruction)",
+        "full_text": null,
+        "source": "OpenAlex"
+    },
+    {
+        "title": "A Discipline of Programming with Quantities",
+        "authors": [
+            "Steve McKeever"
+        ],
+        "published": "2022-10-22T05:44:53Z",
+        "summary": "In scientific and engineering applications, physical quantities embodied as units of measurement (UoM) are frequently used. The loss of the Mars climate orbiter, attributed to a confusion between the metric and imperial unit systems, popularised the disastrous consequences of incorrectly handling measurement values. Dimensional analysis can be used to ensure expressions containing annotated values are evaluated correctly. This has led to the development of a large number of libraries, languages and validators to ensure developers can specify and verify UoM information in their designs and codes. Many tools can also automatically convert values between commensurable UoM, such as yards and metres. However these systems do not differentiate between quantities and dimensions. For instance torque and work, which share the same UoM, can not be interchanged because they do not represent the same entity. We present a named quantity layer that complements dimensional analysis by ensuring that values of different quantities are safely managed. Our technique is a mixture of analysis and discipline, where expressions involving multiplications are relegated to functions, in order to ensure that named quantities are handled soundly.",
+        "url": "http://arxiv.org/abs/2210.12359v1",
+        "source": "arxiv"
+    },
+    {
+        "title": "An investigation on the skewness patterns and fractal nature of research productivity distributions at field and discipline level",
+        "authors": [
+            "Giovanni Abramo",
+            "Ciriaco Andrea D'Angelo",
+            "Anastasiia Soldatenkova"
+        ],
+        "published": "2018-10-30T10:17:10Z",
+        "summary": "The paper provides an empirical examination of how research productivity distributions differ across scientific fields and disciplines. Productivity is measured using the FSS indicator, which embeds both quantity and impact of output. The population studied consists of over 31,000 scientists in 180 fields (10 aggregate disciplines) of a national research system. The Characteristic Scores and Scale technique is used to investigate the distribution patterns for the different fields and disciplines. Research productivity distributions are found to be asymmetrical at the field level, although the degree of skewness varies substantially among the fields within the aggregate disciplines. We also examine whether the field productivity distributions show a fractal nature, which reveals an exception more than a rule. Differently, for the disciplines, the partitions of the distributions show skewed patterns that are highly similar.",
+        "url": "http://arxiv.org/abs/1810.12624v1",
+        "source": "arxiv"
+    },
+    {
+        "title": "Brain Drain and Brain Gain in Russia: Analyzing International Migration of Researchers by Discipline using Scopus Bibliometric Data 1996-2020",
+        "authors": [
+            "Alexander Subbotin",
+            "Samin Aref"
+        ],
+        "published": "2020-08-07T12:47:38Z",
+        "summary": "We study international mobility in academia, with a focus on the migration of published researchers to and from Russia. Using an exhaustive set of over $2.4$ million Scopus publications, we analyze all researchers who have published with a Russian affiliation address in Scopus-indexed sources in 1996-2020. The migration of researchers is observed through the changes in their affiliation addresses, which altered their mode countries of affiliation across different years. While only $5.2\\%$ of these researchers were internationally mobile, they accounted for a substantial proportion of citations. Our estimates of net migration rates indicate that while Russia was a donor country in the late 1990s and early 2000s, it has experienced a relatively balanced circulation of researchers in more recent years. These findings suggest that the current trends in scholarly migration in Russia could be better framed as brain circulation, rather than as brain drain. Overall, researchers emigrating from Russia outnumbered and outperformed researchers immigrating to Russia. Our analysis on the subject categories of publication venues shows that in the past 25 years, Russia has, overall, suffered a net loss in most disciplines, and most notably in the five disciplines of neuroscience, decision sciences, mathematics, biochemistry, and pharmacology. We demonstrate the robustness of our main findings under random exclusion of data and changes in numeric parameters. Our substantive results shed light on new aspects of international mobility in academia, and on the impact of this mobility on a national science system, which have direct implications for policy development. Methodologically, our novel approach to handling big data can be adopted as a framework of analysis for studying scholarly migration in other countries.",
+        "url": "http://arxiv.org/abs/2008.03129v3",
+        "source": "arxiv"
+    },
+    {
+        "title": "The Framework For The Discipline Of Software Engineering in Connection to Information Technology Discipline",
+        "authors": [
+            "Jones Yeboah",
+            "Feifei Pang",
+            "Hari Priya Ponnakanti"
+        ],
+        "published": "2022-06-19T01:59:53Z",
+        "summary": "This paper represents preliminary work in identifying the foundation for the discipline of Software Engineering and discovering the links between the domains of Software Engineering and Information Technology (IT). Our research utilized IEEE Transactions on Software Engineering (IEEE-TSE), ACM Transactions on Software Engineering and Methodology (ACM-TOSEM), Automated Software Engineering (ASE), the International Conference on Software Engineering(ICSE), and other related journal publication in the software engineering domain to address our research questions. We explored existing frameworks and described the need for software engineering as an academic discipline. We went further to clarify the distinction difference between Software Engineering and Computer Science. Through this efforts we contribute to an understanding of how evidence from IT research can be used to improve Software Engineering as a discipline.",
+        "url": "http://arxiv.org/abs/2206.09303v2",
+        "source": "arxiv"
+    },
+    {
+        "title": "A Survey of Large Language Models in Discipline-specific Research: Challenges, Methods and Opportunities",
+        "authors": [
+            "Lu Xiang",
+            "Yang Zhao",
+            "Yaping Zhang",
+            "Chengqing Zong"
+        ],
+        "published": "2025-07-11T09:11:18Z",
+        "summary": "Large Language Models (LLMs) have demonstrated their transformative potential across numerous disciplinary studies, reshaping the existing research methodologies and fostering interdisciplinary collaboration. However, a systematic understanding of their integration into diverse disciplines remains underexplored. This survey paper provides a comprehensive overview of the application of LLMs in interdisciplinary studies, categorising research efforts from both a technical perspective and with regard to their applicability. From a technical standpoint, key methodologies such as supervised fine-tuning, retrieval-augmented generation, agent-based approaches, and tool-use integration are examined, which enhance the adaptability and effectiveness of LLMs in discipline-specific contexts. From the perspective of their applicability, this paper explores how LLMs are contributing to various disciplines including mathematics, physics, chemistry, biology, and the humanities and social sciences, demonstrating their role in discipline-specific tasks. The prevailing challenges are critically examined and the promising research directions are highlighted alongside the recent advances in LLMs. By providing a comprehensive overview of the technical developments and applications in this field, this survey aims to serve as an invaluable resource for the researchers who are navigating the complex landscape of LLMs in the context of interdisciplinary studies.",
+        "url": "http://arxiv.org/abs/2507.08425v1",
+        "source": "arxiv"
+    },
+    {
+        "title": "Steam turbine power prediction based on encode-decoder framework guided by the condenser vacuum degree",
+        "authors": [
+            {
+                "given": "Yanning",
+                "family": "Lu",
+                "sequence": "first",
+                "affiliation": []
+            },
+            {
+                "ORCID": "https://orcid.org/0000-0002-3395-9766",
+                "authenticated-orcid": true,
+                "given": "Yanzheng",
+                "family": "Xiang",
+                "sequence": "additional",
+                "affiliation": []
+            },
+            {
+                "given": "Bo",
+                "family": "Chen",
+                "sequence": "additional",
+                "affiliation": []
+            },
+            {
+                "given": "Haiyang",
+                "family": "Zhu",
+                "sequence": "additional",
+                "affiliation": []
+            },
+            {
+                "given": "Junfeng",
+                "family": "Yue",
+                "sequence": "additional",
+                "affiliation": []
+            },
+            {
+                "given": "Yawei",
+                "family": "Jin",
+                "sequence": "additional",
+                "affiliation": []
+            },
+            {
+                "given": "Pengfei",
+                "family": "He",
+                "sequence": "additional",
+                "affiliation": []
+            },
+            {
+                "given": "Yibo",
+                "family": "Zhao",
+                "sequence": "additional",
+                "affiliation": []
+            },
+            {
+                "given": "Yingjie",
+                "family": "Zhu",
+                "sequence": "additional",
+                "affiliation": []
+            },
+            {
+                "given": "Jiasheng",
+                "family": "Si",
+                "sequence": "additional",
+                "affiliation": []
+            },
+            {
+                "given": "Deyu",
+                "family": "Zhou",
+                "sequence": "additional",
+                "affiliation": []
+            }
+        ],
+        "year": 2022,
+        "doi": "10.1371/journal.pone.0275998",
+        "url": "https://doi.org/10.1371/journal.pone.0275998",
+        "publisher": "Public Library of Science (PLoS)",
+        "source": "crossref"
+    },
+    {
+        "title": "Image\u2010Based Underwater Inspection System for Abrasion of Stilling Basin Slabs of Dam",
+        "authors": [
+            {
+                "ORCID": "https://orcid.org/0000-0003-4113-2408",
+                "authenticated-orcid": false,
+                "given": "Yonglong",
+                "family": "Li",
+                "sequence": "first",
+                "affiliation": []
+            },
+            {
+                "given": "Hua",
+                "family": "Zhang",
+                "sequence": "additional",
+                "affiliation": []
+            },
+            {
+                "ORCID": "https://orcid.org/0000-0001-5935-9120",
+                "authenticated-orcid": false,
+                "given": "Shuang",
+                "family": "Wang",
+                "sequence": "additional",
+                "affiliation": []
+            },
+            {
+                "ORCID": "https://orcid.org/0000-0001-9957-5469",
+                "authenticated-orcid": false,
+                "given": "Haoran",
+                "family": "Wang",
+                "sequence": "additional",
+                "affiliation": []
+            },
+            {
+                "given": "Jialong",
+                "family": "Li",
+                "sequence": "additional",
+                "affiliation": []
+            }
+        ],
+        "year": 2019,
+        "doi": "10.1155/2019/6924976",
+        "url": "https://doi.org/10.1155/2019/6924976",
+        "publisher": "Wiley",
+        "source": "crossref"
+    },
+    {
+        "title": "Application of BIM Technology in Civil Construction Technology",
+        "authors": null,
+        "year": 2021,
+        "doi": "10.47939/et.v2i6.36",
+        "url": "https://doi.org/10.47939/et.v2i6.36",
+        "publisher": "Chongqing VIP Information Co.,Ltd.",
+        "source": "crossref"
+    },
+    {
+        "title": "Brief Discussion on Municipal Sewage Treatment Technology and Reuse Technology",
+        "authors": null,
+        "year": 2022,
+        "doi": "10.47939/et.v3i3(03).41",
+        "url": "https://doi.org/10.47939/et.v3i3(03).41",
+        "publisher": "Chongqing VIP Information Co.,Ltd.",
+        "source": "crossref"
+    },
+    {
+        "title": "Modern Mechanical Manufacturing Technology and Precision Machining Technology",
+        "authors": null,
+        "year": 2022,
+        "doi": "10.47939/et.v3i4(02).37",
+        "url": "https://doi.org/10.47939/et.v3i4(02).37",
+        "publisher": "Chongqing VIP Information Co.,Ltd.",
+        "source": "crossref"
+    },
+    {
+        "title": "User Acceptance of Information Technology: Toward A Unified View1",
+        "abstract": "Abstract available (needs reconstruction)",
+        "full_text": null,
+        "source": "OpenAlex"
+    },
+    {
+        "title": "Perceived Usefulness, Perceived Ease of Use, and User Acceptance of Information Technology",
+        "abstract": "Abstract available (needs reconstruction)",
+        "full_text": null,
+        "source": "OpenAlex"
+    },
+    {
+        "title": "User Acceptance of Computer Technology: A Comparison of Two Theoretical Models",
+        "abstract": "Abstract available (needs reconstruction)",
+        "full_text": null,
+        "source": "OpenAlex"
+    },
+    {
+        "title": "Older Adults' Reasons for Using Technology while Aging in Place",
+        "abstract": "Abstract available (needs reconstruction)",
+        "full_text": "https://karger.com/ger/article-pdf/62/2/226/2837897/000430949.pdf",
+        "source": "OpenAlex"
+    },
+    {
+        "title": "A Theoretical Extension of the Technology Acceptance Model: Four Longitudinal Field Studies",
+        "abstract": "Abstract available (needs reconstruction)",
+        "full_text": null,
+        "source": "OpenAlex"
+    },
+    {
+        "title": "Midterm Status Report of the ILC Technology Network Activities",
+        "authors": [
+            "ILC Technology Network"
+        ],
+        "published": "2026-03-01T16:22:42Z",
+        "summary": "The ILC Technology Network (ITN) was established in 2022 by the ILC International Development Team, a subcommittee of the International Committee for Future Accelerators, to advance engineering studies toward the realisation of the International Linear Collider (ILC). While the ITN work packages focus on engineering activities for the ILC, their topics are also relevant to a broad range of accelerator applications in particle physics and beyond. These work packages are being carried out now by laboratories in Asia and Europe in close collaboration. This report summarises the current status of the ITN activities.",
+        "url": "http://arxiv.org/abs/2603.01172v1",
+        "source": "arxiv"
+    },
+    {
+        "title": "The Rise of Blockchain Technology in Agriculture and Food Supply Chains",
+        "authors": [
+            "Andreas Kamilaris",
+            "Agusti Fonts",
+            "Francesc X. Prenafeta-Boldu"
+        ],
+        "published": "2019-08-18T16:25:59Z",
+        "summary": "Blockchain is an emerging digital technology allowing ubiquitous financial transactions among distributed untrusted parties, without the need of intermediaries such as banks. This article examines the impact of blockchain technology in agriculture and food supply chain, presents existing ongoing projects and initiatives, and discusses overall implications, challenges and potential, with a critical view over the maturity of these projects. Our findings indicate that blockchain is a promising technology towards a transparent supply chain of food, with many ongoing initiatives in various food products and food-related issues, but many barriers and challenges still exist, which hinder its wider popularity among farmers and systems. These challenges involve technical aspects, education, policies and regulatory frameworks.",
+        "url": "http://arxiv.org/abs/1908.07391v1",
+        "source": "arxiv"
+    },
+    {
+        "title": "Integration of Cloud Computing and Web2.0 Collaboration Technologies in E-Learning",
+        "authors": [
+            "Rasha Fouad AlCattan"
+        ],
+        "published": "2014-06-19T12:24:30Z",
+        "summary": "Cloud computing technology is an emerging new computing paradigm for delivering computing services. Although it still in its early stage, it has changed the way how many applications are developed and accessed. This computing approach relies on a number of existing technologies, such as Web2.0, virtualization, Service oriented architecture SOA, Web services,etc.Cloud computing is growing rapidly and becoming an adoptable technology for the organizations especially education institutes, with its dynamic scalability and usage of virtualized resources as a service through the Internet.Today, eLearning is also becoming a very popular and powerful trend.However,in traditional web based eLearning systems,building and maintenance are located onsite in institutions or enterprises, which cause lot of problems to appear such as lacking the support of underlying infrastructure, which can dynamically allocate the needed calculation and storage resources for eLearning systems.As the need for e learning is increasing continuously and its necessary for eLearning systems to keep pace with the right technology needed for development and improvement.However, todays technologies such as Web 2.0, Cloud, etc.enable to build more successful and effective educational environment,that provide collaboration and interaction in eLearning environments.The challenge is to use and integrate these technologies in order to construct tools that allow the best possible learning results.Cloud computing and Web 2.0 are two areas that are starting to strongly effect how the development,deployment and usage of eLearning application.This paper presents the benefits of using cloud computing with the integration of Web 2.0 collaboration technologies in eLearning environment.",
+        "url": "http://arxiv.org/abs/1406.5020v1",
+        "source": "arxiv"
+    },
+    {
+        "title": "Persuasive Technology Contributions Toward Enhance Information Security Awareness in an Organization",
+        "authors": [
+            "Hani A. Qudaih",
+            "Mohammed A. Bawazir",
+            "Shuaibu Hassan Usman",
+            "Jamaludin Ibrahim"
+        ],
+        "published": "2014-05-06T05:54:59Z",
+        "summary": "Persuasion is part and parcel of human interaction. The human persuaders in society have been always exit, masters of rhetoric skilled of changing our minds, or at least our behaviors. Leaders, mothers, salesmen, and teachers are clear examples of persuaders. Persuaders often turn to technology and digital media to amplify their persuasive ends. Besides, our lives and how we lead them influenced by technologies and digital media,but for the most part, their effects on our attitudes and behaviors have been incidental, even accidental. Although, nowadays, the use of computers to sell products and services considered as the most frequent application of persuasive technology. In this short paper, based on an extensive review of literatures, we aim to give a brief introduction to persuasive technology, and how it can play a role and contribute to enhance and deliver the best practice of IT. Some challenges of persuasive technology have been discussed. At the end, some recommendations and steps should be taken place to empower IT professional practices have been listed.",
+        "url": "http://arxiv.org/abs/1405.1157v1",
+        "source": "arxiv"
+    },
+    {
+        "title": "Plasma Switch-Based Technology for High-Speed and High-Power Impedance Tuning",
+        "authors": [
+            "Zach Vander Missen",
+            "Sergey Macheret",
+            "Abbas Semnani",
+            "Dimitrios Peroulis"
+        ],
+        "published": "2020-12-10T02:10:43Z",
+        "summary": "This paper introduces a new technology for a high-speed, high-power mobile form-factor tuner utilizing gas discharge tube plasma cells as switching components. To the best of our knowledge, this represents the first plasma-enabled RF matching network. Technology development is reviewed, the fabrication and measurement of a proof-of-concept switched stub impedance tuner are presented, and techniques for improvement are discussed. The proof-of-concept impedance tuner functions with a 27% bandwidth from 3 to almost 4 GHz and shows a power gain better than -2.5 dB across all switching state-frequency combinations at a 50 W input power level with spread coverage of the Smith chart. State change transient timing is measured to be on the order of 500 ns. This technology demonstration highlights the potential of miniaturized, rapidly-tunable, high-power, plasma-based RF devices.",
+        "url": "http://arxiv.org/abs/2012.05411v2",
+        "source": "arxiv"
+    },
+    {
+        "title": "Machine learning with sklearn",
+        "authors": [
+            {
+                "given": "Thomas P.",
+                "family": "Trappenberg",
+                "sequence": "first",
+                "affiliation": []
+            }
+        ],
+        "year": 2019,
+        "doi": "10.1093/oso/9780198828044.003.0003",
+        "url": "https://doi.org/10.1093/oso/9780198828044.003.0003",
+        "publisher": "Oxford University Press",
+        "source": "crossref"
+    },
+    {
+        "title": "Optimization and Machine Learning",
+        "authors": null,
+        "year": 2022,
+        "doi": "10.1002/9781119902881",
+        "url": "https://doi.org/10.1002/9781119902881",
+        "publisher": "Wiley",
+        "source": "crossref"
+    },
+    {
+        "title": "Why Use Automated Machine Learning?",
+        "authors": [
+            {
+                "given": "Kai R.",
+                "family": "Larsen",
+                "sequence": "first",
+                "affiliation": []
+            },
+            {
+                "given": "Daniel S.",
+                "family": "Becker",
+                "sequence": "additional",
+                "affiliation": []
+            }
+        ],
+        "year": 2021,
+        "doi": "10.1093/oso/9780190941659.003.0001",
+        "url": "https://doi.org/10.1093/oso/9780190941659.003.0001",
+        "publisher": "Oxford University Press",
+        "source": "crossref"
+    },
+    {
+        "title": "Machine learning",
+        "authors": null,
+        "year": 2012,
+        "doi": "10.1017/cbo9780511804779.017",
+        "url": "https://doi.org/10.1017/cbo9780511804779.017",
+        "publisher": "Cambridge University Press",
+        "source": "crossref"
+    },
+    {
+        "title": "Machine Learning and Qualitative Reasoning",
+        "authors": [
+            {
+                "given": "Ivan",
+                "family": "Bratko",
+                "sequence": "first",
+                "affiliation": []
+            }
+        ],
+        "year": 1994,
+        "doi": "10.1023/a:1022661713654",
+        "url": "https://doi.org/10.1023/a:1022661713654",
+        "publisher": "Springer Science and Business Media LLC",
+        "source": "crossref"
+    },
+    {
+        "title": "Scikit-learn: Machine Learning in Python",
+        "abstract": "Abstract available (needs reconstruction)",
+        "full_text": "https://arxiv.org/pdf/1201.0490",
+        "source": "OpenAlex"
+    },
+    {
+        "title": "Genetic algorithms in search, optimization, and machine learning",
+        "abstract": "Abstract available (needs reconstruction)",
+        "full_text": null,
+        "source": "OpenAlex"
+    },
+    {
+        "title": "C4.5: Programs for Machine Learning",
+        "abstract": "Abstract available (needs reconstruction)",
+        "full_text": null,
+        "source": "OpenAlex"
+    },
+    {
+        "title": "Data Mining: Practical Machine Learning Tools and Techniques",
+        "abstract": "Abstract available (needs reconstruction)",
+        "full_text": null,
+        "source": "OpenAlex"
+    },
+    {
+        "title": "UCI Machine Learning Repository",
+        "abstract": null,
+        "full_text": null,
+        "source": "OpenAlex"
+    },
+    {
+        "title": "Changing Data Sources in the Age of Machine Learning for Official Statistics",
+        "authors": [
+            "Cedric De Boom",
+            "Michael Reusens"
+        ],
+        "published": "2023-06-07T11:08:12Z",
+        "summary": "Data science has become increasingly essential for the production of official statistics, as it enables the automated collection, processing, and analysis of large amounts of data. With such data science practices in place, it enables more timely, more insightful and more flexible reporting. However, the quality and integrity of data-science-driven statistics rely on the accuracy and reliability of the data sources and the machine learning techniques that support them. In particular, changes in data sources are inevitable to occur and pose significant risks that are crucial to address in the context of machine learning for official statistics.\n  This paper gives an overview of the main risks, liabilities, and uncertainties associated with changing data sources in the context of machine learning for official statistics. We provide a checklist of the most prevalent origins and causes of changing data sources; not only on a technical level but also regarding ownership, ethics, regulation, and public perception. Next, we highlight the repercussions of changing data sources on statistical reporting. These include technical effects such as concept drift, bias, availability, validity, accuracy and completeness, but also the neutrality and potential discontinuation of the statistical offering. We offer a few important precautionary measures, such as enhancing robustness in both data sourcing and statistical techniques, and thorough monitoring. In doing so, machine learning-based official statistics can maintain integrity, reliability, consistency, and relevance in policy-making, decision-making, and public discourse.",
+        "url": "http://arxiv.org/abs/2306.04338v1",
+        "source": "arxiv"
+    },
+    {
+        "title": "DOME: Recommendations for supervised machine learning validation in biology",
+        "authors": [
+            "Ian Walsh",
+            "Dmytro Fishman",
+            "Dario Garcia-Gasulla",
+            "Tiina Titma",
+            "Gianluca Pollastri",
+            "The ELIXIR Machine Learning focus group",
+            "Jen Harrow",
+            "Fotis E. Psomopoulos",
+            "Silvio C. E. Tosatto"
+        ],
+        "published": "2020-06-25T12:01:39Z",
+        "summary": "Modern biology frequently relies on machine learning to provide predictions and improve decision processes. There have been recent calls for more scrutiny on machine learning performance and possible limitations. Here we present a set of community-wide recommendations aiming to help establish standards of supervised machine learning validation in biology. Adopting a structured methods description for machine learning based on data, optimization, model, evaluation (DOME) will aim to help both reviewers and readers to better understand and assess the performance and limitations of a method or outcome. The recommendations are formulated as questions to anyone wishing to pursue implementation of a machine learning algorithm. Answers to these questions can be easily included in the supplementary material of published papers.",
+        "url": "http://arxiv.org/abs/2006.16189v4",
+        "source": "arxiv"
+    },
+    {
+        "title": "Learning Curves for Decision Making in Supervised Machine Learning: A Survey",
+        "authors": [
+            "Felix Mohr",
+            "Jan N. van Rijn"
+        ],
+        "published": "2022-01-28T14:34:32Z",
+        "summary": "Learning curves are a concept from social sciences that has been adopted in the context of machine learning to assess the performance of a learning algorithm with respect to a certain resource, e.g., the number of training examples or the number of training iterations. Learning curves have important applications in several machine learning contexts, most notably in data acquisition, early stopping of model training, and model selection. For instance, learning curves can be used to model the performance of the combination of an algorithm and its hyperparameter configuration, providing insights into their potential suitability at an early stage and often expediting the algorithm selection process. Various learning curve models have been proposed to use learning curves for decision making. Some of these models answer the binary decision question of whether a given algorithm at a certain budget will outperform a certain reference performance, whereas more complex models predict the entire learning curve of an algorithm. We contribute a framework that categorises learning curve approaches using three criteria: the decision-making situation they address, the intrinsic learning curve question they answer and the type of resources they use. We survey papers from the literature and classify them into this framework.",
+        "url": "http://arxiv.org/abs/2201.12150v2",
+        "source": "arxiv"
+    },
+    {
+        "title": "Active learning for data streams: a survey",
+        "authors": [
+            "Davide Cacciarelli",
+            "Murat Kulahci"
+        ],
+        "published": "2023-02-17T14:24:13Z",
+        "summary": "Online active learning is a paradigm in machine learning that aims to select the most informative data points to label from a data stream. The problem of minimizing the cost associated with collecting labeled observations has gained a lot of attention in recent years, particularly in real-world applications where data is only available in an unlabeled form. Annotating each observation can be time-consuming and costly, making it difficult to obtain large amounts of labeled data. To overcome this issue, many active learning strategies have been proposed in the last decades, aiming to select the most informative observations for labeling in order to improve the performance of machine learning models. These approaches can be broadly divided into two categories: static pool-based and stream-based active learning. Pool-based active learning involves selecting a subset of observations from a closed pool of unlabeled data, and it has been the focus of many surveys and literature reviews. However, the growing availability of data streams has led to an increase in the number of approaches that focus on online active learning, which involves continuously selecting and labeling observations as they arrive in a stream. This work aims to provide an overview of the most recently proposed approaches for selecting the most informative observations from data streams in real time. We review the various techniques that have been proposed and discuss their strengths and limitations, as well as the challenges and opportunities that exist in this area of research.",
+        "url": "http://arxiv.org/abs/2302.08893v4",
+        "source": "arxiv"
+    },
+    {
+        "title": "Physics-Inspired Interpretability Of Machine Learning Models",
+        "authors": [
+            "Maximilian P Niroomand",
+            "David J Wales"
+        ],
+        "published": "2023-04-05T11:35:17Z",
+        "summary": "The ability to explain decisions made by machine learning models remains one of the most significant hurdles towards widespread adoption of AI in highly sensitive areas such as medicine, cybersecurity or autonomous driving. Great interest exists in understanding which features of the input data prompt model decision making. In this contribution, we propose a novel approach to identify relevant features of the input data, inspired by methods from the energy landscapes field, developed in the physical sciences. By identifying conserved weights within groups of minima of the loss landscapes, we can identify the drivers of model decision making. Analogues to this idea exist in the molecular sciences, where coordinate invariants or order parameters are employed to identify critical features of a molecule. However, no such approach exists for machine learning loss landscapes. We will demonstrate the applicability of energy landscape methods to machine learning models and give examples, both synthetic and from the real world, for how these methods can help to make models more interpretable.",
+        "url": "http://arxiv.org/abs/2304.02381v2",
+        "source": "arxiv"
+    },
+    {
+        "title": "Mapping Religion-religion",
+        "authors": [
+            {
+                "given": "Anthony B.",
+                "family": "Pinn",
+                "sequence": "first",
+                "affiliation": []
+            }
+        ],
+        "year": 2021,
+        "doi": "10.1093/oso/9780190064976.003.0018",
+        "url": "https://doi.org/10.1093/oso/9780190064976.003.0018",
+        "publisher": "Oxford University Press",
+        "source": "crossref"
+    },
+    {
+        "title": "Religion-Before Religion And Religion-After Religion",
+        "authors": [
+            {
+                "given": "Chin Hong",
+                "family": "Chung",
+                "sequence": "first",
+                "affiliation": []
+            }
+        ],
+        "year": 2007,
+        "doi": "10.1163/ej.9789004161238.i-306.68",
+        "url": "https://doi.org/10.1163/ej.9789004161238.i-306.68",
+        "publisher": "BRILL",
+        "source": "crossref"
+    },
+    {
+        "title": "Ainu Religion",
+        "authors": [
+            {
+                "given": "Takeshi",
+                "family": "Kimura",
+                "sequence": "first",
+                "affiliation": []
+            }
+        ],
+        "year": 2024,
+        "doi": "10.1093/acrefore/9780199340378.013.1142",
+        "url": "https://doi.org/10.1093/acrefore/9780199340378.013.1142",
+        "publisher": "Oxford University Press",
+        "source": "crossref"
+    },
+    {
+        "title": "Understanding Religion, Governing Religion",
+        "authors": [
+            {
+                "given": "Enzo",
+                "family": "Rossi",
+                "sequence": "first",
+                "affiliation": []
+            }
+        ],
+        "year": 2017,
+        "doi": "10.1093/oso/9780198794394.003.0005",
+        "url": "https://doi.org/10.1093/oso/9780198794394.003.0005",
+        "publisher": "Oxford University Press",
+        "source": "crossref"
+    },
+    {
+        "title": "RELIGION",
+        "authors": null,
+        "year": null,
+        "doi": "10.3726/978-3-0353-0460-2/6",
+        "url": "https://doi.org/10.3726/978-3-0353-0460-2/6",
+        "publisher": "Peter Lang",
+        "source": "crossref"
+    },
+    {
+        "title": "Handbook of Religion and Health",
+        "abstract": null,
+        "full_text": null,
+        "source": "OpenAlex"
+    },
+    {
+        "title": "The Sacred Canopy: Elements of a Sociological Theory of Religion",
+        "abstract": "Abstract available (needs reconstruction)",
+        "full_text": null,
+        "source": "OpenAlex"
+    },
+    {
+        "title": "Genealogies of Religion",
+        "abstract": null,
+        "full_text": null,
+        "source": "OpenAlex"
+    },
+    {
+        "title": "The righteous mind: why good people are divided by politics and religion",
+        "abstract": "Abstract available (needs reconstruction)",
+        "full_text": null,
+        "source": "OpenAlex"
+    },
+    {
+        "title": "Public Religions in the Modern World",
+        "abstract": null,
+        "full_text": null,
+        "source": "OpenAlex"
+    },
+    {
+        "title": "Religion and Spirituality on Social Media in the Aftermath of the Global Pandemic",
+        "authors": [
+            "Olanrewaju Tahir Aduragba",
+            "Alexandra I. Cristea",
+            "Pete Phillips",
+            "Jonas Kurlberg",
+            "Jialin Yu"
+        ],
+        "published": "2022-12-11T18:41:02Z",
+        "summary": "During the COVID-19 pandemic, the Church closed its physical doors for the first time in about 800 years, which is, arguably, a cataclysmic event. Other religions have found themselves in a similar situation, and they were practically forced to move online, which is an unprecedented occasion. In this paper, we analyse this sudden change in religious activities twofold: we create and deliver a questionnaire, as well as analyse Twitter data, to understand people's perceptions and activities related to religious activities online. Importantly, we also analyse the temporal variations in this process by analysing a period of 3 months: July-September 2020. Additionally to the separate analysis of the two data sources, we also discuss the implications from triangulating the results.",
+        "url": "http://arxiv.org/abs/2212.11121v1",
+        "source": "arxiv"
+    },
+    {
+        "title": "Segregation in Religion Networks",
+        "authors": [
+            "Jiantao Hu",
+            "Qian-Ming Zhang",
+            "Tao Zhou"
+        ],
+        "published": "2018-02-16T13:45:24Z",
+        "summary": "Religious beliefs could facilitate human cooperation [1-6], promote civic engagement [7-10], improve life satisfaction [11-13] and even boom economic development [14-16]. On the other side, some aspects of religion may lead to regional violence, intergroup conflict and moral prejudice against atheists [17-23]. Analogous to the separation of races [24], the religious segregation is a major ingredient resulting in increasing alienation, misunderstanding, cultural conflict and even violence among believers of different faiths [18,19,25]. Thus far, quantitative understanding of religious segregation is rare. Here we analyze a directed social network extracted from weibo.com (the largest directed social network in China, similar to twitter.com), which is consisted of 6875 believers in Christianism, Buddhism, Islam and Taoism. This religion network is highly segregative, with only 1.6% of links connecting individuals in different religions. Comparative analysis shows that the extent of segregation for different religions is much higher than that for different races and slightly higher than that for different political parties. The few cross-religion links play a critical role in maintaining network connectivity, being remarkably more important than links with highest betweennesses [26] or bridgenesses [27]. Further content analysis shows that 46.7% of these cross-religion links are probably related to charitable issues. Our findings provide quantitative insights into religious segregation and valuable clues to encourage cross-religion communications.",
+        "url": "http://arxiv.org/abs/1802.06721v2",
+        "source": "arxiv"
+    },
+    {
+        "title": "Science, Religion and the Teaching of Evolution",
+        "authors": [
+            "P. C. Hohenberg"
+        ],
+        "published": "2017-04-10T19:16:07Z",
+        "summary": "This essay discusses the relationship between science and religion, specifically the controversy elicited by an article by the philosopher Thomas Nagel, criticizing the scientific establishment for ruling out intelligent design as beyond discussion. He also criticizes the judge's decision in Kitzmiller vs. Dover, ruling out discussion of intelligent design in science classrooms in public schools. A defense of the thesis of Stephen J. Gould that science and religion represent nonoverlapping magesteria (NOMA) is presented.",
+        "url": "http://arxiv.org/abs/1704.03023v1",
+        "source": "arxiv"
+    },
+    {
+        "title": "A model for the evolutionary diversification of religions",
+        "authors": [
+            "Michael Doebeli",
+            "Iaroslav Ispolatov"
+        ],
+        "published": "2008-10-01T21:43:56Z",
+        "summary": "  We address the problem of diversification in religions by studying selection on cultural memes that colonize humans hosts. In analogy to studying the evolution of pathogens or symbionts colonizing animal hosts, we use models for host-pathogen dynamics known from theoretical epidemiology. In these models, religious memes colonize individual humans. Rates of transmission of memes between humans, i.e., transmission of cultural content, and rates of loss of memes (loss of faith) are determined by the phenotype of the cultural memes, and by interactions between hosts carrying different memes. In particular, based on the notion that religion can lead to oppression of lower classes once a religious society has reached a certain size, we assume that the rate of loss increases as the number of humans colonized by a particular meme phenotype increases. This generates frequency-dependent selection on cultural memes, and we use evolutionary theory to show that this frequency dependence can generate the emergence of coexisting clusters of different meme types. The different clusters correspond to different religions, and hence our model describes the emergence of distinct descendent religions from single ancestral religions.",
+        "url": "http://arxiv.org/abs/0810.0296v1",
+        "source": "arxiv"
+    },
+    {
+        "title": "Religion in the cosmological ideas in Ukraine (from XI to XVII century)",
+        "authors": [
+            "O. Yu Koltachykhina"
+        ],
+        "published": "2013-03-26T14:02:19Z",
+        "summary": "Cosmology, whose object is the Universe, is in contact with the religion closer than any other science. We will try to trace the historical change of views on the universe in Ukraine from XI to XVII centuries and show the influence of religion in the construction of the models of the Universe in that time.",
+        "url": "http://arxiv.org/abs/1303.6492v1",
+        "source": "arxiv"
+    },
+    {
+        "title": "A facile one-pot synthesis, computational and molecular docking studies of benzimidazole and benzothiazole compounds using Amberlite IRA 400-Cl resin as green/reusable catalyst",
+        "authors": [
+            {
+                "given": "Savarimuthu David",
+                "family": "Amalraj",
+                "sequence": "first",
+                "affiliation": []
+            },
+            {
+                "given": "Surya Cholayil",
+                "family": "Palapetta",
+                "sequence": "additional",
+                "affiliation": []
+            },
+            {
+                "given": "Gurusamy",
+                "family": "Harichandran",
+                "sequence": "additional",
+                "affiliation": []
+            }
+        ],
+        "year": 2022,
+        "doi": "10.1016/j.molstruc.2022.133704",
+        "url": "https://doi.org/10.1016/j.molstruc.2022.133704",
+        "publisher": "Elsevier BV",
+        "source": "crossref"
+    },
+    {
+        "title": "Accurate detection of mosaic variants in sequencing data without matched controls",
+        "authors": [
+            {
+                "given": "Yanmei",
+                "family": "Dou",
+                "sequence": "first",
+                "affiliation": []
+            },
+            {
+                "given": "Minseok",
+                "family": "Kwon",
+                "sequence": "additional",
+                "affiliation": []
+            },
+            {
+                "given": "Rachel E.",
+                "family": "Rodin",
+                "sequence": "additional",
+                "affiliation": []
+            },
+            {
+                "given": "Isidro",
+                "family": "Cort\u00e9s-Ciriano",
+                "sequence": "additional",
+                "affiliation": []
+            },
+            {
+                "given": "Ryan",
+                "family": "Doan",
+                "sequence": "additional",
+                "affiliation": []
+            },
+            {
+                "ORCID": "https://orcid.org/0000-0001-6968-9043",
+                "authenticated-orcid": false,
+                "given": "Lovelace J.",
+                "family": "Luquette",
+                "sequence": "additional",
+                "affiliation": []
+            },
+            {
+                "given": "Alon",
+                "family": "Galor",
+                "sequence": "additional",
+                "affiliation": []
+            },
+            {
+                "given": "Craig",
+                "family": "Bohrson",
+                "sequence": "additional",
+                "affiliation": []
+            },
+            {
+                "given": "Christopher A.",
+                "family": "Walsh",
+                "sequence": "additional",
+                "affiliation": []
+            },
+            {
+                "ORCID": "https://orcid.org/0000-0001-9378-960X",
+                "authenticated-orcid": false,
+                "given": "Peter J.",
+                "family": "Park",
+                "sequence": "additional",
+                "affiliation": []
+            }
+        ],
+        "year": 2020,
+        "doi": "10.1038/s41587-019-0368-8",
+        "url": "https://doi.org/10.1038/s41587-019-0368-8",
+        "publisher": "Springer Science and Business Media LLC",
+        "source": "crossref"
+    },
+    {
+        "title": "Health Care &amp; Global Health",
+        "authors": null,
+        "year": null,
+        "doi": "10.22258/hgh",
+        "url": "https://doi.org/10.22258/hgh",
+        "publisher": "Asociaci\u00f3n Civil Universidad de Ciencias y Humanidades",
+        "source": "crossref"
+    },
+    {
+        "title": "Health Education and Public Health",
+        "authors": null,
+        "year": null,
+        "doi": "10.31488/heph",
+        "url": "https://doi.org/10.31488/heph",
+        "publisher": "MAK Periodical Library",
+        "source": "crossref"
+    },
+    {
+        "title": "Multi-omic atlas of the parahippocampal gyrus in Alzheimer\u2019s disease",
+        "authors": [
+            {
+                "ORCID": "https://orcid.org/0009-0004-2696-2950",
+                "authenticated-orcid": false,
+                "given": "Claire",
+                "family": "Coleman",
+                "sequence": "first",
+                "affiliation": []
+            },
+            {
+                "ORCID": "https://orcid.org/0000-0001-9171-4962",
+                "authenticated-orcid": false,
+                "given": "Minghui",
+                "family": "Wang",
+                "sequence": "additional",
+                "affiliation": []
+            },
+            {
+                "given": "Erming",
+                "family": "Wang",
+                "sequence": "additional",
+                "affiliation": []
+            },
+            {
+                "given": "Courtney",
+                "family": "Micallef",
+                "sequence": "additional",
+                "affiliation": []
+            },
+            {
+                "given": "Zhiping",
+                "family": "Shao",
+                "sequence": "additional",
+                "affiliation": []
+            },
+            {
+                "given": "James M.",
+                "family": "Vicari",
+                "sequence": "additional",
+                "affiliation": []
+            },
+            {
+                "given": "Yuxin",
+                "family": "Li",
+                "sequence": "additional",
+                "affiliation": []
+            },
+            {
+                "given": "Kaiwen",
+                "family": "Yu",
+                "sequence": "additional",
+                "affiliation": []
+            },
+            {
+                "ORCID": "https://orcid.org/0000-0002-0601-6826",
+                "authenticated-orcid": false,
+                "given": "Dongming",
+                "family": "Cai",
+                "sequence": "additional",
+                "affiliation": []
+            },
+            {
+                "ORCID": "https://orcid.org/0000-0003-0472-7648",
+                "authenticated-orcid": false,
+                "given": "Junmin",
+                "family": "Peng",
+                "sequence": "additional",
+                "affiliation": []
+            },
+            {
+                "ORCID": "https://orcid.org/0000-0001-5860-2512",
+                "authenticated-orcid": false,
+                "given": "Vahram",
+                "family": "Haroutunian",
+                "sequence": "additional",
+                "affiliation": []
+            },
+            {
+                "ORCID": "https://orcid.org/0000-0001-9874-2907",
+                "authenticated-orcid": false,
+                "given": "John F.",
+                "family": "Fullard",
+                "sequence": "additional",
+                "affiliation": []
+            },
+            {
+                "ORCID": "https://orcid.org/0000-0001-9989-2720",
+                "authenticated-orcid": false,
+                "given": "Jaroslav",
+                "family": "Bendl",
+                "sequence": "additional",
+                "affiliation": []
+            },
+            {
+                "given": "Bin",
+                "family": "Zhang",
+                "sequence": "additional",
+                "affiliation": []
+            },
+            {
+                "ORCID": "https://orcid.org/0000-0002-4640-6239",
+                "authenticated-orcid": false,
+                "given": "Panos",
+                "family": "Roussos",
+                "sequence": "additional",
+                "affiliation": []
+            }
+        ],
+        "year": 2023,
+        "doi": "10.1038/s41597-023-02507-2",
+        "url": "https://doi.org/10.1038/s41597-023-02507-2",
+        "publisher": "Springer Science and Business Media LLC",
+        "source": "crossref"
+    },
+    {
+        "title": "The MOS 36-ltem Short-Form Health Survey (SF-36)",
+        "abstract": "Abstract available (needs reconstruction)",
+        "full_text": null,
+        "source": "OpenAlex"
+    },
+    {
+        "title": "AI-Assisted Pipeline for Dynamic Generation of Trustworthy Health Supplement Content at Scale",
+        "abstract": "Abstract available (needs reconstruction)",
+        "full_text": null,
+        "source": "OpenAlex"
+    },
+    {
+        "title": "Health Behavior and Health Education: Theory, Research, and Practice",
+        "abstract": "Abstract available (needs reconstruction)",
+        "full_text": null,
+        "source": "OpenAlex"
+    },
+    {
+        "title": "The MOS 36-item short-form health survey (SF-36). I. Conceptual framework and item selection.",
+        "abstract": "Abstract available (needs reconstruction)",
+        "full_text": null,
+        "source": "OpenAlex"
+    },
+    {
+        "title": "A 12-Item Short-Form Health Survey",
+        "abstract": "Abstract available (needs reconstruction)",
+        "full_text": null,
+        "source": "OpenAlex"
+    },
+    {
+        "title": "The Digital Transformation in Health: How AI Can Improve the Performance of Health Systems",
+        "authors": [
+            "\u00c1frica Peri\u00e1\u00f1ez",
+            "Ana Fern\u00e1ndez del R\u00edo",
+            "Ivan Nazarov",
+            "Enric Jan\u00e9",
+            "Moiz Hassan",
+            "Aditya Rastogi",
+            "Dexian Tang"
+        ],
+        "published": "2024-09-24T13:52:15Z",
+        "summary": "Mobile health has the potential to revolutionize health care delivery and patient engagement. In this work, we discuss how integrating Artificial Intelligence into digital health applications-focused on supply chain, patient management, and capacity building, among other use cases-can improve the health system and public health performance. We present an Artificial Intelligence and Reinforcement Learning platform that allows the delivery of adaptive interventions whose impact can be optimized through experimentation and real-time monitoring. The system can integrate multiple data sources and digital health applications. The flexibility of this platform to connect to various mobile health applications and digital devices and send personalized recommendations based on past data and predictions can significantly improve the impact of digital tools on health system outcomes. The potential for resource-poor settings, where the impact of this approach on health outcomes could be more decisive, is discussed specifically. This framework is, however, similarly applicable to improving efficiency in health systems where scarcity is not an issue.",
+        "url": "http://arxiv.org/abs/2409.16098v2",
+        "source": "arxiv"
+    },
+    {
+        "title": "FADL:Federated-Autonomous Deep Learning for Distributed Electronic Health Record",
+        "authors": [
+            "Dianbo Liu",
+            "Timothy Miller",
+            "Raheel Sayeed",
+            "Kenneth D. Mandl"
+        ],
+        "published": "2018-11-28T06:06:38Z",
+        "summary": "Electronic health record (EHR) data is collected by individual institutions and often stored across locations in silos. Getting access to these data is difficult and slow due to security, privacy, regulatory, and operational issues. We show, using ICU data from 58 different hospitals, that machine learning models to predict patient mortality can be trained efficiently without moving health data out of their silos using a distributed machine learning strategy. We propose a new method, called Federated-Autonomous Deep Learning (FADL) that trains part of the model using all data sources in a distributed manner and other parts using data from specific data sources. We observed that FADL outperforms traditional federated learning strategy and conclude that balance between global and local training is an important factor to consider when design distributed machine learning methods , especially in healthcare.",
+        "url": "http://arxiv.org/abs/1811.11400v2",
+        "source": "arxiv"
+    },
+    {
+        "title": "Interactive Sonification for Health and Energy using ChucK and Unity",
+        "authors": [
+            "Yichun Zhao",
+            "George Tzanetakis"
+        ],
+        "published": "2024-04-12T21:13:02Z",
+        "summary": "Sonification can provide valuable insights about data but most existing approaches are not designed to be controlled by the user in an interactive fashion. Interactions enable the designer of the sonification to more rapidly experiment with sound design and allow the sonification to be modified in real-time by interacting with various control parameters. In this paper, we describe two case studies of interactive sonification that utilize publicly available datasets that have been described recently in the International Conference on Auditory Display (ICAD). They are from the health and energy domains: electroencephalogram (EEG) alpha wave data and air pollutant data consisting of nitrogen dioxide, sulfur dioxide, carbon monoxide, and ozone. We show how these sonfications can be recreated to support interaction utilizing a general interactive sonification framework built using ChucK, Unity, and Chunity. In addition to supporting typical sonification methods that are common in existing sonification toolkits, our framework introduces novel methods such as supporting discrete events, interleaved playback of multiple data streams for comparison, and using frequency modulation (FM) synthesis in terms of one data attribute modulating another. We also describe how these new functionalities can be used to improve the sonification experience of the two datasets we have investigated.",
+        "url": "http://arxiv.org/abs/2404.08813v1",
+        "source": "arxiv"
+    },
+    {
+        "title": "Tweet for Behavior Change: Using Social Media for the Dissemination of Public Health Messages",
+        "authors": [
+            "Aisling Gough",
+            "Ruth F Hunter",
+            "Oluwaseun Ajao",
+            "Anna Jurek",
+            "Gary McKeown",
+            "Jun Hong",
+            "Eimear Barrett",
+            "Marbeth Ferguson",
+            "Gerry McElwee",
+            "Miriam McCarthy",
+            "Frank Kee"
+        ],
+        "published": "2017-03-26T13:22:00Z",
+        "summary": "Background: Social media public health campaigns have the advantage of tailored messaging at low cost and large reach, but little is known about what would determine their feasibility as tools for inducing attitude and behavior change.\n  Objective: The aim of this study was to test the feasibility of designing, implementing, and evaluating a social media-enabled intervention for skin cancer prevention.\n  Conclusions: Social media-disseminated public health messages reached more than 23% of the Northern Ireland population. A Web-based survey suggested that the campaign might have contributed to improved knowledge and attitudes toward skin cancer among the target population. Findings suggested that shocking and humorous messages generated greatest impressions and engagement, but information-based messages were likely to be shared most. The extent of behavioral change as a result of the campaign remains to be explored, however, the change of attitudes and knowledge is promising. Social media is an inexpensive, effective method for delivering public health messages. However, existing and traditional process evaluation methods may not be suitable for social media.",
+        "url": "http://arxiv.org/abs/1703.08813v1",
+        "source": "arxiv"
+    },
+    {
+        "title": "The Impact of Medicaid Coverage on Mental Health, Why Insurance Makes People Happier in OHIE: by Spending Less or by Spending More?",
+        "authors": [
+            "Yangyang Li"
+        ],
+        "published": "2025-10-16T17:28:43Z",
+        "summary": "The Oregon Health Insurance Experiment (OHIE) offers a unique opportunity to examine the causal relationship between Medicaid coverage and happiness among low-income adults, using an experimental design. This study leverages data from comprehensive surveys conducted at 0 and 12 months post-treatment. Previous studies based on OHIE have shown that individuals receiving Medicaid exhibited a significant improvement in mental health compared to those who did not receive coverage. The primary objective is to explore how Medicaid coverage impacts happiness, specifically analyzing in which direction variations in healthcare spending significantly improve mental health: higher spending or lower spending after Medicaid. Utilizing instrumental variable (IV) regression, I conducted six separate regressions across subgroups categorized by expenditure levels and happiness ratings, and the results reveal distinct patterns. Enrolling in OHP has significantly decreased the probability of experiencing unhappiness, regardless of whether individuals had high or low medical spending. Additionally, it decreased the probability of being pretty happy and having high medical expenses, while increasing the probability among those with lower expenses. Concerning the probability of being very happy, the OHP only had a positive effect on being very happy and spending less, and its effect on those with high expenses was insignificant. These findings align with the benefit of Medicaid: alleviating financial burden, contributing to the well-being of distinct subgroups.",
+        "url": "http://arxiv.org/abs/2510.14909v1",
+        "source": "arxiv"
+    },
+    {
+        "title": "A facile one-pot synthesis, computational and molecular docking studies of benzimidazole and benzothiazole compounds using Amberlite IRA 400-Cl resin as green/reusable catalyst",
+        "authors": [
+            {
+                "given": "Savarimuthu David",
+                "family": "Amalraj",
+                "sequence": "first",
+                "affiliation": []
+            },
+            {
+                "given": "Surya Cholayil",
+                "family": "Palapetta",
+                "sequence": "additional",
+                "affiliation": []
+            },
+            {
+                "given": "Gurusamy",
+                "family": "Harichandran",
+                "sequence": "additional",
+                "affiliation": []
+            }
+        ],
+        "year": 2022,
+        "doi": "10.1016/j.molstruc.2022.133704",
+        "url": "https://doi.org/10.1016/j.molstruc.2022.133704",
+        "publisher": "Elsevier BV",
+        "source": "crossref"
+    },
+    {
+        "title": "Health Care &amp; Global Health",
+        "authors": null,
+        "year": null,
+        "doi": "10.22258/hgh",
+        "url": "https://doi.org/10.22258/hgh",
+        "publisher": "Asociaci\u00f3n Civil Universidad de Ciencias y Humanidades",
+        "source": "crossref"
+    },
+    {
+        "title": "Health Education and Public Health",
+        "authors": null,
+        "year": null,
+        "doi": "10.31488/heph",
+        "url": "https://doi.org/10.31488/heph",
+        "publisher": "MAK Periodical Library",
+        "source": "crossref"
+    },
+    {
+        "title": "Multi-omic atlas of the parahippocampal gyrus in Alzheimer\u2019s disease",
+        "authors": [
+            {
+                "ORCID": "https://orcid.org/0009-0004-2696-2950",
+                "authenticated-orcid": false,
+                "given": "Claire",
+                "family": "Coleman",
+                "sequence": "first",
+                "affiliation": []
+            },
+            {
+                "ORCID": "https://orcid.org/0000-0001-9171-4962",
+                "authenticated-orcid": false,
+                "given": "Minghui",
+                "family": "Wang",
+                "sequence": "additional",
+                "affiliation": []
+            },
+            {
+                "given": "Erming",
+                "family": "Wang",
+                "sequence": "additional",
+                "affiliation": []
+            },
+            {
+                "given": "Courtney",
+                "family": "Micallef",
+                "sequence": "additional",
+                "affiliation": []
+            },
+            {
+                "given": "Zhiping",
+                "family": "Shao",
+                "sequence": "additional",
+                "affiliation": []
+            },
+            {
+                "given": "James M.",
+                "family": "Vicari",
+                "sequence": "additional",
+                "affiliation": []
+            },
+            {
+                "given": "Yuxin",
+                "family": "Li",
+                "sequence": "additional",
+                "affiliation": []
+            },
+            {
+                "given": "Kaiwen",
+                "family": "Yu",
+                "sequence": "additional",
+                "affiliation": []
+            },
+            {
+                "ORCID": "https://orcid.org/0000-0002-0601-6826",
+                "authenticated-orcid": false,
+                "given": "Dongming",
+                "family": "Cai",
+                "sequence": "additional",
+                "affiliation": []
+            },
+            {
+                "ORCID": "https://orcid.org/0000-0003-0472-7648",
+                "authenticated-orcid": false,
+                "given": "Junmin",
+                "family": "Peng",
+                "sequence": "additional",
+                "affiliation": []
+            },
+            {
+                "ORCID": "https://orcid.org/0000-0001-5860-2512",
+                "authenticated-orcid": false,
+                "given": "Vahram",
+                "family": "Haroutunian",
+                "sequence": "additional",
+                "affiliation": []
+            },
+            {
+                "ORCID": "https://orcid.org/0000-0001-9874-2907",
+                "authenticated-orcid": false,
+                "given": "John F.",
+                "family": "Fullard",
+                "sequence": "additional",
+                "affiliation": []
+            },
+            {
+                "ORCID": "https://orcid.org/0000-0001-9989-2720",
+                "authenticated-orcid": false,
+                "given": "Jaroslav",
+                "family": "Bendl",
+                "sequence": "additional",
+                "affiliation": []
+            },
+            {
+                "given": "Bin",
+                "family": "Zhang",
+                "sequence": "additional",
+                "affiliation": []
+            },
+            {
+                "ORCID": "https://orcid.org/0000-0002-4640-6239",
+                "authenticated-orcid": false,
+                "given": "Panos",
+                "family": "Roussos",
+                "sequence": "additional",
+                "affiliation": []
+            }
+        ],
+        "year": 2023,
+        "doi": "10.1038/s41597-023-02507-2",
+        "url": "https://doi.org/10.1038/s41597-023-02507-2",
+        "publisher": "Springer Science and Business Media LLC",
+        "source": "crossref"
+    },
+    {
+        "title": "Semantic novelty modulates neural responses to visual change across the human brain",
+        "authors": [
+            {
+                "ORCID": "https://orcid.org/0000-0002-9306-7591",
+                "authenticated-orcid": false,
+                "given": "Maximilian",
+                "family": "Nentwich",
+                "sequence": "first",
+                "affiliation": []
+            },
+            {
+                "ORCID": "https://orcid.org/0000-0003-3172-4661",
+                "authenticated-orcid": false,
+                "given": "Marcin",
+                "family": "Leszczynski",
+                "sequence": "additional",
+                "affiliation": []
+            },
+            {
+                "ORCID": "https://orcid.org/0000-0003-0320-1257",
+                "authenticated-orcid": false,
+                "given": "Brian E.",
+                "family": "Russ",
+                "sequence": "additional",
+                "affiliation": []
+            },
+            {
+                "given": "Lukas",
+                "family": "Hirsch",
+                "sequence": "additional",
+                "affiliation": []
+            },
+            {
+                "given": "Noah",
+                "family": "Markowitz",
+                "sequence": "additional",
+                "affiliation": []
+            },
+            {
+                "given": "Kaustubh",
+                "family": "Sapru",
+                "sequence": "additional",
+                "affiliation": []
+            },
+            {
+                "given": "Charles E.",
+                "family": "Schroeder",
+                "sequence": "additional",
+                "affiliation": []
+            },
+            {
+                "given": "Ashesh D.",
+                "family": "Mehta",
+                "sequence": "additional",
+                "affiliation": []
+            },
+            {
+                "given": "Stephan",
+                "family": "Bickel",
+                "sequence": "additional",
+                "affiliation": []
+            },
+            {
+                "ORCID": "https://orcid.org/0000-0003-4667-816X",
+                "authenticated-orcid": false,
+                "given": "Lucas C.",
+                "family": "Parra",
+                "sequence": "additional",
+                "affiliation": []
+            }
+        ],
+        "year": 2023,
+        "doi": "10.1038/s41467-023-38576-5",
+        "url": "https://doi.org/10.1038/s41467-023-38576-5",
+        "publisher": "Springer Science and Business Media LLC",
+        "source": "crossref"
+    },
+    {
+        "title": "The MOS 36-ltem Short-Form Health Survey (SF-36)",
+        "abstract": "Abstract available (needs reconstruction)",
+        "full_text": null,
+        "source": "OpenAlex"
+    },
+    {
+        "title": "AI-Assisted Pipeline for Dynamic Generation of Trustworthy Health Supplement Content at Scale",
+        "abstract": "Abstract available (needs reconstruction)",
+        "full_text": null,
+        "source": "OpenAlex"
+    },
+    {
+        "title": "Health Behavior and Health Education: Theory, Research, and Practice",
+        "abstract": "Abstract available (needs reconstruction)",
+        "full_text": null,
+        "source": "OpenAlex"
+    },
+    {
+        "title": "The MOS 36-item short-form health survey (SF-36). I. Conceptual framework and item selection.",
+        "abstract": "Abstract available (needs reconstruction)",
+        "full_text": null,
+        "source": "OpenAlex"
+    },
+    {
+        "title": "A 12-Item Short-Form Health Survey",
+        "abstract": "Abstract available (needs reconstruction)",
+        "full_text": null,
+        "source": "OpenAlex"
+    },
+    {
+        "title": "The Digital Transformation in Health: How AI Can Improve the Performance of Health Systems",
+        "authors": [
+            "\u00c1frica Peri\u00e1\u00f1ez",
+            "Ana Fern\u00e1ndez del R\u00edo",
+            "Ivan Nazarov",
+            "Enric Jan\u00e9",
+            "Moiz Hassan",
+            "Aditya Rastogi",
+            "Dexian Tang"
+        ],
+        "published": "2024-09-24T13:52:15Z",
+        "summary": "Mobile health has the potential to revolutionize health care delivery and patient engagement. In this work, we discuss how integrating Artificial Intelligence into digital health applications-focused on supply chain, patient management, and capacity building, among other use cases-can improve the health system and public health performance. We present an Artificial Intelligence and Reinforcement Learning platform that allows the delivery of adaptive interventions whose impact can be optimized through experimentation and real-time monitoring. The system can integrate multiple data sources and digital health applications. The flexibility of this platform to connect to various mobile health applications and digital devices and send personalized recommendations based on past data and predictions can significantly improve the impact of digital tools on health system outcomes. The potential for resource-poor settings, where the impact of this approach on health outcomes could be more decisive, is discussed specifically. This framework is, however, similarly applicable to improving efficiency in health systems where scarcity is not an issue.",
+        "url": "http://arxiv.org/abs/2409.16098v2",
+        "source": "arxiv"
+    },
+    {
+        "title": "FADL:Federated-Autonomous Deep Learning for Distributed Electronic Health Record",
+        "authors": [
+            "Dianbo Liu",
+            "Timothy Miller",
+            "Raheel Sayeed",
+            "Kenneth D. Mandl"
+        ],
+        "published": "2018-11-28T06:06:38Z",
+        "summary": "Electronic health record (EHR) data is collected by individual institutions and often stored across locations in silos. Getting access to these data is difficult and slow due to security, privacy, regulatory, and operational issues. We show, using ICU data from 58 different hospitals, that machine learning models to predict patient mortality can be trained efficiently without moving health data out of their silos using a distributed machine learning strategy. We propose a new method, called Federated-Autonomous Deep Learning (FADL) that trains part of the model using all data sources in a distributed manner and other parts using data from specific data sources. We observed that FADL outperforms traditional federated learning strategy and conclude that balance between global and local training is an important factor to consider when design distributed machine learning methods , especially in healthcare.",
+        "url": "http://arxiv.org/abs/1811.11400v2",
+        "source": "arxiv"
+    },
+    {
+        "title": "Interactive Sonification for Health and Energy using ChucK and Unity",
+        "authors": [
+            "Yichun Zhao",
+            "George Tzanetakis"
+        ],
+        "published": "2024-04-12T21:13:02Z",
+        "summary": "Sonification can provide valuable insights about data but most existing approaches are not designed to be controlled by the user in an interactive fashion. Interactions enable the designer of the sonification to more rapidly experiment with sound design and allow the sonification to be modified in real-time by interacting with various control parameters. In this paper, we describe two case studies of interactive sonification that utilize publicly available datasets that have been described recently in the International Conference on Auditory Display (ICAD). They are from the health and energy domains: electroencephalogram (EEG) alpha wave data and air pollutant data consisting of nitrogen dioxide, sulfur dioxide, carbon monoxide, and ozone. We show how these sonfications can be recreated to support interaction utilizing a general interactive sonification framework built using ChucK, Unity, and Chunity. In addition to supporting typical sonification methods that are common in existing sonification toolkits, our framework introduces novel methods such as supporting discrete events, interleaved playback of multiple data streams for comparison, and using frequency modulation (FM) synthesis in terms of one data attribute modulating another. We also describe how these new functionalities can be used to improve the sonification experience of the two datasets we have investigated.",
+        "url": "http://arxiv.org/abs/2404.08813v1",
+        "source": "arxiv"
+    },
+    {
+        "title": "Tweet for Behavior Change: Using Social Media for the Dissemination of Public Health Messages",
+        "authors": [
+            "Aisling Gough",
+            "Ruth F Hunter",
+            "Oluwaseun Ajao",
+            "Anna Jurek",
+            "Gary McKeown",
+            "Jun Hong",
+            "Eimear Barrett",
+            "Marbeth Ferguson",
+            "Gerry McElwee",
+            "Miriam McCarthy",
+            "Frank Kee"
+        ],
+        "published": "2017-03-26T13:22:00Z",
+        "summary": "Background: Social media public health campaigns have the advantage of tailored messaging at low cost and large reach, but little is known about what would determine their feasibility as tools for inducing attitude and behavior change.\n  Objective: The aim of this study was to test the feasibility of designing, implementing, and evaluating a social media-enabled intervention for skin cancer prevention.\n  Conclusions: Social media-disseminated public health messages reached more than 23% of the Northern Ireland population. A Web-based survey suggested that the campaign might have contributed to improved knowledge and attitudes toward skin cancer among the target population. Findings suggested that shocking and humorous messages generated greatest impressions and engagement, but information-based messages were likely to be shared most. The extent of behavioral change as a result of the campaign remains to be explored, however, the change of attitudes and knowledge is promising. Social media is an inexpensive, effective method for delivering public health messages. However, existing and traditional process evaluation methods may not be suitable for social media.",
+        "url": "http://arxiv.org/abs/1703.08813v1",
+        "source": "arxiv"
+    },
+    {
+        "title": "The Impact of Medicaid Coverage on Mental Health, Why Insurance Makes People Happier in OHIE: by Spending Less or by Spending More?",
+        "authors": [
+            "Yangyang Li"
+        ],
+        "published": "2025-10-16T17:28:43Z",
+        "summary": "The Oregon Health Insurance Experiment (OHIE) offers a unique opportunity to examine the causal relationship between Medicaid coverage and happiness among low-income adults, using an experimental design. This study leverages data from comprehensive surveys conducted at 0 and 12 months post-treatment. Previous studies based on OHIE have shown that individuals receiving Medicaid exhibited a significant improvement in mental health compared to those who did not receive coverage. The primary objective is to explore how Medicaid coverage impacts happiness, specifically analyzing in which direction variations in healthcare spending significantly improve mental health: higher spending or lower spending after Medicaid. Utilizing instrumental variable (IV) regression, I conducted six separate regressions across subgroups categorized by expenditure levels and happiness ratings, and the results reveal distinct patterns. Enrolling in OHP has significantly decreased the probability of experiencing unhappiness, regardless of whether individuals had high or low medical spending. Additionally, it decreased the probability of being pretty happy and having high medical expenses, while increasing the probability among those with lower expenses. Concerning the probability of being very happy, the OHP only had a positive effect on being very happy and spending less, and its effect on those with high expenses was insignificant. These findings align with the benefit of Medicaid: alleviating financial burden, contributing to the well-being of distinct subgroups.",
+        "url": "http://arxiv.org/abs/2510.14909v1",
+        "source": "arxiv"
+    },
+    {
+        "title": "Cybercrime",
+        "authors": null,
+        "year": 2015,
+        "doi": "10.1017/cbo9781139540803.002",
+        "url": "https://doi.org/10.1017/cbo9781139540803.002",
+        "publisher": "Cambridge University Press",
+        "source": "crossref"
+    },
+    {
+        "title": "Policing Cybercrime: The Challenges, Part 1",
+        "authors": null,
+        "year": 2017,
+        "doi": "10.4135/9781473961197",
+        "url": "https://doi.org/10.4135/9781473961197",
+        "publisher": "SAGE Publications Ltd",
+        "source": "crossref"
+    },
+    {
+        "title": "Cybercrime",
+        "authors": null,
+        "year": 2015,
+        "doi": "10.4324/9781315884202-1",
+        "url": "https://doi.org/10.4324/9781315884202-1",
+        "publisher": "Routledge",
+        "source": "crossref"
+    },
+    {
+        "title": "Cybercrime",
+        "authors": [
+            {
+                "given": "Edith",
+                "family": "Huber",
+                "sequence": "first",
+                "affiliation": []
+            }
+        ],
+        "year": 2019,
+        "doi": "10.1007/978-3-658-26150-4_3",
+        "url": "https://doi.org/10.1007/978-3-658-26150-4_3",
+        "publisher": "Springer Fachmedien Wiesbaden",
+        "source": "crossref"
+    },
+    {
+        "title": "Preventive cybercrime and cybercrime by omission in China",
+        "authors": [
+            {
+                "given": "He",
+                "family": "Ronggong",
+                "sequence": "first",
+                "affiliation": []
+            },
+            {
+                "given": "Jing",
+                "family": "Lijia",
+                "sequence": "additional",
+                "affiliation": []
+            }
+        ],
+        "year": 2020,
+        "doi": "10.4324/9780429344015-4",
+        "url": "https://doi.org/10.4324/9780429344015-4",
+        "publisher": "Routledge",
+        "source": "crossref"
+    },
+    {
+        "title": "The Novelty of \u2018Cybercrime\u2019",
+        "abstract": "Abstract available (needs reconstruction)",
+        "full_text": null,
+        "source": "OpenAlex"
+    },
+    {
+        "title": "Measuring the Cost of Cybercrime",
+        "abstract": null,
+        "full_text": null,
+        "source": "OpenAlex"
+    },
+    {
+        "title": "Cybercrime and Society",
+        "abstract": "Abstract available (needs reconstruction)",
+        "full_text": null,
+        "source": "OpenAlex"
+    },
+    {
+        "title": "On the definition and classification of cybercrime",
+        "abstract": null,
+        "full_text": null,
+        "source": "OpenAlex"
+    },
+    {
+        "title": "Cybercrime: The Transformation of Crime in the Information Age",
+        "abstract": "Abstract available (needs reconstruction)",
+        "full_text": null,
+        "source": "OpenAlex"
+    },
+    {
+        "title": "Towards Effective Cybercrime Intervention",
+        "authors": [
+            "Jonathan W. Z. Lim",
+            "Vrizlynn L. L. Thing"
+        ],
+        "published": "2022-11-17T13:40:53Z",
+        "summary": "Cybercrimes are on the rise, in part due to technological advancements, as well as increased avenues of exploitation. Sophisticated threat actors are leveraging on such advancements to execute their malicious intentions. The increase in cybercrimes is prevalent, and it seems unlikely that they can be easily eradicated. A more serious concern is that the community may come to accept the notion that this will become the trend. As such, the key question revolves around how we can reduce cybercrime in this evolving landscape. In our paper, we propose to build a systematic framework through the lens of a cyber threat actor. We explore the motivation factors behind the crimes and the crime stages of the threat actors. We then formulate intervention plans so as to discourage the act of committing malicious cyber activities and also aim to integrate ex-cyber offenders back into society.",
+        "url": "http://arxiv.org/abs/2211.09524v1",
+        "source": "arxiv"
+    },
+    {
+        "title": "An Assessment Model for Cybercrime Investigation Capacity",
+        "authors": [
+            "Joshua I. James",
+            "Yunsik Jake Jang"
+        ],
+        "published": "2013-06-29T08:39:36Z",
+        "summary": "Digital technologies are constantly changing, and with it criminals are finding new ways to abuse these technologies. Cybercrime investigators, then, must also keep their skills and knowledge up to date. This work proposes a holistic training development model - specifically focused on cybercrime investigation - that is based on improving investigator capability while also considering the capacity of the investigator or unit. Along with a training development model, a cybercrime investigation capacity assessment framework is given for attempting to measure capacity throughout the education process. First, a training development model is proposed that focuses on the expansion of investigation capability as well as capacity of investigators and units. Next, a capacity assessment model is given to evaluate the effectiveness of the training program. A description of how the proposed model is being applied to the development of training programs for cybercrime investigators in developing countries will then be given, as well as already observed challenges. Finally, concluding remarks as well as proposed future work is discussed.",
+        "url": "http://arxiv.org/abs/1307.0076v1",
+        "source": "arxiv"
+    },
+    {
+        "title": "Study of Peer-to-Peer Network Based Cybercrime Investigation: Application on Botnet Technologies",
+        "authors": [
+            "Mark Scanlon"
+        ],
+        "published": "2017-12-10T00:18:58Z",
+        "summary": "The scalable, low overhead attributes of Peer-to-Peer (P2P) Internet protocols and networks lend themselves well to being exploited by criminals to execute a large range of cybercrimes. The types of crimes aided by P2P technology include copyright infringement, sharing of illicit images of children, fraud, hacking/cracking, denial of service attacks and virus/malware propagation through the use of a variety of worms, botnets, malware, viruses and P2P file sharing. This project is focused on study of active P2P nodes along with the analysis of the undocumented communication methods employed in many of these large unstructured networks. This is achieved through the design and implementation of an efficient P2P monitoring and crawling toolset. The requirement for investigating P2P based systems is not limited to the more obvious cybercrimes listed above, as many legitimate P2P based applications may also be pertinent to a digital forensic investigation, e.g, voice over IP, instant messaging, etc. Investigating these networks has become increasingly difficult due to the broad range of network topologies and the ever increasing and evolving range of P2P based applications. In this work we introduce the Universal P2P Network Investigation Framework (UP2PNIF), a framework which enables significantly faster and less labour intensive investigation of newly discovered P2P networks through the exploitation of the commonalities in P2P network functionality. In combination with a reference database of known network characteristics, it is envisioned that any known P2P network can be instantly investigated using the framework, which can intelligently determine the best investigation methodology and greatly expedite the evidence gathering process. A proof of concept tool was developed for conducting investigations on the BitTorrent network.",
+        "url": "http://arxiv.org/abs/1712.03455v1",
+        "source": "arxiv"
+    },
+    {
+        "title": "Different Cybercrimes and their Solution for Common People",
+        "authors": [
+            "S. Tamang",
+            "G. S. Chandana",
+            "B. K. Roy"
+        ],
+        "published": "2024-10-08T04:23:11Z",
+        "summary": "In today's digital age, cyberspace has become integral to daily life, however it has also led to an increase in cybercriminal activities. This paper explores cybercrime trends and highlights the need for cybercrime awareness (cyberawareness) to mitigate vulnerabilities. The study also examines Indian statistics on cybercrime. We review the existing literature on cybercrime and cybersecurity, focusing on various types of cybercrimes and their impacts. We present a list of 31 technical as well as non-technical solutions considering that a \"common man\" may not be technologically aware. Common man solutions, considering that they are not technologically updated. Expanding the list of solutions and validating their effectiveness in cyber threats can be the future scope of the research.",
+        "url": "http://arxiv.org/abs/2410.09089v1",
+        "source": "arxiv"
+    },
+    {
+        "title": "A Comprehensive Analytical Review on Cybercrime in West Africa",
+        "authors": [
+            "Victor Adewopo",
+            "Sylvia Worlali Azumah",
+            "Mustapha Awinsongya Yakubu",
+            "Emmanuel Kojo Gyamfi",
+            "Murat Ozer",
+            "Nelly Elsayed"
+        ],
+        "published": "2024-01-07T23:36:43Z",
+        "summary": "Cybercrime is a growing concern in West Africa due to the increasing use of technology and internet penetration in the region. Legal frameworks are essential for guiding the control of cybercrime. However, the implementation proves challenging for law enforcement agencies due to the absence of a dedicated and effective regional institutional follow-up mechanism. This study conducted a systematic literature review focusing on West Africa's prevalence of cybercrime, governing policies, regulations, and methodologies for combating cybercrime. West-Africa countries face significant cybercrime challenges, exacerbated by inadequate resources and a dearth of security experts. This study pinpoints potential cybercrime prevention strategies, such as leveraging the Triage framework and broadening research to cover pivotal areas like cyber aggression and cyberbullying. Our research findings highlight the urgency for policymakers and law enforcement agencies to devise more efficient prevention strategies and policies. Overall, this study provides invaluable insights into the state of cybercrime in West Africa to guide the formulation of potent prevention and intervention strategies.",
+        "url": "http://arxiv.org/abs/2402.01649v1",
+        "source": "arxiv"
     }
 ]

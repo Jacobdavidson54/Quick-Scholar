@@ -1,3 +1,4 @@
+# utils.py
 import unicodedata
 import json
 import os
@@ -33,7 +34,11 @@ def normalize_string(text):
     text = unicodedata.normalize("NFKD", text)
     text = text.encode("ascii", "ignore").decode("ascii")
 
-    text = re.sub(r"[^\w\s]", "", text)
+
+    # bug fix: Cleaned text by removing punctuation and extra spaces, so words are neat and searchable.
+    text = re.sub(r"[^\w\s]", " ", text)
+    text = re.sub(r"\s+", " ", text).strip()
+
 
     text = text.strip()
 
