@@ -55,4 +55,53 @@ def normalize_results(results):
 
     return results
 
+# Upgrade : Added a new function normalize_and_score that not only normalizes the results but also assigns a relevance score based on keyword matches, recency, citation count, and source credibility. This allows for more meaningful sorting and ranking of search results, providing users with the most relevant papers at the top of the list. The function also limits the number of results returned to a specified maximum for better performance and user experience.
+def normalize_and_score(results, query , max_results = 50):
+
+    normalized_results = []
+
+    query_lower = normalize_string(query)
+
+    for paper in results:
+        title = normalize_string(paper.get("title", ""))
+        year = int(paper.get("year") or 0)
+        citations = int(paper.get("citations") or 0)
+        source = paper.get("source", "")
+
+        if not title:
+            continue
+
+        score = 0
+
+        # Keyword relevance
+        if query_lower in title:
+            score += 10
+
+        # Recency
+        current_year = 2026
+        if year:
+            score += max(0, 10 - (current_year - year))
+
+        # Citation count
+        if citations:
+            score += min(citations, 30)
+
+        # Source weight
+        if source:
+            score += 5 if source == "openalex" else 3 if source == "crossref" else 1
+
+        normalized_results.append({
+            "title": title,
+            "year": year,
+            "citations": citations,
+            "source": source,
+            "score": score
+        })
+
+    # Sorted by score descending, then year descending
+    normalized_results.sort(key=lambda x: (x["score"], x["year"]), reverse=True)
+
+    return normalized_results[:max_results]
+
+    
 
