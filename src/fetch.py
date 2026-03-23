@@ -1,7 +1,7 @@
 # fetch.py
-import aiohttp
 import asyncio
 import xml.etree.ElementTree as ET
+import aiohttp
 # Removed request module for asynchttp and aiohttp for better performance and non-blocking calls to APIs.
 
 # Upgrade : removed the loading and saving logic from fetch.py to utils.py to centralize file handling and keep fetch.py focused on data retrieval from APIs. This separation of concerns makes the code cleaner and easier to maintain.
@@ -17,11 +17,12 @@ async def fetch_crossref_metadata(session, query):
 
     params = {
         "query": query,
-        "rows": 5
+        "rows": 15
     }
 
     try:
-        async with session.get(url, headers=headers, params=params) as response:
+        timeout = aiohttp.ClientTimeout(total = 10) # Bug fix: Added a timeout to prevent hanging requests and improve user experience when the API is slow or unresponsive.
+        async with session.get(url, headers=headers, params=params, timeout=timeout) as response:
             response.raise_for_status()
             raw_data = await response.json()
 
@@ -33,10 +34,16 @@ async def fetch_crossref_metadata(session, query):
         cleaned_results = []
 
         for item in items:
+            title = item.get("title", [""])
+            year = item.get("issued", {}).get("date-parts", [[0]])[0][0]
+            citations = item.get("is-referenced-by-count", 0)
+
+        for item in items:
             cleaned_results.append({
-                "title": item.get("title", [""])[0],
+                "title": title[0] if title else "",
+                "year": year if isinstance(year, int) else 0,
+                "citations": citations if isinstance(citations, int) else 0,
                 "authors": item.get("author"),
-                "year": item.get("issued", {}).get("date-parts", [[None]])[0][0],
                 "doi": item.get("DOI"),
                 "url": item.get("URL"),
                 "publisher": item.get("publisher"),
@@ -44,22 +51,30 @@ async def fetch_crossref_metadata(session, query):
             })
 
         return cleaned_results
-
-    except Exception:
+# Bug fix : Added specific exception handling for aiohttp.ClientError and asyncio.TimeoutError to provide clearer error messages and prevent the entire application from crashing due to API issues. This ensures that if one API fails, the others can still return results without interruption. Additionally, a general exception catch is included to handle any unforeseen errors gracefully.
+    except aiohttp.ClientError as e:
+        print(f"CrossRef API error: {e}")
+        return []
+    except asyncio.TimeoutError:
+        print("CrossRef API timeout")
+        return []
+    except Exception as e: # Notice : This code line is still going  to be fixed in the future, because it is a general exception catch that can hide specific issues. In a production environment, it's better to handle specific exceptions and log them appropriately rather than catching all exceptions in a broad manner.
+        print(f"Unexpected error in CrossRef API: {e}")
         return []
 
-
+       
 async def fetch_openalex_results(session, search):
 
     url = "https://api.openalex.org/works"
 
     params = {
         "search": search,
-        "per_page": 5
+        "per_page": 15
     }
 
     try:
-        async with session.get(url, params=params) as response:
+        timeout = aiohttp.ClientTimeout(total = 10)
+        async with session.get(url, params=params, timeout=timeout) as response:
             response.raise_for_status()
             raw_info = await response.json()
 
@@ -72,19 +87,29 @@ async def fetch_openalex_results(session, search):
 
         for info in results:
             location = info.get("primary_location") or {}
+            title = info.get("title")
+            year = info.get("publication_year")
+            citations = info.get("cited_by_count")
 
             cleaned_info.append({
-                "title": info.get("title"),
+                "title": title if title else "",
                 "abstract": None,
                 "full_text": location.get("pdf_url"),
-                "year": info.get("publication_year"),
-                "citations": info.get("cited_by_count"),
+                "year": year if isinstance(year, int) else 0,
+                "citations": citations if isinstance(citations, int) else 0,
                 "source": "openalex"
             })
 
         return cleaned_info
 
-    except Exception:
+    except aiohttp.ClientError as e:
+        print(f"OpenAlex API error: {e}")
+        return []
+    except asyncio.TimeoutError:
+        print("OpenAlex API timeout")
+        return []
+    except Exception as e:
+        print(f"Unexpected error in OpenAlex API: {e}")
         return []
 
 
@@ -95,11 +120,12 @@ async def fetch_arxiv_data(session, query):
     params = {
         "search_query": f"all:{query}",
         "start": 0,
-        "max_results": 5
+        "max_results": 15
     }
 
     try:
-        async with session.get(url, params=params) as response:
+        timeout = aiohttp.ClientTimeout(total = 10)
+        async with session.get(url, params=params, timeout=timeout) as response:
             response.raise_for_status()
             content = await response.text()
 
@@ -109,11 +135,13 @@ async def fetch_arxiv_data(session, query):
 
         for entry in root.findall("{http://www.w3.org/2005/Atom}entry"):
 
-            title = entry.find("{http://www.w3.org/2005/Atom}title").text
-            published = entry.find("{http://www.w3.org/2005/Atom}published").text
+            title = entry.find("{http://www.w3.org/2005/Atom}title").text.strip()
+            published_elem = entry.find("{http://www.w3.org/2005/Atom}published").text
+
+            published = published_elem.strip() if published_elem is not None else "" 
 
             cleaned_metadata.append({
-                "title": title,
+                "title": title if title is not None else "",
                 "year": int(published[:4]) if published else None,
                 "citations": 0,
                 "source": "arxiv"
@@ -121,9 +149,16 @@ async def fetch_arxiv_data(session, query):
 
         return cleaned_metadata
 
-    except Exception:
+    except aiohttp.ClientError as e:
+        print(f"arXiv API error: {e}")
         return []
-
+    except asyncio.TimeoutError:
+        print("arXiv API timeout")
+        return []
+    except Exception as e:
+        print(f"Unexpected error in arXiv API: {e}")
+        return []
+    
 
 async def fetch_all_sources(query):
 
