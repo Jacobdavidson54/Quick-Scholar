@@ -1,5 +1,4 @@
 # main.py
-import asyncio
 from flask import Flask, request, jsonify
 from src.utils import initialize_file
 from src.fetch import fetch_all_sources
@@ -40,3 +39,4 @@ async def search():
 
 if __name__ == "__main__":
     app.run(debug=True)
+
