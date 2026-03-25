@@ -59,8 +59,15 @@ def normalize_results(results):
 def normalize_and_score(results, query , max_results = 50):
 
     normalized_results = []
+    seen_titles = set()
+    
+
+
 
     query_lower = normalize_string(query)
+    query_keywords = set(query_lower.split())
+
+    current_year = 2026
 
     for paper in results:
         title = normalize_string(paper.get("title", ""))
@@ -68,17 +75,28 @@ def normalize_and_score(results, query , max_results = 50):
         citations = int(paper.get("citations") or 0)
         source = paper.get("source", "")
 
-        if not title:
+        if not title or len(title) < 5 or title in seen_titles:
+            continue
+        seen_titles.add(title)
+
+        if not title or len(title.strip()) < 5:
+            continue
+
+        if source == "crossrref" and citations == 0 and len(title.split()) < 3 :
+            continue
+
+        if year and year < 2000:
             continue
 
         score = 0
 
         # Keyword relevance
-        if query_lower in title:
+        if any(word in title for word in query_keywords):
             score += 10
 
+
         # Recency
-        current_year = 2026
+
         if year:
             score += max(0, 10 - (current_year - year))
 
