@@ -102,4 +102,5 @@ def get_all_search_history():
     conn.commit()
 
 
+
     
