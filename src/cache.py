@@ -38,6 +38,3 @@ def get_cache(key):
 
 
 
-
-    
-print(cache_store)
