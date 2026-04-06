@@ -6,28 +6,170 @@
     <title>Document</title>
 </head>
 <body>
-    <h1>Quickscholar</h1>
-    <h2>Welcome to Quickscholar</h2>
-    <div>
-        <p>Quickscholar is a web application that allows users to search for academic papers and view their details. It provides a user-friendly interface for accessing scholarly information.</p>
-         <a href = "search.html">Search for papers</a> 
-    </div>
+    <header>
+       <div class="header-top">
+            <img src="Fakelogo.jfif" alt="QuickScholar Logo" width="50" height="50">
+            <h1>QuickScholar</h1>
+        </div>
+        <nav>
+            <ul>
+                <li><a href="#">Home</a></li>
+                <li><a href="#">Profile</a></li>
+                <li><a href="#">About</a></li>
+            </ul>
+        </nav>
+    </header>
 
-    <div> 
-        <h3>Features:</h3>
+    <aside>
+        <h2>Menu</h2>
         <ul>
-            <li>Search for academic papers by title, author, or keywords.</li>
-            <li>View detailed information about each paper, including abstract, authors, and publication date.</li>
-            <li>Save favorite papers for easy access later.</li> 
+            <li><a href="#">Home</a></li>
+            <li><a href="#search">Search</a></li>
+            <li><a href="#results">Results</a></li>
+            <li><a href="#saved-papers">Saved Papers</a></li>
+            <li><a href="#history">History</a></li>
+            <li><a href="#paper-details">Paper Details</a></li> 
+            <li><a href="#profile">Profile</a></li>
+            <li><a href="#settings">Settings</a></li> 
+            <li><a href="#about">About</a></li>
         </ul>
-    </div>
+    </aside>
 
-    <div> 
-        <h4> About Quickscholar</h4>
-        <p>Learn more about the Quickscholar project and its developers.</p>
-        <a href = "about.html">Learn more</a>
+    <main>
+        <section id="search">
+            <h2>Search</h2>
+            <form class="search-form">
+                <label for="search-input">Search for papers:</label>
+                <input type="text" id="search-input" placeholder="Search for papers...">
+                <button type="submit">Search</button>
 
-    </div>
+                <label for="filter">Filter by:</label>
+                <select id="filter" name="filter">
+                    <option value="all">All</option>
+                    <option value="title">Title</option>
+                    <option value="author">Author</option>
+                    <option value="year">Year</option>
+                    <option value="journal">Journal</option>
+                </select>
+            </form>
+        </section>
 
+        <section id="results">
+            <h2>Results</h2>
+            <table class="results-table">
+                <caption>Search results for your query</caption>
+                <thead>
+                    <tr>
+                        <th>Title</th>
+                        <th>Link</th>
+                        <th>Author</th>
+                        <th>Year</th>
+                        <th>Journal</th>
+                        <th>Citations</th>
+                        <th>Score</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>Paper 1</td>
+                        <td><a href="#">Link 1</a></td>
+                        <td>Author 1</td>
+                        <td>2020</td>
+                        <td>Journal 1</td>
+                        <td>10</td>
+                        <td>0.8</td>
+                    </tr>
+                    <tr>
+                        <td>Paper 2</td>
+                        <td><a href="#">Link 2</a></td>
+                        <td>Author 2</td>
+                        <td>2021</td>
+                        <td>Journal 2</td>
+                        <td>20</td>
+                        <td>0.9</td>
+                    </tr>
+                    <tr>
+                        <td>Paper 3</td>
+                        <td><a href="#">Link 3</a></td>
+                        <td>Author 3</td>
+                        <td>2022</td>
+                        <td>Journal 3</td>
+                        <td>30</td>
+                        <td>0.7</td>
+                    </tr>
+                </tbody>
+            </table>
+        </section>
+
+        <section id="paper-details">
+            <h2>Paper Details</h2>
+            <article class="paper-card">
+                <h3>Paper Title</h3>
+                <p><strong>Author:</strong> Author Name</p>
+                <p><strong>Year:</strong> 2022</p>
+                <p><strong>Journal:</strong> Journal Name</p>
+                <p><strong>Abstract:</strong> Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                <a href="#">View Full Paper</a>
+            </article>
+        </section>
+
+        <section id="saved-papers">
+            <h2>Saved Papers</h2>
+            <ul>
+                <li><a href="#">Paper 1</a></li>
+                <li><a href="#">Paper 2</a></li>
+                <li><a href="#">Paper 3</a></li>
+            </ul>
+        </section>
+
+        <section id="history">
+            <h2>History</h2>
+            <ul>
+                <li><a href="#">Paper 1</a></li>
+                <li><a href="#">Paper 2</a></li>
+                <li><a href="#">Paper 3</a></li>
+            </ul>
+        </section>
+
+        <section id="profile">
+            <h2>Profile</h2>
+            <p>Username: John Doe</p>
+            <p>UserID: 4</p>
+        </section>
+
+        <section id="settings">
+            <h2>Settings</h2>
+            <form class="settings-form">
+                <label for="source">Preferred Source:</label>
+                <select id="source" name="source">
+                    <option value="all">All</option>
+                    <option value="openalex">OpenAlex</option>
+                    <option value="arxiv">ArXiv</option>
+                    <option value="crossref">CrossRef</option>
+                </select>
+
+                <label for="theme">Theme:</label>
+                <select id="theme" name="theme">
+                    <option value="light">Light</option>
+                    <option value="dark">Dark</option>
+                </select>
+                <button type="submit">Save Settings</button>
+            </form>
+        </section>
+
+        <section id="about">
+            <h2>About</h2>
+            <p>QuickScholar is a web application that allows users to search for academic papers, save them, and track search history.</p>
+        </section>
+
+
+        <section id="status">
+            <p>Loading... Please wait.</p>
+        </section>
+
+    </main>
+    <footer>
+        <p>&copy; 2026 Quickscholar. All rights reserved.</p>
+    </footer>  
 </body>
 </html>
