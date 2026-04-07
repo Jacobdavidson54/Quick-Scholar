@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>QuickScholar</title>
 </head>
 <body>
     <header>
@@ -13,9 +13,9 @@
         </div>
         <nav>
             <ul>
-                <li><a href="#">Home</a></li>
-                <li><a href="#">Profile</a></li>
-                <li><a href="#">About</a></li>
+                <li><a href="#" onclick="showScreen('login')">login</a></li>
+                <li><a href="#" onclick="showScreen('search')">search</a></li>
+                <li><a href="#" onclick="showScreen('about')">About</a></li>
             </ul>
         </nav>
     </header>
@@ -23,20 +23,24 @@
     <aside>
         <h2>Menu</h2>
         <ul>
-            <li><a href="#">Home</a></li>
-            <li><a href="#search">Search</a></li>
-            <li><a href="#results">Results</a></li>
-            <li><a href="#saved-papers">Saved Papers</a></li>
-            <li><a href="#history">History</a></li>
-            <li><a href="#paper-details">Paper Details</a></li> 
-            <li><a href="#profile">Profile</a></li>
-            <li><a href="#settings">Settings</a></li> 
-            <li><a href="#about">About</a></li>
+            <li><a href="#" onclick="showScreen('search')">Search</a></li>
+            <li><a href="#" onclick="showScreen('results')">Results</a></li>
+            <li><a href="#" onclick="showScreen('saved-papers')">Saved Papers</a></li>
+            <li><a href="#" onclick="showScreen('about')">About</a></li>
         </ul>
     </aside>
 
     <main>
-        <section id="search">
+        <section id="login">
+            <h2>Log-In</h2>
+            <form id="login-form">
+                <label for="username" >Username:</label>
+                <input type="text" id="username" name="username" placeholder="type your username here..." required>
+                <button type="submit">Login</button>
+            </form>
+        </section>
+
+        <section id="search" style="display: none;">
             <h2>Search</h2>
             <form class="search-form">
                 <label for="search-input">Search for papers:</label>
@@ -54,7 +58,7 @@
             </form>
         </section>
 
-        <section id="results">
+        <section id="results" style="display: none;">
             <h2>Results</h2>
             <table class="results-table">
                 <caption>Search results for your query</caption>
@@ -101,19 +105,8 @@
             </table>
         </section>
 
-        <section id="paper-details">
-            <h2>Paper Details</h2>
-            <article class="paper-card">
-                <h3>Paper Title</h3>
-                <p><strong>Author:</strong> Author Name</p>
-                <p><strong>Year:</strong> 2022</p>
-                <p><strong>Journal:</strong> Journal Name</p>
-                <p><strong>Abstract:</strong> Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
-                <a href="#">View Full Paper</a>
-            </article>
-        </section>
 
-        <section id="saved-papers">
+        <section id="saved-papers" style="display: none;">
             <h2>Saved Papers</h2>
             <ul>
                 <li><a href="#">Paper 1</a></li>
@@ -122,48 +115,14 @@
             </ul>
         </section>
 
-        <section id="history">
-            <h2>History</h2>
-            <ul>
-                <li><a href="#">Paper 1</a></li>
-                <li><a href="#">Paper 2</a></li>
-                <li><a href="#">Paper 3</a></li>
-            </ul>
-        </section>
-
-        <section id="profile">
-            <h2>Profile</h2>
-            <p>Username: John Doe</p>
-            <p>UserID: 4</p>
-        </section>
-
-        <section id="settings">
-            <h2>Settings</h2>
-            <form class="settings-form">
-                <label for="source">Preferred Source:</label>
-                <select id="source" name="source">
-                    <option value="all">All</option>
-                    <option value="openalex">OpenAlex</option>
-                    <option value="arxiv">ArXiv</option>
-                    <option value="crossref">CrossRef</option>
-                </select>
-
-                <label for="theme">Theme:</label>
-                <select id="theme" name="theme">
-                    <option value="light">Light</option>
-                    <option value="dark">Dark</option>
-                </select>
-                <button type="submit">Save Settings</button>
-            </form>
-        </section>
-
-        <section id="about">
+       
+        <section id="about" style="display: none;">
             <h2>About</h2>
             <p>QuickScholar is a web application that allows users to search for academic papers, save them, and track search history.</p>
         </section>
 
 
-        <section id="status">
+        <section id="status" style="display: none;">
             <p>Loading... Please wait.</p>
         </section>
 
@@ -171,5 +130,18 @@
     <footer>
         <p>&copy; 2026 Quickscholar. All rights reserved.</p>
     </footer>  
+
+
+     <script>
+        function showScreen(screenId) {
+            document.querySelectorAll("main section").forEach(section => {
+                section.style.display = "none";
+            });
+
+            document.getElementById(screenId).style.display = "block";
+        }
+        showScreen('login');
+    </script>
+
 </body>
 </html>
