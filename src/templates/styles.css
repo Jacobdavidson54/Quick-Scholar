@@ -13,7 +13,7 @@ body {
     display: grid;
     grid-template-columns: 220px 1fr;
     grid-template-rows: auto 1fr auto;
-    height: 100vh;
+    min-height: 100vh;
 }
 
 header {
@@ -29,6 +29,7 @@ header {
     display: flex;
     align-items: center;
     gap: 10px;
+    flex-wrap: wrap;
 }
 
 .header-top h1 {
@@ -47,6 +48,7 @@ nav ul {
     gap: 20px;
     margin-top: 10px;
     list-style: none;
+    flex-wrap: wrap;
 }
 
 nav a {
@@ -100,6 +102,11 @@ main {
     overflow-y: auto;
 }
 
+@media (max-width: 768px) {
+    main {
+        padding: 15px;
+    }
+}
 
 section {
     background-color: #020617;
@@ -127,6 +134,7 @@ input, select {
     outline: none;
     background-color: #1e293b;
     color: white;
+    width: 100%
 }
 
 button {
@@ -140,6 +148,12 @@ button {
     transition: 0.3s;
 }
 
+@media (max-width: 480px) {
+    button {
+        width: 100%;
+    }
+}
+
 button:hover {
     background-color: #0ea5e9;
 }
@@ -149,6 +163,8 @@ button:hover {
     width: 100%;
     border-collapse: collapse;
     margin-top: 15px;
+    display: block; 
+    overflow-x: auto;
 }
 
 .results-table th,
@@ -187,10 +203,6 @@ footer {
 
 
 
-
-
-
-
 @media (max-width: 768px) {
     body {
         grid-template-columns: 1fr;
@@ -202,5 +214,27 @@ footer {
 
     header {
         text-align: center;
+    }
+
+    nav ul {
+        justify-content: center; 
+    }
+
+    .header-top {
+        justify-content: center; 
+    }
+}
+
+@media (max-width: 480px) {
+    .header-top h1 {
+        font-size: 18px;
+    }
+
+    section {
+        padding: 15px;
+    }
+
+    h2 {
+        font-size: 18px;
     }
 }
