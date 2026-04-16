@@ -53,3 +53,45 @@ searchLink2.addEventListener('click', (event) => {
     showScreen('search');
 });
 
+
+let usernameInput = document.getElementById('username');
+let login = document.getElementById('login-form');
+login.addEventListener('submit', (event) => {
+    event.preventDefault();
+    let usernamevalue = usernameInput.value.trim();
+    if (usernamevalue) {
+        alert(`Welcome, ${usernamevalue}! You are now logged in.`);
+        showScreen('search');
+    } else {
+        alert('Please enter a username.');
+    }
+});
+
+const searchForm = document.querySelector('.search-form'); 
+const searchInput = document.getElementById('search-input'); 
+
+searchForm.addEventListener('submit', (event) => {
+    event.preventDefault();
+
+    const queryValue = searchInput.value.trim();
+
+    if (queryValue) {
+        console.log(`Searching for: ${queryValue}`);
+        showScreen('results');
+    } else {
+        alert('Please enter a search query.');
+    }
+});
+
+const filterSelect = document.getElementById('filter');
+filterSelect.addEventListener('change', function () {
+    console.log("Filter changed to:", this.value);
+});
+
+
+searchInput.addEventListener('change', function () {
+    console.log("Final input value:", this.value);
+});
+
+
+
