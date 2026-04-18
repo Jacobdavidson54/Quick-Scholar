@@ -65,6 +65,7 @@ resultsLink.addEventListener('click', (event) => {
 const savedLink = document.getElementById('saved-papers-link');
 savedLink.addEventListener('click', (event) => {
     event.preventDefault();
+    displaySavedPapers();
     showScreen('saved-papers');
 });
 
@@ -106,7 +107,7 @@ function displayResults(data) {
     const tbody = document.querySelector(".results-table tbody"); 
     tbody.innerHTML = ""; 
 
-    data.forEach(paper => { 
+    data.forEach((paper, index )=> { 
         const row = document.createElement("tr"); 
 
         row.innerHTML = ` 
@@ -117,12 +118,13 @@ function displayResults(data) {
             <td>${paper.journal}</td>
             <td>${paper.citations}</td>
             <td>${paper.score}</td>
-            <td><button class="save-btn">Save</button></td>
+            <td><button class="save-btn" data-index="${index}" >Save</button></td>
             
         `;
 
         tbody.appendChild(row); 
     });
+
      document.querySelectorAll(".save-btn").forEach(button => {
         button.addEventListener("click", function () {
             const index = this.getAttribute("data-index");
@@ -143,6 +145,28 @@ function savePaper(paper) {
         alert("Already saved!");
     }
 }
+// Funtion to saved papers
+function displaySavedPapers() { 
+    const tbody = document.getElementById("saved-body"); 
+    tbody.innerHTML = ""; 
+
+    savedPapers.forEach(paper => { 
+        const row = document.createElement("tr"); 
+
+        row.innerHTML = `
+            <td>${paper.title}</td>
+            <td><a href="#">View</a></td>
+            <td>${paper.author}</td>
+            <td>${paper.year}</td>
+            <td>${paper.journal}</td>
+            <td>${paper.citations}</td>
+            <td>${paper.score}</td>
+        `;
+
+        tbody.appendChild(row); 
+    });
+}
+
 
 // Function to filter papers based on search query
 function filterPapers(query) { 
