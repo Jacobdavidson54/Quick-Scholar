@@ -235,7 +235,7 @@ button:active {
 }
 
 
-.results-table {
+.results-table, .saved-table {
     width: 100%;
     border-collapse: collapse;
     margin-top: 15px;
@@ -243,22 +243,22 @@ button:active {
     overflow-x: auto;
 }
 
-.results-table th {
+.results-table th, .saved-table th {
     background: rgba(30, 41, 59, 0.8);
     padding: 12px;
     text-align: left;
 }
 
-.results-table td {
+.results-table td, .saved-table td {
     padding: 12px;
     border-bottom: 1px solid rgba(148, 163, 184, 0.15);
 }
 
-.results-table tr {
+.results-table tr, .saved-table tr  {
     transition: 0.3s;
 }
 
-.results-table tr:hover {
+.results-table tr:hover , .saved-table tr:hover {
     background: rgba(56, 189, 248, 0.08);
     transform: scale(1.01);
 }
