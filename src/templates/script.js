@@ -1,4 +1,5 @@
 let papers = [];
+let savedPapers = [];
 function loadMockData() {
     papers = [
         {
@@ -116,11 +117,31 @@ function displayResults(data) {
             <td>${paper.journal}</td>
             <td>${paper.citations}</td>
             <td>${paper.score}</td>
+            <td><button class="save-btn">Save</button></td>
             
         `;
 
         tbody.appendChild(row); 
     });
+     document.querySelectorAll(".save-btn").forEach(button => {
+        button.addEventListener("click", function () {
+            const index = this.getAttribute("data-index");
+            savePaper(data[index]); 
+        });
+    });
+}
+
+// Function to save a paper to the saved papers list
+function savePaper(paper) {
+
+    const exists = savedPapers.some(p => p.title === paper.title);
+
+    if (!exists) {
+        savedPapers.push(paper);
+        alert("Paper saved!");
+    } else {
+        alert("Already saved!");
+    }
 }
 
 // Function to filter papers based on search query
