@@ -1,36 +1,6 @@
 let papers = [];
 let savedPapers = [];
-function loadMockData() {
-    papers = [
-        {
-            title: "AI in Modern Research",
-            link: "https://example.com/ai-research",
-            author: "John Doe",
-            year: 2022,
-            journal: "Tech Journal",
-            citations: 1625,
-            score: 4.5
-        },
-        {
-            title: "Cybersecurity Trends",
-            link: "https://example.com/cybersecurity-trends",
-            author: "Jane Smith",
-            year: 2021,
-            journal: "Security Today",
-            citations: 890,
-            score: 4.0
-        },
-        {
-            title: "Machine Learning Basics",
-            link: "https://example.com/machine-learning-basics",
-            author: "Mike Brown",
-            year: 2020,
-            journal: "AI Journal",
-            citations: 1200,
-            score: 4.2
-        }
-    ];
-}
+
 function showScreen(screenId) {
             document.querySelectorAll("main section").forEach(section => {
                 section.style.display = "none";
@@ -118,6 +88,7 @@ function displayResults(data) {
             <td>${paper.journal}</td>
             <td>${paper.citations}</td>
             <td>${paper.score}</td>
+            <td>${paper.source}</td>
             <td><button class="save-btn" data-index="${index}" >Save</button></td>
             
         `;
@@ -161,6 +132,7 @@ function displaySavedPapers() {
             <td>${paper.journal}</td>
             <td>${paper.citations}</td>
             <td>${paper.score}</td>
+            <td>${paper.source}</td>
         `;
 
         tbody.appendChild(row); 
@@ -168,31 +140,55 @@ function displaySavedPapers() {
 }
 
 
-// Function to filter papers based on search query
-function filterPapers(query) { 
-    return papers.filter(paper => 
-        paper.title.toLowerCase().includes(query) || 
-        paper.author.toLowerCase().includes(query) 
-    );
-}
+
 
 // Search form event listener
 const searchForm = document.querySelector('.search-form'); 
 const searchInput = document.getElementById('search-input'); 
 
-searchForm.addEventListener('submit', (event) => {
+searchForm.addEventListener('submit', async (event) => {
     event.preventDefault();
 
     const queryValue = searchInput.value.toLowerCase().trim();
 
-     if (!queryValue) { 
-        displayResults(papers); 
-    } else {
-        const results = filterPapers(queryValue); 
-        displayResults(results); 
+     if (!queryValue) {
+        alert("Please enter a search query.");
+        return;
     }
 
-    showScreen('results');
+    try {
+
+        showScreen('status');
+
+
+        const response = await fetch(`http://127.0.0.1:5000/search?q=${encodeURIComponent(queryValue)}`);
+
+        if (!response.ok) {
+            throw new Error("Failed to fetch results");
+        }
+
+        const data = await response.json();
+
+        console.log("API Response:", data); 
+
+
+        if (!data || data.length === 0) {
+            alert("No results found.");
+            showScreen('search');
+            return;
+        }
+
+
+        displayResults(data);
+
+        showScreen('results');
+
+    } catch (error) {
+        console.error("Error:", error);
+        alert("Something went wrong while fetching results.");
+
+        showScreen('results');
+    }
 });
 
 
@@ -208,8 +204,7 @@ searchInput.addEventListener('change', function () {
 });
 
 
-// Load mock data on page load
-loadMockData();
+
 
 
 
