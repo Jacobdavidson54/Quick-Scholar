@@ -2,10 +2,12 @@
 from flask import Flask, request, jsonify
 from src.db import create_tables
 from src.search import search_papers
+from flask_cors import CORS
 
 # Bug fix : removed the old Flask app code and replaced it with a new implementation that initializes the file, sets up a single /search endpoint, and uses asynchronous calls to fetch data from all sources. This new structure ensures better performance and a cleaner separation of concerns, while also providing more robust error handling and response formatting.
 
 app = Flask(__name__)
+CORS(app)
 
 create_tables()
 
