@@ -22,9 +22,9 @@ async def fetch_crossref_metadata(session, query):
 
     try:
         timeout = aiohttp.ClientTimeout(total = 10) # Bug fix: Added a timeout to prevent hanging requests and improve user experience when the API is slow or unresponsive.
-        async with session.get(url, headers=headers, params=params, timeout=timeout) as response:
-            response.raise_for_status()
-            raw_data = await response.json()
+        async with session.get(url, headers=headers, params=params, timeout=timeout) as session:
+            session.raise_for_status()
+            raw_data = await session.json()
 
         items = raw_data.get("message", {}).get("items", [])
 
@@ -74,9 +74,9 @@ async def fetch_openalex_results(session, search):
 
     try:
         timeout = aiohttp.ClientTimeout(total = 10)
-        async with session.get(url, params=params, timeout=timeout) as response:
-            response.raise_for_status()
-            raw_info = await response.json()
+        async with session.get(url, params=params, timeout=timeout) as session:
+            session.raise_for_status()
+            raw_info = await session.json()
 
         results = raw_info.get("results", [])
 
@@ -125,9 +125,10 @@ async def fetch_arxiv_data(session, query):
 
     try:
         timeout = aiohttp.ClientTimeout(total = 10)
-        async with session.get(url, params=params, timeout=timeout) as response:
-            response.raise_for_status()
-            content = await response.text()
+ 
+        async with session.get(url, params=params, timeout=timeout) as session:
+            session.raise_for_status()
+            content = await session.text()
 
         root = ET.fromstring(content)
 
@@ -162,7 +163,8 @@ async def fetch_arxiv_data(session, query):
 
 async def fetch_all_sources(query):
 
-    async with aiohttp.ClientSession() as session:
+    connector = aiohttp.TCPConnector(ssl=False)
+    async with aiohttp.ClientSession(connector=connector) as session:
 
         results = await asyncio.gather(
             fetch_crossref_metadata(session, query),
