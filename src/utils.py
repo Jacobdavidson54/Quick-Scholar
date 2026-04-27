@@ -80,9 +80,7 @@ def normalize_results(results):
     return cleaned
 
 
-# -------------------------
-# SORT BY YEAR (NEWEST FIRST)
-# -------------------------
+
 def sort_by_year(results):
     return sorted(
         results,
