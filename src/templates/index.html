@@ -34,7 +34,7 @@
     <main>
         <section id="login">
             <h2>Log-In</h2>
-            <form id="login-form">
+            <form id="login-form" onsubmit="return false;">
                 <label for="username" >Username:</label>
                 <input type="text" id="username" name="username" placeholder="type your username here..." required>
                 <button type="submit">Login</button>
@@ -43,7 +43,7 @@
 
         <section id="search" style="display: none;">
             <h2>Search</h2>
-            <form class="search-form">
+            <form class="search-form" onsubmit="return false;">
                 <label for="search-input">Search for papers:</label>
                 <input type="text" id="search-input" placeholder="Search for papers...">
                 <button type="submit">Search</button>
@@ -52,9 +52,7 @@
                 <select id="filter" name="filter">
                     <option value="all">All</option>
                     <option value="title">Title</option>
-                    <option value="author">Author</option>
                     <option value="year">Year</option>
-                    <option value="journal">Journal</option>
                 </select>
             </form>
         </section>
@@ -67,11 +65,8 @@
                     <tr>
                         <th>Title</th>
                         <th>Link</th>
-                        <th>Author</th>
                         <th>Year</th>
-                        <th>Journal</th>
                         <th>Citations</th>
-                        <th>Score</th>
                         <th>Source</th>
                         <th>Save</th>
                     </tr>
@@ -91,11 +86,8 @@
                         <tr>
                             <th>Title</th>
                             <th>Link</th>
-                            <th>Author</th>
                             <th>Year</th>
-                            <th>Journal</th>
                             <th>Citations</th>
-                            <th>Score</th>
                             <th>Source</th>
                         </tr>
                     </thead>
@@ -109,7 +101,11 @@
        
         <section id="about" style="display: none;">
             <h2>About</h2>
-            <p>QuickScholar is a web application that allows users to search for academic papers, save them, and track search history.</p>
+            <p>
+                QuickScholar was built by a student who experienced firsthand how much time is wasted searching for relevant academic papers and sources across disconnected and inefficient data platforms. What should be a focused research process often turns into hours of frustration, switching between tabs, broken sources, and unreliable search results.
+                The aim of QuickScholar is simple: to create a smooth, fast, and unified research experience for students working on academic tasks. By bringing relevant papers and citations into one streamlined tool, QuickScholar helps students focus more on learning and thinking, and less on searching.
+                It is designed with students in mind — built from a students perspective, for students everywhere.
+            </p>
         </section>
 
 
