@@ -1,211 +1,208 @@
+//scripts.js
+
 let papers = [];
 let savedPapers = [];
 
+
+let isLoggedIn = false; 
+
 function showScreen(screenId) {
-            document.querySelectorAll("main section").forEach(section => {
-                section.style.display = "none";
-            });
 
-            document.getElementById(screenId).style.display = "block";
-        }
-        
-       // Show the login screen by default
+    document.querySelectorAll("main section").forEach(section => {
+        section.style.display = "none";
+    });
+
+    document.getElementById(screenId).style.display = "block";
+}
+
+
+if (!isLoggedIn) {
+    showScreen('login');
+}
+
+
+
+function requireLogin() {
+    if (!isLoggedIn) {
         showScreen('login');
+        return false;
+    }
+    return true;
+}
 
 
-// Navigation link event listeners
+
 const searchLink = document.getElementById('search-link');
-searchLink.addEventListener('click', (event) => {
-    event.preventDefault();
+searchLink?.addEventListener('click', (e) => {
+    e.preventDefault();
+    if (!requireLogin()) return;
     showScreen('search');
 });
 
 const aboutLink = document.getElementById('about-link');
-aboutLink.addEventListener('click', (event) => {
-    event.preventDefault();
+aboutLink?.addEventListener('click', (e) => {
+    e.preventDefault();
     showScreen('about');
 });
 
 const resultsLink = document.getElementById('results-link');
-resultsLink.addEventListener('click', (event) => {
-    event.preventDefault();
+resultsLink?.addEventListener('click', (e) => {
+    e.preventDefault();
+    if (!requireLogin()) return;
     showScreen('results');
 });
 
 const savedLink = document.getElementById('saved-papers-link');
-savedLink.addEventListener('click', (event) => {
-    event.preventDefault();
+savedLink?.addEventListener('click', (e) => {
+    e.preventDefault();
+    if (!requireLogin()) return;
     displaySavedPapers();
     showScreen('saved-papers');
 });
 
 const loginLink = document.getElementById('login-link');
-loginLink.addEventListener('click', (event) => {
-    event.preventDefault();
+loginLink?.addEventListener('click', (e) => {
+    e.preventDefault();
     showScreen('login');
 });
 
-const aboutLink2 = document.getElementById('about-link2');
-aboutLink2.addEventListener('click', (event) => {
-    event.preventDefault();
-    showScreen('about');
-});
-
-const searchLink2 = document.getElementById('search-link2');
-searchLink2.addEventListener('click', (event) => {
-    event.preventDefault();
-    showScreen('search');
-});
 
 
-// Login form event listener
-let usernameInput = document.getElementById('username');
-let login = document.getElementById('login-form');
-login.addEventListener('submit', (event) => {
-    event.preventDefault();
-    let usernamevalue = usernameInput.value.trim();
-    if (usernamevalue) {
-        alert(`Welcome, ${usernamevalue}! You are now logged in.`);
+const login = document.getElementById('login-form');
+const usernameInput = document.getElementById('username');
+
+login.addEventListener('submit', (e) => {
+    e.preventDefault();
+
+    const username = usernameInput.value.trim();
+
+    if (username) {
+        isLoggedIn = true; // ADDED FIX
+        alert(`Welcome, ${username}!`);
         showScreen('search');
     } else {
-        alert('Please enter a username.');
+        alert("Enter username");
     }
 });
 
-// Function to display search results
-function displayResults(data) { 
-    const tbody = document.querySelector(".results-table tbody"); 
-    tbody.innerHTML = ""; 
 
-    data.forEach((paper, index )=> { 
-        const row = document.createElement("tr"); 
+function displayResults(data) {
 
-        row.innerHTML = ` 
+    const tbody = document.querySelector(".results-table tbody");
+    tbody.innerHTML = "";
+
+    data.forEach((paper, index) => {
+
+        const row = document.createElement("tr");
+
+        row.innerHTML = `
             <td>${paper.title}</td>
-            <td><a href="#">View</a></td>
-            <td>${paper.author}</td>
+
+            <!-- FIXED: link_url → link -->
+            <td><a href="${paper.link}" target="_blank">View</a></td>
+
             <td>${paper.year}</td>
-            <td>${paper.journal}</td>
             <td>${paper.citations}</td>
-            <td>${paper.score}</td>
             <td>${paper.source}</td>
-            <td><button class="save-btn" data-index="${index}" >Save</button></td>
-            
+
+            <td><button class="save-btn" data-index="${index}">Save</button></td>
         `;
 
-        tbody.appendChild(row); 
+        tbody.appendChild(row);
     });
 
-     document.querySelectorAll(".save-btn").forEach(button => {
-        button.addEventListener("click", function () {
-            const index = this.getAttribute("data-index");
-            savePaper(data[index]); 
+    document.querySelectorAll(".save-btn").forEach(btn => {
+        btn.addEventListener("click", function () {
+            const index = this.dataset.index;
+            savePaper(data[index]);
         });
     });
 }
 
-// Function to save a paper to the saved papers list
+
+
 function savePaper(paper) {
 
     const exists = savedPapers.some(p => p.title === paper.title);
 
     if (!exists) {
         savedPapers.push(paper);
-        alert("Paper saved!");
+        alert("Saved!");
     } else {
-        alert("Already saved!");
+        alert("Already saved");
     }
 }
-// Funtion to saved papers
-function displaySavedPapers() { 
-    const tbody = document.getElementById("saved-body"); 
-    tbody.innerHTML = ""; 
 
-    savedPapers.forEach(paper => { 
-        const row = document.createElement("tr"); 
+
+
+function displaySavedPapers() {
+
+    const tbody = document.getElementById("saved-body");
+    tbody.innerHTML = "";
+
+    savedPapers.forEach(paper => {
+
+        const row = document.createElement("tr");
 
         row.innerHTML = `
             <td>${paper.title}</td>
-            <td><a href="#">View</a></td>
-            <td>${paper.author}</td>
+            <td><a href="${paper.link}" target="_blank">View</a></td>
             <td>${paper.year}</td>
-            <td>${paper.journal}</td>
             <td>${paper.citations}</td>
-            <td>${paper.score}</td>
             <td>${paper.source}</td>
         `;
 
-        tbody.appendChild(row); 
+        tbody.appendChild(row);
     });
 }
 
 
 
+const searchForm = document.querySelector('.search-form');
+const searchInput = document.getElementById('search-input');
 
-// Search form event listener
-const searchForm = document.querySelector('.search-form'); 
-const searchInput = document.getElementById('search-input'); 
+searchForm.addEventListener('submit', async (e) => {
 
-searchForm.addEventListener('submit', async (event) => {
-    event.preventDefault();
+    e.preventDefault();
+    e.stopPropagation(); 
 
-    const queryValue = searchInput.value.toLowerCase().trim();
+    const query = searchInput.value.trim();
 
-     if (!queryValue) {
-        alert("Please enter a search query.");
-        return;
-    }
+    if (!query) return alert("Enter search");
 
     try {
 
         showScreen('status');
 
+        const res = await fetch(
+            `http://127.0.0.1:5000/search?q=${encodeURIComponent(query)}`
+        );
 
-        const response = await fetch(`http://127.0.0.1:5000/search?q=${encodeURIComponent(queryValue)}`);
+        if (!res.ok) throw new Error("API error");
 
-        if (!response.ok) {
-            throw new Error("Failed to fetch results");
-        }
-
-        const data = await response.json();
-
-        console.log("API Response:", data); 
-
+        const data = await res.json();
 
         if (!data || data.length === 0) {
-            alert("No results found.");
+            alert("No results");
             showScreen('search');
             return;
         }
-
 
         displayResults(data);
 
         showScreen('results');
 
-    } catch (error) {
-        console.error("Error:", error);
-        alert("Something went wrong while fetching results.");
+    } catch (err) {
+        console.error(err);
+        alert("Fetch failed");
 
-        showScreen('results');
+      
+        showScreen('search');
     }
 });
 
 
- // Filter dropdown event listener
-const filterSelect = document.getElementById('filter');
-filterSelect.addEventListener('change', function () {
-    console.log("Filter changed to:", this.value);
+
+document.getElementById('filter')?.addEventListener('change', function () {
+    console.log("Filter:", this.value);
 });
-
-// Input change event listener for debugging.
-searchInput.addEventListener('change', function () {
-    console.log("Final input value:", this.value);
-});
-
-
-
-
-
-
-
