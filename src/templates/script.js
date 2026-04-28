@@ -1,110 +1,166 @@
 //scripts.js
 
-let papers = [];
-let savedPapers = [];
+/* =========================
+   1. GLOBAL STATE
+========================= */
+let state = {
+    user: localStorage.getItem("user"),
+    papers: [],
+    savedPapers: []
+};
 
+/* =========================
+   2. STORAGE HELPERS
+========================= */
+function getSavedKey() {
+    return `savedPapers_${state.user}`;
+}
 
-let isLoggedIn = false; 
+function loadSavedPapers() {
+    if (!state.user) return [];
+    const data = localStorage.getItem(getSavedKey());
+    return data ? JSON.parse(data) : [];
+}
 
+function persistSavedPapers() {
+    if (!state.user) return;
+    localStorage.setItem(getSavedKey(), JSON.stringify(state.savedPapers));
+}
+
+/* =========================
+   3. UI HELPERS
+========================= */
 function showScreen(screenId) {
-
     document.querySelectorAll("main section").forEach(section => {
         section.style.display = "none";
     });
-
     document.getElementById(screenId).style.display = "block";
 }
 
+function updateNav() {
+    const loginLink = document.getElementById("login-link");
+    const logoutLink = document.getElementById("logout-link");
 
-if (!isLoggedIn) {
-    showScreen('login');
+    if (state.user) {
+        loginLink.style.display = "none";
+        logoutLink.style.display = "inline";
+    } else {
+        loginLink.style.display = "inline";
+        logoutLink.style.display = "none";
+    }
 }
 
+/* =========================
+   4. AUTH LOGIC
+========================= */
+function loginUser(username) {
+    state.user = username;
+    localStorage.setItem("user", username);
 
+    state.savedPapers = loadSavedPapers();
+
+    updateNav();
+    showScreen("search");
+}
+
+function logoutUser() {
+    localStorage.removeItem("user");
+
+    state.user = null;
+    state.savedPapers = [];
+
+    updateNav();
+    showScreen("login");
+}
 
 function requireLogin() {
-    if (!isLoggedIn) {
-        showScreen('login');
+    if (!state.user) {
+        showScreen("login");
         return false;
     }
     return true;
 }
 
+/* =========================
+   5. PAPERS LOGIC
+========================= */
+function savePaper(paper) {
+    const exists = state.savedPapers.some(p => p.title === paper.title);
 
-
-const searchLink = document.getElementById('search-link');
-searchLink?.addEventListener('click', (e) => {
-    e.preventDefault();
-    if (!requireLogin()) return;
-    showScreen('search');
-});
-
-const aboutLink = document.getElementById('about-link');
-aboutLink?.addEventListener('click', (e) => {
-    e.preventDefault();
-    showScreen('about');
-});
-
-const resultsLink = document.getElementById('results-link');
-resultsLink?.addEventListener('click', (e) => {
-    e.preventDefault();
-    if (!requireLogin()) return;
-    showScreen('results');
-});
-
-const savedLink = document.getElementById('saved-papers-link');
-savedLink?.addEventListener('click', (e) => {
-    e.preventDefault();
-    if (!requireLogin()) return;
-    displaySavedPapers();
-    showScreen('saved-papers');
-});
-
-const loginLink = document.getElementById('login-link');
-loginLink?.addEventListener('click', (e) => {
-    e.preventDefault();
-    showScreen('login');
-});
-
-
-
-const login = document.getElementById('login-form');
-const usernameInput = document.getElementById('username');
-
-login.addEventListener('submit', (e) => {
-    e.preventDefault();
-
-    const username = usernameInput.value.trim();
-
-    if (username) {
-        isLoggedIn = true; // ADDED FIX
-        alert(`Welcome, ${username}!`);
-        showScreen('search');
+    if (!exists) {
+        state.savedPapers.push(paper);
+        persistSavedPapers();
+        alert("Saved!");
     } else {
-        alert("Enter username");
+        alert("Already saved");
     }
-});
+}
 
+function displaySavedPapers() {
 
-function displayResults(data) {
-
-    const tbody = document.querySelector(".results-table tbody");
+    const tbody = document.getElementById("saved-body");
+    if (!tbody) return; 
     tbody.innerHTML = "";
 
-    data.forEach((paper, index) => {
+    state.savedPapers.forEach((paper, index) => { 
 
         const row = document.createElement("tr");
 
         row.innerHTML = `
             <td>${paper.title}</td>
-
-            <!-- FIXED: link_url → link -->
             <td><a href="${paper.link}" target="_blank">View</a></td>
-
             <td>${paper.year}</td>
             <td>${paper.citations}</td>
             <td>${paper.source}</td>
+            <td>
+                <button class="unsave-btn" data-index="${index}">
+                    Unsave
+                </button>
+            </td>
+        `;
 
+        tbody.appendChild(row);
+    });
+
+    document.querySelectorAll(".unsave-btn").forEach(btn => {
+        btn.addEventListener("click", function () {
+            removeSavedPaper(this.dataset.index);
+        });
+    });
+}
+
+
+/* =========================
+ UNSAVE FUNCTION
+========================= */
+function removeSavedPaper(index) {
+
+  
+    state.savedPapers.splice(index, 1);
+
+    persistSavedPapers();
+
+    displaySavedPapers();
+}
+
+
+
+/* =========================
+   6. RESULTS UI
+========================= */
+function displayResults(data) {
+    const tbody = document.querySelector(".results-table tbody");
+    tbody.innerHTML = "";
+
+    data.forEach((paper, index) => {
+        const row = document.createElement("tr");
+
+        row.innerHTML = `
+            <td>${paper.title}</td>
+            <td><a href="${paper.link}" target="_blank">View</a></td>
+            <td>${paper.year}</td>
+            <td>${paper.citations}</td>
+            <td>${paper.source}</td>
             <td><button class="save-btn" data-index="${index}">Save</button></td>
         `;
 
@@ -113,66 +169,17 @@ function displayResults(data) {
 
     document.querySelectorAll(".save-btn").forEach(btn => {
         btn.addEventListener("click", function () {
-            const index = this.dataset.index;
-            savePaper(data[index]);
+            savePaper(data[this.dataset.index]);
         });
     });
 }
 
-
-
-function savePaper(paper) {
-
-    const exists = savedPapers.some(p => p.title === paper.title);
-
-    if (!exists) {
-        savedPapers.push(paper);
-        alert("Saved!");
-    } else {
-        alert("Already saved");
-    }
-}
-
-
-
-function displaySavedPapers() {
-
-    const tbody = document.getElementById("saved-body");
-    tbody.innerHTML = "";
-
-    savedPapers.forEach(paper => {
-
-        const row = document.createElement("tr");
-
-        row.innerHTML = `
-            <td>${paper.title}</td>
-            <td><a href="${paper.link}" target="_blank">View</a></td>
-            <td>${paper.year}</td>
-            <td>${paper.citations}</td>
-            <td>${paper.source}</td>
-        `;
-
-        tbody.appendChild(row);
-    });
-}
-
-
-
-const searchForm = document.querySelector('.search-form');
-const searchInput = document.getElementById('search-input');
-
-searchForm.addEventListener('submit', async (e) => {
-
-    e.preventDefault();
-    e.stopPropagation(); 
-
-    const query = searchInput.value.trim();
-
-    if (!query) return alert("Enter search");
-
+/* =========================
+   7. API LOGIC
+========================= */
+async function searchPapers(query) {
     try {
-
-        showScreen('status');
+        showScreen("status");
 
         const res = await fetch(
             `http://127.0.0.1:5000/search?q=${encodeURIComponent(query)}`
@@ -182,27 +189,109 @@ searchForm.addEventListener('submit', async (e) => {
 
         const data = await res.json();
 
-        if (!data || data.length === 0) {
+        if (!data.length) {
             alert("No results");
-            showScreen('search');
+            showScreen("search");
             return;
         }
 
-        displayResults(data);
+        state.papers = data;
 
-        showScreen('results');
+        displayResults(data);
+        showScreen("results");
 
     } catch (err) {
         console.error(err);
         alert("Fetch failed");
-
-      
-        showScreen('search');
+        showScreen("search");
     }
-});
+}
 
+/* =========================
+   8. EVENT LISTENERS
+========================= */
+function setupEventListeners() {
 
+    // NAV
+    document.getElementById('search-link')?.addEventListener('click', e => {
+        e.preventDefault();
+        if (!requireLogin()) return;
+        showScreen('search');
+    });
 
-document.getElementById('filter')?.addEventListener('change', function () {
-    console.log("Filter:", this.value);
+    document.getElementById('about-link')?.addEventListener('click', e => {
+        e.preventDefault();
+        showScreen('about');
+    });
+
+    document.getElementById('results-link')?.addEventListener('click', e => {
+        e.preventDefault();
+        if (!requireLogin()) return;
+        showScreen('results');
+    });
+
+    document.getElementById('saved-papers-link')?.addEventListener('click', e => {
+        e.preventDefault();
+        if (!requireLogin()) return;
+        state.savedPapers = loadSavedPapers(); 
+        displaySavedPapers();
+        showScreen('saved-papers');
+       
+    });
+
+    document.getElementById('login-link')?.addEventListener('click', e => {
+        e.preventDefault();
+        showScreen('login');
+    });
+
+    document.getElementById('logout-link')?.addEventListener('click', e => {
+        e.preventDefault();
+        logoutUser();
+    });
+
+    // LOGIN
+    document.getElementById('login-form')?.addEventListener('submit', e => {
+        e.preventDefault();
+
+        const username = document.getElementById('username').value.trim();
+
+        if (!username) return alert("Enter username");
+
+        loginUser(username);
+    });
+
+    // SEARCH
+    document.querySelector('.search-form')?.addEventListener('submit', e => {
+        e.preventDefault();
+
+        if (!requireLogin()) return;
+
+        const query = document.getElementById('search-input').value.trim();
+
+        if (!query) return alert("Enter search");
+
+        searchPapers(query);
+    });
+
+    // FILTER
+    document.getElementById('filter')?.addEventListener('change', function () {
+        console.log("Filter:", this.value);
+    });
+}
+
+/* =========================
+   9. APP INIT
+========================= */
+document.addEventListener("DOMContentLoaded", () => {
+
+    // Load saved papers if user exists
+    if (state.user) {
+        state.savedPapers = loadSavedPapers();
+        showScreen("search");
+    } else {
+        showScreen("login");
+    }
+
+    updateNav();
+    setupEventListeners();
 });
