@@ -4,28 +4,18 @@
    1. GLOBAL STATE
 ========================= */
 let state = {
-    user: localStorage.getItem("user"),
+    user: localStorage.getItem("user"), // now stores user_id
+    username: null,
     papers: [],
     savedPapers: []
 };
 
-/* =========================
-   2. STORAGE HELPERS
-========================= */
-function getSavedKey() {
-    return `savedPapers_${state.user}`;
+
+
+function clearLocalSaved() {
+    // REMOVED LOGIC (kept for safety fallback)
 }
 
-function loadSavedPapers() {
-    if (!state.user) return [];
-    const data = localStorage.getItem(getSavedKey());
-    return data ? JSON.parse(data) : [];
-}
-
-function persistSavedPapers() {
-    if (!state.user) return;
-    localStorage.setItem(getSavedKey(), JSON.stringify(state.savedPapers));
-}
 
 /* =========================
    3. UI HELPERS
@@ -50,23 +40,40 @@ function updateNav() {
     }
 }
 
+
 /* =========================
-   4. AUTH LOGIC
+   4. AUTH LOGIC 
 ========================= */
-function loginUser(username) {
-    state.user = username;
-    localStorage.setItem("user", username);
+async function loginUser(username) {
 
-    state.savedPapers = loadSavedPapers();
+    try {
+        const res = await fetch("http://127.0.0.1:5000/login", {
+            method: "POST",
+            headers: {"Content-Type": "application/json"},
+            body: JSON.stringify({ username })
+        });
 
-    updateNav();
-    showScreen("search");
+        const data = await res.json();
+
+        state.user = data.user_id;
+        state.username = data.username;
+
+        localStorage.setItem("user", data.user_id);
+
+        updateNav();
+        showScreen("search");
+
+    } catch (err) {
+        console.error(err);
+        alert("Login failed");
+    }
 }
 
 function logoutUser() {
     localStorage.removeItem("user");
 
     state.user = null;
+    state.username = null;
     state.savedPapers = [];
 
     updateNav();
@@ -81,28 +88,68 @@ function requireLogin() {
     return true;
 }
 
-/* =========================
-   5. PAPERS LOGIC
-========================= */
-function savePaper(paper) {
-    const exists = state.savedPapers.some(p => p.title === paper.title);
 
-    if (!exists) {
-        state.savedPapers.push(paper);
-        persistSavedPapers();
-        alert("Saved!");
-    } else {
-        alert("Already saved");
+/* =========================
+   5. PAPERS LOGIC 
+========================= */
+async function savePaper(paper) {
+
+    try {
+        const res = await fetch("http://127.0.0.1:5000/save", {
+            method: "POST",
+            headers: {"Content-Type": "application/json"},
+            body: JSON.stringify({
+                user_id: state.user,
+                query: state.lastQuery || "",
+                papers: [paper]
+            })
+        });
+
+        const data = await res.json();
+
+        alert(data.message || "Saved");
+
+    } catch (err) {
+        console.error(err);
+        alert("Save failed");
     }
 }
 
+
+/* =========================
+ LOAD SAVED PAPERS 
+========================= */
+async function loadSavedPapers() {
+
+    try {
+        const res = await fetch(
+            `http://127.0.0.1:5000/saved/${state.user}`
+        );
+
+        const data = await res.json();
+
+        state.savedPapers = data;
+
+        displaySavedPapers();
+
+    } catch (err) {
+        console.error(err);
+        alert("Failed to load saved papers");
+    }
+}
+
+
+/* =========================
+ DISPLAY SAVED PAPERS
+========================= */
 function displaySavedPapers() {
 
     const tbody = document.getElementById("saved-body");
-    if (!tbody) return; 
+    if (!tbody) return;
+
     tbody.innerHTML = "";
 
-    state.savedPapers.forEach((paper, index) => { 
+    state.savedPapers.forEach((paper, index) => {
 
         const row = document.createElement("tr");
 
@@ -135,14 +182,10 @@ function displaySavedPapers() {
 ========================= */
 function removeSavedPaper(index) {
 
-  
     state.savedPapers.splice(index, 1);
-
-    persistSavedPapers();
 
     displaySavedPapers();
 }
-
 
 
 /* =========================
@@ -153,6 +196,7 @@ function displayResults(data) {
     tbody.innerHTML = "";
 
     data.forEach((paper, index) => {
+
         const row = document.createElement("tr");
 
         row.innerHTML = `
@@ -174,10 +218,14 @@ function displayResults(data) {
     });
 }
 
+
 /* =========================
    7. API LOGIC
 ========================= */
 async function searchPapers(query) {
+
+    state.lastQuery = query; // IMPORTANT for DB saving
+
     try {
         showScreen("status");
 
@@ -207,12 +255,12 @@ async function searchPapers(query) {
     }
 }
 
+
 /* =========================
    8. EVENT LISTENERS
 ========================= */
 function setupEventListeners() {
 
-    // NAV
     document.getElementById('search-link')?.addEventListener('click', e => {
         e.preventDefault();
         if (!requireLogin()) return;
@@ -230,13 +278,12 @@ function setupEventListeners() {
         showScreen('results');
     });
 
-    document.getElementById('saved-papers-link')?.addEventListener('click', e => {
+    document.getElementById('saved-papers-link')?.addEventListener('click', async e => {
         e.preventDefault();
         if (!requireLogin()) return;
-        state.savedPapers = loadSavedPapers(); 
-        displaySavedPapers();
+
+        await loadSavedPapers();
         showScreen('saved-papers');
-       
     });
 
     document.getElementById('login-link')?.addEventListener('click', e => {
@@ -249,7 +296,6 @@ function setupEventListeners() {
         logoutUser();
     });
 
-    // LOGIN
     document.getElementById('login-form')?.addEventListener('submit', e => {
         e.preventDefault();
 
@@ -260,7 +306,6 @@ function setupEventListeners() {
         loginUser(username);
     });
 
-    // SEARCH
     document.querySelector('.search-form')?.addEventListener('submit', e => {
         e.preventDefault();
 
@@ -273,20 +318,18 @@ function setupEventListeners() {
         searchPapers(query);
     });
 
-    // FILTER
     document.getElementById('filter')?.addEventListener('change', function () {
         console.log("Filter:", this.value);
     });
 }
 
+
 /* =========================
-   9. APP INIT
+   9. INIT
 ========================= */
 document.addEventListener("DOMContentLoaded", () => {
 
-    // Load saved papers if user exists
     if (state.user) {
-        state.savedPapers = loadSavedPapers();
         showScreen("search");
     } else {
         showScreen("login");
