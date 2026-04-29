@@ -10,7 +10,28 @@ let state = {
     savedPapers: []
 };
 
+/* =========================
+   UI MESSAGE SYSTEM
+========================= */
+function showMessage(type, text) {
+    const container = document.getElementById("message-container");
 
+    const message = document.createElement("div");
+    message.className = `message ${type}`;
+
+    message.innerHTML = `
+        <span>${text}</span>
+        <button class="msg-close">&times;</button>
+    `;
+
+    container.appendChild(message);
+
+    message.querySelector(".msg-close").onclick = () => message.remove();
+
+    setTimeout(() => {
+        message.remove();
+    }, 4000);
+}
 
 function clearLocalSaved() {
     // REMOVED LOGIC (kept for safety fallback)
@@ -65,7 +86,7 @@ async function loginUser(username) {
 
     } catch (err) {
         console.error(err);
-        alert("Login failed");
+        showMessage("error","Login failed");
     }
 }
 
@@ -107,11 +128,11 @@ async function savePaper(paper) {
 
         const data = await res.json();
 
-        alert(data.message || "Saved");
+        showMessage("Success",data.message || "Saved");
 
     } catch (err) {
         console.error(err);
-        alert("Save failed");
+        showMessage("error","Save failed");
     }
 }
 
@@ -134,7 +155,7 @@ async function loadSavedPapers() {
 
     } catch (err) {
         console.error(err);
-        alert("Failed to load saved papers");
+        showMessage("error","Failed to load saved papers");
     }
 }
 
@@ -198,11 +219,11 @@ async function unsavePaper(id) {
 
         displaySavedPapers();
 
-        alert("Paper removed");
+        showMessage("Success","Paper removed");
 
     } catch (err) {
         console.error(err);
-        alert("Failed to remove paper");
+        showMessage("error","Failed to remove paper");
     }
 }
 
@@ -256,7 +277,7 @@ async function searchPapers(query) {
         const data = await res.json();
 
         if (!data.length) {
-            alert("No results");
+            showMessage("error","No results");
             showScreen("search");
             return;
         }
@@ -268,7 +289,7 @@ async function searchPapers(query) {
 
     } catch (err) {
         console.error(err);
-        alert("Fetch failed");
+        showMessage("error","Fetch failed");
         showScreen("search");
     }
 }
@@ -319,7 +340,7 @@ function setupEventListeners() {
 
         const username = document.getElementById('username').value.trim();
 
-        if (!username) return alert("Enter username");
+        if (!username) return showMessage("error","Enter username");
 
         loginUser(username);
     });
@@ -331,7 +352,7 @@ function setupEventListeners() {
 
         const query = document.getElementById('search-input').value.trim();
 
-        if (!query) return alert("Enter search");
+        if (!query) return showMessage("error","Enter search");
 
         searchPapers(query);
     });
