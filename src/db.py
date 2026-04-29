@@ -106,7 +106,7 @@ def get_papers_by_user(user_id):
         cursor = conn.cursor()
 
         cursor.execute("""
-        SELECT title, link, year, citations, source
+        SELECT id, title, link, year, citations, source
         FROM papers
         WHERE user_id = ?
         ORDER BY date DESC
@@ -198,3 +198,16 @@ def get_student_id(user_name):
 
         result = cursor.fetchone()
         return result[0] if result else None
+    
+
+def delete_paper_by_id(paper_id):
+
+    with sqlite3.connect(DB) as conn:
+        cursor = conn.cursor()
+
+        cursor.execute(
+            "DELETE FROM papers WHERE id = ?",
+            (paper_id,)
+        )
+
+        conn.commit()
