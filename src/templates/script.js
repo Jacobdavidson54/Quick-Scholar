@@ -160,7 +160,7 @@ function displaySavedPapers() {
             <td>${paper.citations}</td>
             <td>${paper.source}</td>
             <td>
-                <button class="unsave-btn" data-index="${index}">
+                <button class="unsave-btn" data-id="${paper.id}">
                     Unsave
                 </button>
             </td>
@@ -170,23 +170,41 @@ function displaySavedPapers() {
     });
 
     document.querySelectorAll(".unsave-btn").forEach(btn => {
-        btn.addEventListener("click", function () {
-            removeSavedPaper(this.dataset.index);
-        });
+    btn.addEventListener("click", function () {
+        const id = parseInt(this.dataset.id);
+        unsavePaper(id);
     });
+});
 }
 
 
 /* =========================
  UNSAVE FUNCTION
 ========================= */
-function removeSavedPaper(index) {
+async function unsavePaper(id) {
 
-    state.savedPapers.splice(index, 1);
+    try {
+        
+        const res = await fetch(`http://127.0.0.1:5000/papers/${id}`, {
+            method: "DELETE"
+        });
 
-    displaySavedPapers();
+        if (!res.ok) {
+            throw new Error("Delete failed");
+        }
+
+       
+        state.savedPapers = state.savedPapers.filter(p => p.id != id);
+
+        displaySavedPapers();
+
+        alert("Paper removed");
+
+    } catch (err) {
+        console.error(err);
+        alert("Failed to remove paper");
+    }
 }
-
 
 /* =========================
    6. RESULTS UI
