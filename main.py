@@ -5,7 +5,8 @@ from src.db import (
     insert_student,
     get_student_id,
     save_papers,
-    get_papers_by_user
+    get_papers_by_user,
+    delete_paper_by_id
 )
 from src.search import search_papers
 from flask_cors import CORS
@@ -25,16 +26,19 @@ async def search():
 
     try:
         results = await search_papers(query)
+
+        if not results:
+            return jsonify([]), 200
+        
         return jsonify(results)
+        
+        
 
     except Exception as e:
-        return jsonify({"error": str(e)}), 500
-    
-    except Exception as e:
-        print("🔥 FIRST SEARCH ERROR:", repr(e))
-        return jsonify({"error": str(e)}), 500
+        print("SEARCH ERROR:", e)  
+        return jsonify([]), 200 
 
-
+        
 
 @app.route("/login", methods=["POST"])
 def login():
@@ -89,6 +93,21 @@ def saved(user_id):
     except Exception as e:
         return jsonify({"error": str(e)}), 500
 
+
+@app.route("/papers/<int:paper_id>", methods=["DELETE", "OPTIONS"])
+def delete_paper(paper_id):
+
+    if request.method == "OPTIONS":
+        return "", 200
+
+    try:
+        delete_paper_by_id(paper_id)
+        return jsonify({"message": "Paper deleted"}), 200
+
+    except Exception as e:
+        print("DELETE ERROR:", e)
+        return jsonify({"error": str(e)}), 500
+    
 
 if __name__ == "__main__":
     app.run(debug=True)
