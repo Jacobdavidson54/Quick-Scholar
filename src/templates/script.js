@@ -4,7 +4,7 @@
    1. GLOBAL STATE
 ========================= */
 let state = {
-    user: localStorage.getItem("user"), // now stores user_id
+    user: localStorage.getItem("user"), 
     username: null,
     papers: [],
     savedPapers: []
@@ -19,7 +19,7 @@ function showToast(type, message) {
 
     const MAX_TOASTS = 4;
 
-    // Limit stack
+   
     if (container.children.length >= MAX_TOASTS) {
         container.removeChild(container.firstChild);
     }
@@ -43,7 +43,7 @@ function showToast(type, message) {
 
     container.appendChild(toast);
 
-    // Auto remove
+   
     setTimeout(removeToast, 4000);
 }
 
@@ -279,7 +279,7 @@ function displayResults(data) {
 ========================= */
 async function searchPapers(query) {
 
-    state.lastQuery = query; // IMPORTANT for DB saving
+    state.lastQuery = query; 
 
     try {
         showScreen("status");
