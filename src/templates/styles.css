@@ -325,3 +325,121 @@ footer {
         font-size: 14px;
     }
 }
+
+/* =========================
+   TOAST SYSTEM
+========================= */
+
+#toast-container {
+    position: fixed;
+    top: 20px;
+    right: 20px;
+    z-index: 9999;
+
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+
+    pointer-events: none;
+}
+
+.toast {
+    position: relative;
+    overflow: hidden;
+
+    min-width: 260px;
+    max-width: 340px;
+
+    padding: 14px 16px;
+    border-radius: 14px;
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 10px;
+
+    font-size: 14px;
+    color: #e2e8f0;
+
+    background: rgba(15, 23, 42, 0.85);
+    backdrop-filter: blur(14px);
+
+    border: 1px solid rgba(148, 163, 184, 0.15);
+
+
+    box-shadow:
+        0 10px 30px rgba(0,0,0,0.5),
+        inset 0 1px 0 rgba(255,255,255,0.05);
+
+   
+    opacity: 0;
+    transform: translateX(120%);
+    animation: toastIn 0.35s ease forwards;
+
+    pointer-events: auto;
+}
+
+/* =========================
+   TOAST TYPES (THEME MATCHED)
+========================= */
+
+
+.toast.success,
+.toast.error,
+.toast.info {
+    background: rgba(15, 23, 42, 0.85); 
+}
+
+
+.toast::before {
+    content: "";
+    position: absolute;
+    left: 0;
+    top: 0;
+    height: 100%;
+    width: 4px;
+    border-radius: 4px;
+}
+
+
+.toast.success::before {
+    background: #1269cc;
+}
+
+
+.toast.error::before {
+    background: #ef4444;
+}
+
+
+.toast.info::before {
+    background: #38bdf8;
+}
+
+
+@keyframes toastIn {
+    to {
+        opacity: 1;
+        transform: translateX(0);
+    }
+}
+
+@keyframes toastOut {
+    to {
+        opacity: 0;
+        transform: translateX(120%);
+    }
+}
+
+
+@media (max-width: 600px) {
+    #toast-container {
+        left: 10px;
+        right: 10px;
+        top: 10px;
+    }
+
+    .toast {
+        width: 100%;
+    }
+}
