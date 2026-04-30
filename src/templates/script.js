@@ -13,24 +13,38 @@ let state = {
 /* =========================
    UI MESSAGE SYSTEM
 ========================= */
-function showMessage(type, text) {
-    const container = document.getElementById("message-container");
+function showToast(type, message) {
+    const container = document.getElementById("toast-container");
+    if (!container) return;
 
-    const message = document.createElement("div");
-    message.className = `message ${type}`;
+    const MAX_TOASTS = 4;
 
-    message.innerHTML = `
-        <span>${text}</span>
-        <button class="msg-close">&times;</button>
+    // Limit stack
+    if (container.children.length >= MAX_TOASTS) {
+        container.removeChild(container.firstChild);
+    }
+
+    const toast = document.createElement("div");
+    toast.className = `toast ${type}`;
+
+    toast.innerHTML = `
+        <span>${message}</span>
+        <button>&times;</button>
     `;
 
-    container.appendChild(message);
+    const closeBtn = toast.querySelector("button");
 
-    message.querySelector(".msg-close").onclick = () => message.remove();
+    const removeToast = () => {
+        toast.style.animation = "toastOut 0.3s ease forwards";
+        setTimeout(() => toast.remove(), 300);
+    };
 
-    setTimeout(() => {
-        message.remove();
-    }, 4000);
+    closeBtn.addEventListener("click", removeToast);
+
+    container.appendChild(toast);
+
+    // Auto remove
+    setTimeout(removeToast, 4000);
 }
 
 function clearLocalSaved() {
@@ -82,11 +96,12 @@ async function loginUser(username) {
         localStorage.setItem("user", data.user_id);
 
         updateNav();
+        showToast("success", "Logged in successfully");
         showScreen("search");
 
     } catch (err) {
         console.error(err);
-        showMessage("error","Login failed");
+        showToast("error","login failed");
     }
 }
 
@@ -98,6 +113,7 @@ function logoutUser() {
     state.savedPapers = [];
 
     updateNav();
+    showToast("success", "Logged out successfully");
     showScreen("login");
 }
 
@@ -128,11 +144,11 @@ async function savePaper(paper) {
 
         const data = await res.json();
 
-        showMessage("Success",data.message || "Saved");
+        showToast("success",data.message || "saved");
 
     } catch (err) {
         console.error(err);
-        showMessage("error","Save failed");
+        showToast("error","save failed");
     }
 }
 
@@ -155,7 +171,7 @@ async function loadSavedPapers() {
 
     } catch (err) {
         console.error(err);
-        showMessage("error","Failed to load saved papers");
+        showToast("error","failed to load saved papers");
     }
 }
 
@@ -219,11 +235,11 @@ async function unsavePaper(id) {
 
         displaySavedPapers();
 
-        showMessage("Success","Paper removed");
+        showToast("success","paper removed");
 
     } catch (err) {
         console.error(err);
-        showMessage("error","Failed to remove paper");
+        showToast("error","failed to remove paper");
     }
 }
 
@@ -277,7 +293,7 @@ async function searchPapers(query) {
         const data = await res.json();
 
         if (!data.length) {
-            showMessage("error","No results");
+            showToast("error","no results");
             showScreen("search");
             return;
         }
@@ -285,11 +301,12 @@ async function searchPapers(query) {
         state.papers = data;
 
         displayResults(data);
+        showToast("success", "Results loaded");
         showScreen("results");
 
     } catch (err) {
         console.error(err);
-        showMessage("error","Fetch failed");
+        showToast("error","fetch failed");
         showScreen("search");
     }
 }
@@ -340,7 +357,7 @@ function setupEventListeners() {
 
         const username = document.getElementById('username').value.trim();
 
-        if (!username) return showMessage("error","Enter username");
+        if (!username) return showToast("error","enter username");
 
         loginUser(username);
     });
@@ -352,7 +369,7 @@ function setupEventListeners() {
 
         const query = document.getElementById('search-input').value.trim();
 
-        if (!query) return showMessage("error","Enter search");
+        if (!query) return showToast("error","enter search");
 
         searchPapers(query);
     });
