@@ -10,6 +10,7 @@
 <body>
     <header>
        <div class="header-top">
+        <button id="menu-toggle" class="menu-toggle">☰</button>
             <img src="Fakelogo.jfif" alt="QuickScholar Logo" width="50" height="50">
             <h1>QuickScholar</h1>
         </div>
@@ -62,27 +63,30 @@
 
         <section id="results" style="display: none;">
             <h2>Results</h2>
-            <table class="results-table">
-                <caption>Search results for your query</caption>
-                <thead>
-                    <tr>
-                        <th>Title</th>
-                        <th>Link</th>
-                        <th>Year</th>
-                        <th>Citations</th>
-                        <th>Source</th>
-                        <th>Save</th>
-                    </tr>
-                </thead>
-                <tbody>
-                    <!-- EMPTY FOR NOW, WILL BE FILLED WITH SEARCH RESULTS -->
-                </tbody>
-            </table>
+            <div class="table-container">
+                <table class="results-table">
+                    <caption>Search results for your query</caption>
+                    <thead>
+                        <tr>
+                            <th>Title</th>
+                            <th>Link</th>
+                            <th>Year</th>
+                            <th>Citations</th>
+                            <th>Source</th>
+                            <th>Save</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <!-- EMPTY FOR NOW, WILL BE FILLED WITH SEARCH RESULTS -->
+                    </tbody>
+                </table>
+            </div>
         </section>
 
 
         <section id="saved-papers" style="display: none;">
             <h2>Saved Papers</h2>
+            <div class="table-container">
                 <table class="saved-table">
                     <caption>Your saved papers</caption>
                     <thead>
@@ -99,6 +103,7 @@
                         <!-- EMPTY FOR NOW, WILL BE FILLED WITH SAVED PAPERS -->
                     </tbody>
                 </table>
+            </div>
             
         </section>
 
