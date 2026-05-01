@@ -377,6 +377,60 @@ function setupEventListeners() {
     document.getElementById('filter')?.addEventListener('change', function () {
         console.log("Filter:", this.value);
     });
+
+
+     /* =========================
+       MOBILE MENU TOGGLE
+    ========================= */
+    const menuToggle = document.getElementById("menu-toggle");
+    const aside = document.querySelector("aside");
+
+    if (menuToggle && aside) {
+        
+        // ensure clean initial state
+        aside.classList.remove("active");
+
+        function isMobile() {
+            return window.innerWidth <= 768;
+        }
+
+        menuToggle.addEventListener("click", (e) => {
+            e.stopPropagation();
+
+            // only allow toggle on mobile
+            if (!isMobile()) return;
+
+            aside.classList.toggle("active");
+        });
+
+        // CLOSE WHEN CLICKING A MENU LINK (mobile only)
+        document.querySelectorAll("aside a").forEach(link => {
+            link.addEventListener("click", () => {
+                if (isMobile()) {
+                    aside.classList.remove("active");
+                }
+            });
+        });
+
+        // CLOSE IF USER RESIZES TO DESKTOP
+        window.addEventListener("resize", () => {
+            if (!isMobile()) {
+                aside.classList.remove("active");
+            }
+        });
+
+        // CLOSE ON OUTSIDE CLICK (improves UX stability)
+        document.addEventListener("click", (e) => {
+            if (!isMobile()) return;
+
+            const clickedInsideMenu = aside.contains(e.target);
+            const clickedToggle = menuToggle.contains(e.target);
+
+            if (!clickedInsideMenu && !clickedToggle) {
+                aside.classList.remove("active");
+            }
+        });
+    }
 }
 
 
