@@ -1,5 +1,5 @@
 # Quick-Scholar
-This is an python project to help students search and collect academic resources from the internet.
+- A Python web application that helps students efficiently search and collect academic research papers   from multiple online data sources in one place. It simplifies research by aggregating, cleaning, and displaying academic results in a unified format.
 
 ## Goal
 Build a simple tool that:
@@ -8,9 +8,7 @@ Build a simple tool that:
 - Returns useful links or summaries
 
 ## Status
-Week 1: Project setup and planning.
-Week 2: Semantic Scholar,CrossRef API,arXiv API Integration.
-Week 3: Multi-Source Search & Normalization (In Progress).
+- Deployed
 
 ## Author
 JM Mahlangu
