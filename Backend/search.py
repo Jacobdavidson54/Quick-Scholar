@@ -1,11 +1,11 @@
 # search.py
-from src.cache import get_cache, set_cache
-from src.db import get_papers_by_query, insert_search_history
-from src.fetch import fetch_all_sources
-from src.utils import sort_by_year, normalize_results
+from cache import get_cache, set_cache
+from db import get_papers_by_query, insert_search_history
+from fetch import fetch_all_sources
+from utils import sort_by_year, normalize_results
 
 
-async def search_papers(query):
+def search_papers(query):
 
     insert_search_history(query)
 
@@ -21,7 +21,7 @@ async def search_papers(query):
         return db_results
 
     print("Fetching from APIs for query:", query)
-    all_results = await fetch_all_sources(query)
+    all_results = (fetch_all_sources(query))
 
     if not all_results:
         return []

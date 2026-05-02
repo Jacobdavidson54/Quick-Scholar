@@ -1,6 +1,6 @@
 # main.py
 from flask import Flask, request, jsonify
-from src.db import (
+from db import (
     create_tables,
     insert_student,
     get_student_id,
@@ -8,7 +8,7 @@ from src.db import (
     get_papers_by_user,
     delete_paper_by_id
 )
-from src.search import search_papers
+from search import search_papers
 from flask_cors import CORS
 
 app = Flask(__name__)
@@ -18,14 +18,14 @@ create_tables()
 
 
 @app.route("/search", methods=["GET"])
-async def search():
+def search():
 
     query = request.args.get("q")
     if not query:
         return jsonify({"error": "Query parameter 'q' required"}), 400
 
     try:
-        results = await search_papers(query)
+        results =  search_papers(query)
 
         if not results:
             return jsonify([]), 200
@@ -35,8 +35,9 @@ async def search():
         
 
     except Exception as e:
-        print("SEARCH ERROR:", e)  
-        return jsonify([]), 200 
+        print("SEARCH ERROR:", e)
+        return jsonify({"error": "Something went wrong"}), 500
+       
 
         
 

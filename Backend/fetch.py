@@ -1,9 +1,8 @@
-# fetch.py
-import asyncio
-import aiohttp
+import requests
 
 
-async def fetch_openalex_results(session, search):
+def fetch_openalex_results(search):
+
 
     url = "https://api.openalex.org/works"
 
@@ -13,12 +12,11 @@ async def fetch_openalex_results(session, search):
     }
 
     try:
-        timeout = aiohttp.ClientTimeout(total=10)
+        response = requests.get(url, params=params, timeout=10)
 
-      
-        async with session.get(url, params=params, timeout=timeout) as response:
-            response.raise_for_status()
-            raw_info = await response.json()
+        response.raise_for_status()
+
+        raw_info = response.json()
 
         results = raw_info.get("results", [])
 
@@ -45,21 +43,18 @@ async def fetch_openalex_results(session, search):
 
         return cleaned_info
 
-    except aiohttp.ClientError as e:
-        print(f"OpenAlex API error: {e}")
-        return []
-    except asyncio.TimeoutError:
+    except requests.exceptions.Timeout:
         print("OpenAlex API timeout")
+        return []
+    except requests.exceptions.RequestException as e:
+        print(f"OpenAlex API error: {e}")
         return []
     except Exception as e:
         print(f"Unexpected error in OpenAlex API: {e}")
         return []
 
 
-async def fetch_all_sources(query):
+def fetch_all_sources(query):
 
-    connector = aiohttp.TCPConnector(ssl=False)
-
-    async with aiohttp.ClientSession(connector=connector) as session:
-        results = await fetch_openalex_results(session, query)
-        return results
+    results =  fetch_openalex_results(query)
+    return results
