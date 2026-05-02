@@ -82,7 +82,7 @@ function updateNav() {
 async function loginUser(username) {
 
     try {
-        const res = await fetch("http://127.0.0.1:5000/login", {
+        const res = await fetch("https://quick-scholar-backend.onrender.com/login", {
             method: "POST",
             headers: {"Content-Type": "application/json"},
             body: JSON.stringify({ username })
@@ -132,7 +132,7 @@ function requireLogin() {
 async function savePaper(paper) {
 
     try {
-        const res = await fetch("http://127.0.0.1:5000/save", {
+        const res = await fetch("https://quick-scholar-backend.onrender.com/save", {
             method: "POST",
             headers: {"Content-Type": "application/json"},
             body: JSON.stringify({
@@ -160,7 +160,7 @@ async function loadSavedPapers() {
 
     try {
         const res = await fetch(
-            `http://127.0.0.1:5000/saved/${state.user}`
+            `https://quick-scholar-backend.onrender.com/saved/${state.user}`
         );
 
         const data = await res.json();
@@ -222,7 +222,7 @@ async function unsavePaper(id) {
 
     try {
         
-        const res = await fetch(`http://127.0.0.1:5000/papers/${id}`, {
+        const res = await fetch(`https://quick-scholar-backend.onrender.com/papers/${id}`, {
             method: "DELETE"
         });
 
@@ -285,7 +285,7 @@ async function searchPapers(query) {
         showScreen("status");
 
         const res = await fetch(
-            `http://127.0.0.1:5000/search?q=${encodeURIComponent(query)}`
+            `https://quick-scholar-backend.onrender.com/search?q=${encodeURIComponent(query)}`
         );
 
         if (!res.ok) throw new Error("API error");
