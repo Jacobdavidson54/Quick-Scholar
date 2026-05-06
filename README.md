@@ -10,5 +10,4 @@ Build a simple tool that:
 ## Status
 - Deployed
 
-## Author
-JM Mahlangu
+
